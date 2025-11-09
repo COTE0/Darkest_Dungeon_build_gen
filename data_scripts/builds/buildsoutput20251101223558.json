@@ -1,0 +1,1246 @@
+[
+  {
+    "build_id": 1,
+    "build_description": "A high-pressure Bleed and Stun composition focused on applying consistent damage over time, managing enemy positions, and providing reliable stress and health recovery. Jester and Hellion apply strong bleeds while Houndmaster offers supplemental bleed, crucial stuns, and stress relief. Vestal provides core healing and emergency stuns.",
+    "teams": [
+      {
+        "description": "Early-game viable (common/uncommon)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Bleed Out",
+              "Barbaric Yawp"
+            ],
+            "trinkets": [
+              "Bleeding Pendant",
+              "Accuracy Stone"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 2,
+            "skills": [
+              "Harvest",
+              "Slice Off",
+              "Battle Ballad",
+              "Inspiring Tune"
+            ],
+            "trinkets": [
+              "Sickening Satchel",
+              "Speed Stone"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Hound's Harry",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Agility Whistle",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Virtuous Chalice",
+              "Book of Constitution"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Bleed Out",
+              "Barbaric Yawp"
+            ],
+            "trinkets": [
+              "Double-Edged Pendant",
+              "Heaven's Hairpin"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 2,
+            "skills": [
+              "Harvest",
+              "Slice Off",
+              "Battle Ballad",
+              "Inspiring Tune"
+            ],
+            "trinkets": [
+              "Critical Dice",
+              "Bright Tambourine"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Hound's Harry",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Cudgel Weight",
+              "Protective Collar"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Haste Chalice",
+              "Tome of Holy Healing"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Bleed Out",
+              "Barbaric Yawp"
+            ],
+            "trinkets": [
+              "Heaven's Hairpin",
+              "Hell's Hairpin"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 2,
+            "skills": [
+              "Harvest",
+              "Slice Off",
+              "Battle Ballad",
+              "Inspiring Tune"
+            ],
+            "trinkets": [
+              "Bright Tambourine",
+              "Dark Tambourine"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Hound's Harry",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Spiked Collar",
+              "Protective Collar"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Sacred Scroll",
+              "Tome of Holy Healing"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Bleed Out",
+              "Barbaric Yawp"
+            ],
+            "trinkets": [
+              "Hell's Hairpin",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 2,
+            "skills": [
+              "Harvest",
+              "Slice Off",
+              "Battle Ballad",
+              "Inspiring Tune"
+            ],
+            "trinkets": [
+              "Dark Tambourine",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Hound's Harry",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Spiked Collar",
+              "Ancestor's Signet Ring"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Sacred Scroll",
+              "Ancestor's Scroll"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Bleed Out",
+              "Barbaric Yawp"
+            ],
+            "trinkets": [
+              "Thirsting Blade",
+              "Lioness Warpaint"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 2,
+            "skills": [
+              "Harvest",
+              "Slice Off",
+              "Battle Ballad",
+              "Inspiring Tune"
+            ],
+            "trinkets": [
+              "Dirge For The Devoured",
+              "Tyrant's Fingerbone"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Hound's Harry",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Huskfang Whistle",
+              "Spiked Collar"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Heretical Passage",
+              "Sacred Scroll"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 2,
+    "build_description": "This team specializes in locking down and dismantling enemy backlines with an overwhelming combination of AoE stuns and Blight damage. The Plague Doctor and Bounty Hunter coordinate to stun crucial backline targets, allowing the Occultist to spread Blight and the Bounty Hunter to execute stunned foes. The Crusader acts as a durable frontline anchor and provides support.",
+    "teams": [
+      {
+        "description": "Early-game viable (common/uncommon)",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Zealous Accusation",
+              "Stunning Blow",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Knight's Crest",
+              "Defender's Seal"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 2,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Weakening Curse"
+            ],
+            "trinkets": [
+              "Eldritch Killing Incense",
+              "Book of Intuition"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 3,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Flashbang"
+            ],
+            "trinkets": [
+              "Agility Talon",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 4,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Witch's Vial",
+              "Stun Charm"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare)",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Zealous Accusation",
+              "Stunning Blow",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Paralyzer's Crest",
+              "Commander's Orders"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 2,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Weakening Curse"
+            ],
+            "trinkets": [
+              "Cursed Incense",
+              "Sacrifical Cauldron"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 3,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Flashbang"
+            ],
+            "trinkets": [
+              "Hunter's Talons",
+              "Camper's Helmet"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 4,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Bloody Herb",
+              "Poisoned Herb"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon)",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Zealous Accusation",
+              "Stunning Blow",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Holy Orders",
+              "Commander's Orders"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 2,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Weakening Curse"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Sacrificial Cauldron"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 3,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Flashbang"
+            ],
+            "trinkets": [
+              "Wounding Helmet",
+              "Hunter's Talons"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 4,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Bloody Herb"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral)",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Zealous Accusation",
+              "Stunning Blow",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Holy Orders",
+              "Glittering Spaulders"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 2,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Weakening Curse"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Ancestor's Tentacle Idol"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 3,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Flashbang"
+            ],
+            "trinkets": [
+              "Wounding Helmet",
+              "Crime Lords' Molars"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 4,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ancestor's Pen"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Zealous Accusation",
+              "Stunning Blow",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Non-Euclidean Hilt",
+              "Holy Orders"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 2,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Weakening Curse"
+            ],
+            "trinkets": [
+              "Petrified Skull",
+              "Demon's Cauldron"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 3,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Flashbang"
+            ],
+            "trinkets": [
+              "Mask Of The Timeless",
+              "Wounding Helmet"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 4,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Ashen Distillation",
+              "Blasphemous Vial"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 3,
+    "build_description": "A focused strike team designed to mark and eliminate high-priority targets rapidly. The Musketeer, Occultist, and Bounty Hunter provide multiple marking options, with the Bounty Hunter and Musketeer delivering devastating burst damage to marked enemies. The Man-at-Arms buffs the team's damage and provides essential guard and stun to protect the damage dealers.",
+    "teams": [
+      {
+        "description": "Early-game viable (common/uncommon)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Command",
+              "Defender"
+            ],
+            "trinkets": [
+              "Cleansing Eyepatch",
+              "Protection Stone"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Agility Talon",
+              "Accuracy Stone"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "position": 3,
+            "skills": [
+              "Aimed Shot",
+              "Call the Shot",
+              "Skeet Shot",
+              "Sidearm"
+            ],
+            "trinkets": [
+              "Vengeful Boots",
+              "Accuracy Stone"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Vulnerability Hex",
+              "Abyssal Artillery",
+              "Sacrificial Stab"
+            ],
+            "trinkets": [
+              "Eldritch Killing Incense",
+              "Book of Intuition"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Command",
+              "Defender"
+            ],
+            "trinkets": [
+              "Longevity Eyepatch",
+              "Rampart Shield"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Hunter's Talons",
+              "Camper's Helmet"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "position": 3,
+            "skills": [
+              "Aimed Shot",
+              "Call the Shot",
+              "Skeet Shot",
+              "Sidearm"
+            ],
+            "trinkets": [
+              "Bull's Eye Hat",
+              "Medic's Boots"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Vulnerability Hex",
+              "Abyssal Artillery",
+              "Sacrificial Stab"
+            ],
+            "trinkets": [
+              "Sacrificial Cauldron",
+              "Cursed Incense"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Command",
+              "Defender"
+            ],
+            "trinkets": [
+              "Guardian's Shield",
+              "Rampart Shield"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Wounding Helmet",
+              "Hunter's Talons"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "position": 3,
+            "skills": [
+              "Aimed Shot",
+              "Call the Shot",
+              "Skeet Shot",
+              "Sidearm"
+            ],
+            "trinkets": [
+              "Wrathful Hat",
+              "Bull's Eye Hat"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Vulnerability Hex",
+              "Abyssal Artillery",
+              "Sacrificial Stab"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Sacrificial Cauldron"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Command",
+              "Defender"
+            ],
+            "trinkets": [
+              "Guardian's Shield",
+              "Old Unit Standard"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Wounding Helmet",
+              "Crime Lords' Molars"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "position": 3,
+            "skills": [
+              "Aimed Shot",
+              "Call the Shot",
+              "Skeet Shot",
+              "Sidearm"
+            ],
+            "trinkets": [
+              "Wrathful Hat",
+              "Ancestor's Musket Ball"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Vulnerability Hex",
+              "Abyssal Artillery",
+              "Sacrificial Stab"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Ancestor's Tentacle Idol"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Command",
+              "Defender"
+            ],
+            "trinkets": [
+              "Mirror Shield",
+              "Guardian's Shield"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Mask Of The Timeless",
+              "Wounding Helmet"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "position": 3,
+            "skills": [
+              "Aimed Shot",
+              "Call the Shot",
+              "Skeet Shot",
+              "Sidearm"
+            ],
+            "trinkets": [
+              "Icosahedric Musket Balls",
+              "Wrathful Hat"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Vulnerability Hex",
+              "Abyssal Artillery",
+              "Sacrificial Stab"
+            ],
+            "trinkets": [
+              "Petrified Skull",
+              "Demon's Cauldron"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 4,
+    "build_description": "This team establishes an impenetrable front line with high PROT and self-sustain, augmented by consistent Riposte damage. Leper and Man-at-Arms form a durable core, absorbing hits and dishing out damage. The Man-at-Arms activates Riposte and guards, while the Highwayman cycles through positions with Duelist's Advance and Point Blank Shot for massive burst and counter-attacks. Crusader provides additional frontline pressure, minor healing, and stress relief.",
+    "teams": [
+      {
+        "description": "Early-game viable (common/uncommon)",
+        "heroes": [
+          {
+            "name": "Leper",
+            "position": 1,
+            "skills": [
+              "Chop",
+              "Hew",
+              "Withstand",
+              "Solemnity"
+            ],
+            "trinkets": [
+              "Redemption Armlet",
+              "Healing Armlet"
+            ]
+          },
+          {
+            "name": "Man-at-Arms",
+            "position": 2,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Retribution",
+              "Defender"
+            ],
+            "trinkets": [
+              "Cleansing Eyepatch",
+              "Warrior's Bracer"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "position": 3,
+            "skills": [
+              "Smite",
+              "Holy Lance",
+              "Inspiring Cry",
+              "Battle Heal"
+            ],
+            "trinkets": [
+              "Knight's Crest",
+              "Defender's Seal"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 4,
+            "skills": [
+              "Point Blank Shot",
+              "Duelist's Advance",
+              "Wicked Slice",
+              "Pistol Shot"
+            ],
+            "trinkets": [
+              "Flashfire Gunpowder",
+              "Stalwart Buckle"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare)",
+        "heroes": [
+          {
+            "name": "Leper",
+            "position": 1,
+            "skills": [
+              "Chop",
+              "Hew",
+              "Withstand",
+              "Solemnity"
+            ],
+            "trinkets": [
+              "Fortunate Armlet",
+              "Immunity Mask"
+            ]
+          },
+          {
+            "name": "Man-at-Arms",
+            "position": 2,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Retribution",
+              "Defender"
+            ],
+            "trinkets": [
+              "Longevity Eyepatch",
+              "Rampart Shield"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "position": 3,
+            "skills": [
+              "Smite",
+              "Holy Lance",
+              "Inspiring Cry",
+              "Battle Heal"
+            ],
+            "trinkets": [
+              "Commander's Orders",
+              "Paralyzer's Crest"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 4,
+            "skills": [
+              "Point Blank Shot",
+              "Duelist's Advance",
+              "Wicked Slice",
+              "Pistol Shot"
+            ],
+            "trinkets": [
+              "Sharpening Sheath",
+              "Dodgy Sheath"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon)",
+        "heroes": [
+          {
+            "name": "Leper",
+            "position": 1,
+            "skills": [
+              "Chop",
+              "Hew",
+              "Withstand",
+              "Solemnity"
+            ],
+            "trinkets": [
+              "Berserk Mask",
+              "Immunity Mask"
+            ]
+          },
+          {
+            "name": "Man-at-Arms",
+            "position": 2,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Retribution",
+              "Defender"
+            ],
+            "trinkets": [
+              "Guardian's Shield",
+              "Rampart Shield"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "position": 3,
+            "skills": [
+              "Smite",
+              "Holy Lance",
+              "Inspiring Cry",
+              "Battle Heal"
+            ],
+            "trinkets": [
+              "Holy Orders",
+              "Commander's Orders"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 4,
+            "skills": [
+              "Point Blank Shot",
+              "Duelist's Advance",
+              "Wicked Slice",
+              "Pistol Shot"
+            ],
+            "trinkets": [
+              "Gunslinger's Buckle",
+              "Sharpening Sheath"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral)",
+        "heroes": [
+          {
+            "name": "Leper",
+            "position": 1,
+            "skills": [
+              "Chop",
+              "Hew",
+              "Withstand",
+              "Solemnity"
+            ],
+            "trinkets": [
+              "Berserk Mask",
+              "Last Will and Testament"
+            ]
+          },
+          {
+            "name": "Man-at-Arms",
+            "position": 2,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Retribution",
+              "Defender"
+            ],
+            "trinkets": [
+              "Guardian's Shield",
+              "Old Unit Standard"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "position": 3,
+            "skills": [
+              "Smite",
+              "Holy Lance",
+              "Inspiring Cry",
+              "Battle Heal"
+            ],
+            "trinkets": [
+              "Holy Orders",
+              "Glittering Spaulders"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 4,
+            "skills": [
+              "Point Blank Shot",
+              "Duelist's Advance",
+              "Wicked Slice",
+              "Pistol Shot"
+            ],
+            "trinkets": [
+              "Gunslinger's Buckle",
+              "Bloodied Neckerchief"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
+        "heroes": [
+          {
+            "name": "Leper",
+            "position": 1,
+            "skills": [
+              "Chop",
+              "Hew",
+              "Withstand",
+              "Solemnity"
+            ],
+            "trinkets": [
+              "Petrified Amulet",
+              "Berserk Mask"
+            ]
+          },
+          {
+            "name": "Man-at-Arms",
+            "position": 2,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Retribution",
+              "Defender"
+            ],
+            "trinkets": [
+              "Mirror Shield",
+              "Guardian's Shield"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "position": 3,
+            "skills": [
+              "Smite",
+              "Holy Lance",
+              "Inspiring Cry",
+              "Battle Heal"
+            ],
+            "trinkets": [
+              "Non-Euclidean Hilt",
+              "Holy Orders"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 4,
+            "skills": [
+              "Point Blank Shot",
+              "Duelist's Advance",
+              "Wicked Slice",
+              "Pistol Shot"
+            ],
+            "trinkets": [
+              "Crystalline Gunpowder",
+              "Gunslinger's Buckle"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,624 @@
+[
+  {
+    "build_id": 1,
+    "build_description": "This team specializes in locking down enemy backlines with Blight and Stuns, while managing frontline threats with Stuns and high raw damage from the Abomination and Man-at-Arms. Blight ramps up damage on durable targets, while Stuns prevent actions from dangerous damage dealers and stress casters. Abomination's transformation provides burst when needed, while Man-at-Arms protects and buffs.",
+    "teams": [
+      {
+        "description": "Early-game blight/stun lockdown",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Rampart",
+              "Defender",
+              "Retribution",
+              "Command"
+            ],
+            "trinkets": [
+              "Warrior's Bracer",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Abomination",
+            "position": 2,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Rake",
+              "Transform"
+            ],
+            "trinkets": [
+              "Lock of Patience",
+              "Blight Stone"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 3,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Weakening Curse"
+            ],
+            "trinkets": [
+              "Evasion Incense",
+              "Book of Intuition"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 4,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Rotgut Censer",
+              "Blight Stone"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition blight/stun with improved stats",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Rampart",
+              "Defender",
+              "Retribution",
+              "Command"
+            ],
+            "trinkets": [
+              "Longevity Eyepatch",
+              "Steady Bracer"
+            ]
+          },
+          {
+            "name": "Abomination",
+            "position": 2,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Rake",
+              "Transform"
+            ],
+            "trinkets": [
+              "Padlock of Transference",
+              "Fleet Florin"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 3,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Weakening Curse"
+            ],
+            "trinkets": [
+              "Cursed Incense",
+              "Seer Stone"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 4,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Poisoned Herb",
+              "Blight Amulet"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game robust lockdown with damage options",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Rampart",
+              "Defender",
+              "Retribution",
+              "Command"
+            ],
+            "trinkets": [
+              "Rampart Shield",
+              "Tough Ring"
+            ]
+          },
+          {
+            "name": "Abomination",
+            "position": 2,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Rake",
+              "Transform"
+            ],
+            "trinkets": [
+              "Lock of Fury",
+              "Restraining Padlock"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 3,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Weakening Curse"
+            ],
+            "trinkets": [
+              "Sacrifical Cauldron",
+              "Demon's Cauldron"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 4,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Bloody Herb"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game maximal blight/stun and tankiness",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Rampart",
+              "Defender",
+              "Retribution",
+              "Command"
+            ],
+            "trinkets": [
+              "Guardian's Shield",
+              "Ancestor's Coat"
+            ]
+          },
+          {
+            "name": "Abomination",
+            "position": 2,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Rake",
+              "Transform"
+            ],
+            "trinkets": [
+              "Restraining Padlock",
+              "Ancestor's Tentacle Idol"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 3,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Weakening Curse"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Ancestor's Scroll"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 4,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ancestor's Pen"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power blight/stun and protection",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Rampart",
+              "Defender",
+              "Retribution",
+              "Command"
+            ],
+            "trinkets": [
+              "Mirror Shield",
+              "Guardian's Shield"
+            ]
+          },
+          {
+            "name": "Abomination",
+            "position": 2,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Rake",
+              "Transform"
+            ],
+            "trinkets": [
+              "Broken Key",
+              "Restraining Padlock"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 3,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Weakening Curse"
+            ],
+            "trinkets": [
+              "Petrified Skull",
+              "Ancestor's Scroll"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 4,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Ashen Distillation",
+              "Blasphemous Vial"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 4,
+    "build_description": "A dynamic melee team that uses Guard mechanics to protect vulnerable heroes and empowers movement-based attacks like Lunge. Man-at-Arms provides essential protection and buffs, while Grave Robber and Shieldbreaker deal massive damage through Lunge attacks and armor-piercing strikes, often repositioning themselves for optimal output. Vestal provides reliable healing and crucial Stuns.",
+    "teams": [
+      {
+        "description": "Early-game lunge support with basic stats",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Defender",
+              "Retribution",
+              "Command"
+            ],
+            "trinkets": [
+              "Warrior's Bracer",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "position": 2,
+            "skills": [
+              "Pierce",
+              "Puncture",
+              "Impale",
+              "Serpent Sway"
+            ],
+            "trinkets": [
+              "Venomous Vial",
+              "Dodge Stone"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "position": 3,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Thrown Dagger"
+            ],
+            "trinkets": [
+              "Quickening Satchel",
+              "Dodge Stone"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Virtuous Chalice",
+              "Stun Stone"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition lunge power and sustain",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Defender",
+              "Retribution",
+              "Command"
+            ],
+            "trinkets": [
+              "Longevity Eyepatch",
+              "Steady Bracer"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "position": 2,
+            "skills": [
+              "Pierce",
+              "Puncture",
+              "Impale",
+              "Serpent Sway"
+            ],
+            "trinkets": [
+              "Shimmering Scale",
+              "Blight Amulet"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "position": 3,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Thrown Dagger"
+            ],
+            "trinkets": [
+              "Blighting Satchel",
+              "Swift Cloak"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Haste Chalice",
+              "Book of Holiness"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game strong lunge damage and reliable healing",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Defender",
+              "Retribution",
+              "Command"
+            ],
+            "trinkets": [
+              "Rampart Shield",
+              "Tough Ring"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "position": 2,
+            "skills": [
+              "Pierce",
+              "Puncture",
+              "Impale",
+              "Serpent Sway"
+            ],
+            "trinkets": [
+              "Fanged Spear Tip",
+              "Cuirboilli"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "position": 3,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Thrown Dagger"
+            ],
+            "trinkets": [
+              "Raider's Talisman",
+              "Lucky Talisman"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Sacred Scroll",
+              "Profane Scroll"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game maximal lunge damage, tankiness, and healing",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Defender",
+              "Retribution",
+              "Command"
+            ],
+            "trinkets": [
+              "Guardian's Shield",
+              "Ancestor's Coat"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "position": 2,
+            "skills": [
+              "Pierce",
+              "Puncture",
+              "Impale",
+              "Serpent Sway"
+            ],
+            "trinkets": [
+              "Cuirboilli",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "position": 3,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Thrown Dagger"
+            ],
+            "trinkets": [
+              "Raider's Talisman",
+              "Ancestor's Pistol"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Sacred Scroll",
+              "Ancestor's Scroll"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power lunge, pierce, and support",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Defender",
+              "Retribution",
+              "Command"
+            ],
+            "trinkets": [
+              "Mirror Shield",
+              "Guardian's Shield"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "position": 2,
+            "skills": [
+              "Pierce",
+              "Puncture",
+              "Impale",
+              "Serpent Sway"
+            ],
+            "trinkets": [
+              "Spectral Speartip",
+              "Obsidian Dagger"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "position": 3,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Thrown Dagger"
+            ],
+            "trinkets": [
+              "Topshelf Tonic",
+              "Raider's Talisman"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Heretical Passage",
+              "Sacred Scroll"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

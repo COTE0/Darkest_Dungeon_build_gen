@@ -1,0 +1,467 @@
+heroes:
+  Abomination:
+    skills:
+    - Manacles
+    - Beast's Bile
+    - Rake
+    - Slam
+    - Absolution
+    - Transform
+    - Rage
+    trinkets:
+    - Broken Key
+    - Fleet Florin
+    - Lock of Fury
+    - Lock of Patience
+    - Osmond Chains
+    - Padlock of Transference
+    - Protective Padlock
+    - Restraining Padlock
+    - Shameful Shroud
+  Antiquarian:
+    skills:
+    - Protect Me!
+    - Festering Vapours
+    - Fortifying Vapours
+    - Invigorating Vapours
+    - Nervous Stab
+    - Get Down!
+    - Flashpowder
+    trinkets:
+    - Bag of Marbles
+    - Bloodcourse Medallion
+    - Candle of Life
+    - Carapace Idol
+    - Smoking Skull
+    - The Master's Essence
+    - Two of Three
+  Arbalest:
+    skills:
+    - Sniper Shot
+    - Sniper's Mark
+    - Suppressing Fire
+    - Bola
+    - Blindfire
+    - Battlefield Bandage
+    - Rallying Flare
+    trinkets:
+    - Bedtime Story
+    - Bull's Eye Bandana
+    - Childhood Treasure
+    - Keening Bolts
+    - Medic's Greaves
+    - Sturdy Greaves
+    - Vengeful Greaves
+    - Wrathful Bandana
+  Bounty Hunter:
+    skills:
+    - Collect Bounty
+    - Mark for Death
+    - Finish Him
+    - Come Hither
+    - Flashbang
+    - Caltrops
+    - Uppercut
+    trinkets:
+    - Agility Talon
+    - Camper's Helmet
+    - Crime Lords' Molars
+    - Hunter's Talons
+    - Mask Of The Timeless
+    - Unmovable Helmet
+    - Vengeful Kill List
+    - Wounding Helmet
+  Crusader:
+    skills:
+    - Smite
+    - Zealous Accusation
+    - Holy Lance
+    - Stunning Blow
+    - Bulwark of Faith
+    - Battle Heal
+    - Inspiring Cry
+    trinkets:
+    - Commander's Orders
+    - Defender's Seal
+    - Glittering Spaulders
+    - Holy Orders
+    - Knight's Crest
+    - Non-Euclidean Hilt
+    - Paralyzer's Crest
+    - Signed Conscription
+    - Swordsman's Crest
+  Flagellant:
+    skills:
+    - Punish
+    - Rain of Sorrows
+    - Suffer
+    - Endure
+    - Redeem
+    - Exsanguinate
+    - Reclaim
+    trinkets:
+    - Acidic Husk Ichor
+    - Chipped Tooth
+    - Eternity's Collar
+    - Heartburst Hood
+    - Punishment's Hood
+    - Resurrection's Collar
+    - Shard of Glass
+    - Suffering's Collar
+  Grave Robber:
+    skills:
+    - Lunge
+    - Shadow Fade
+    - Pick to the Face
+    - Flashing Daggers
+    - Thrown Dagger
+    - Poison Dart
+    - Toxin Trickery
+    trinkets:
+    - Absinthe
+    - Blighting Satchel
+    - Lucky Talisman
+    - Quickening Satchel
+    - Raider's Talisman
+    - Sharpened Letter Opener
+    - Sickening Satchel
+    - Topshelf Tonic
+  Hellion:
+    skills:
+    - Wicked Hack
+    - If It Bleeds
+    - Iron Swan
+    - Breakthrough
+    - Bleed Out
+    - Adrenaline Rush
+    - Barbaric Yawp
+    trinkets:
+    - Bleeding Pendant
+    - Double-Edged Pendant
+    - Heaven's Hairpin
+    - Hell's Hairpin
+    - Lioness Warpaint
+    - Mark of the Outcast
+    - Selfish Pendant
+    - Thirsting BladeFinish Him
+  Highwayman:
+    skills:
+    - Pistol Shot
+    - Wicked Slice
+    - Duelist's Advance
+    - Grapeshot Blast
+    - Point Blank Shot
+    - Open Vein
+    - Tracking Shot
+    trinkets:
+    - Bloodied Neckerchief
+    - Crystalline Gunpowder
+    - Dodgy Sheath
+    - Drifter's Buckle
+    - Flashfire Gunpowder
+    - Gunslinger's Buckle
+    - Shameful Locket
+    - Sharpening Sheath
+    - Stalwart Buckle
+  Houndmaster:
+    skills:
+    - Hound's Rush
+    - Hound's Harry
+    - Lick Wounds
+    - Blackjack
+    - Cry Havoc
+    - Target Whistle
+    trinkets:
+    - Agility Whistle
+    - Battered Lawman's Badge
+    - Cudgel Weight
+    - Evidence of Corruption
+    - Huskfang Whistle
+    - Protective Collar
+    - Scouting Whistle
+    - Spiked Collar
+  Jester:
+    skills:
+    - Harvest
+    - Slice Off
+    - Finale
+    - Solo
+    - Dirk Stab
+    - Battle Ballad
+    - Inspiring Tune
+    trinkets:
+    - Bright Tambourine
+    - Critical Dice
+    - Dark Tambourine
+    - Dirge For The Devoured
+    - Lucky Dice
+    - Sickening Satchel
+    - Tyrant's Fingerbone
+    - Tyrant's Tasting Cup
+  Leper:
+    skills:
+    - Chop
+    - Hew
+    - Purge
+    - Revenge
+    - Withstand
+    - Intimidate
+    - Solemnity
+    trinkets:
+    - Berserk Mask
+    - Fortunate Armlet
+    - Healing Armlet
+    - Immunity Mask
+    - Last Will and Testament
+    - Petrified Amulet
+    - Redemption Armlet
+    - Tin Flute
+  Man-at-Arms:
+    skills:
+    - Crush
+    - Rampart
+    - Defender
+    - Retribution
+    - Bolster
+    - Command
+    - Bellow
+    trinkets:
+    - Cleansing Eyepatch
+    - Guardian's Shield
+    - Longevity Eyepatch
+    - Mirror Shield
+    - Old Unit Standard
+    - Rampart Shield
+    - Sly Eyepatch
+    - Toy Soldier
+  Musketeer:
+    skills:
+    - Aimed Shot
+    - Smokescreen
+    - Skeet Shot
+    - Sidearm
+    - Buckshot
+    - Patch Up
+    - Call the Shot
+    trinkets:
+    - Bull's Eye Hat
+    - Icosahedric Musket Balls
+    - Medic's Boots
+    - Second Place Trophy
+    - Silver Musket Ball
+    - Sturdy Boots
+    - Vengeful Boots
+    - Wrathful Hat
+  Occultist:
+    skills:
+    - Sacrificial Stab
+    - Wyrd Reconstruction
+    - Hands from the Abyss
+    - Weakening Curse
+    - Abyssal Artillery
+    - Daemon's Pull
+    - Vulnerability Hex
+    trinkets:
+    - Blood Pact
+    - Cursed Incense
+    - Demon's Cauldron
+    - Eldritch Killing Incense
+    - Evasion Incense
+    - Petrified Skull
+    - Sacrifical Cauldron
+    - Vial of Sand
+  Plague Doctor:
+    skills:
+    - Blinding Gas
+    - Noxious Blast
+    - Plague Grenade
+    - Incision
+    - Battlefield Medicine
+    - Disorienting Blast
+    - Emboldening Vapours
+    trinkets:
+    - Ashen Distillation
+    - Blasphemous Vial
+    - Bloody Herb
+    - Diseased Herb
+    - Dissection Kit
+    - Poisoned Herb
+    - Rotgut Censer
+    - Subject 40 Notes
+    - Witch's Vial
+  Shieldbreaker:
+    skills:
+    - Pierce
+    - Puncture
+    - Impale
+    - Serpent Sway
+    - Captivate
+    - Adder's Kiss
+    - Expose
+    trinkets:
+    - Cuirboilli
+    - Dancer's Footwraps
+    - Fanged Spear Tip
+    - Obsidian Dagger
+    - Severed Hand
+    - Shimmering Scale
+    - Spectral Speartip
+    - Venomous Vial
+  Vestal:
+    skills:
+    - Judgement
+    - Divine Grace
+    - Divine Comfort
+    - Dazzling Light
+    - Hand of Light
+    - Illumination
+    - Mace Bash
+    trinkets:
+    - Atonement Beads
+    - Haste Chalice
+    - Heretical Passage
+    - Profane Scroll
+    - Sacred Scroll
+    - Salacious Diary
+    - Tome of Holy Healing
+    - Virtuous Chalice
+    - Youth Chalice
+trinkets_all:
+- Accuracy Stone
+- Ancestor's Bottle
+- Ancestor's Candle
+- Ancestor's Coat
+- Ancestor's Handkerchief
+- Ancestor's Lantern
+- Ancestor's Map
+- Ancestor's Musket Ball
+- Ancestor's Mustache Cream
+- Ancestor's Pen
+- Ancestor's Pistol
+- Ancestor's Portrait
+- Ancestor's Scroll
+- Ancestor's Signet Ring
+- Ancestor's Tentacle Idol
+- Ancestor's Vintage
+- Archer's Ring
+- Aria Box
+- Baron's Lash
+- Barristan's Head
+- Beast Slayer's Ring
+- Berserk Charm
+- Bleed Amulet
+- Bleed Charm
+- Bleed Stone
+- Blight Amulet
+- Blight Charm
+- Blight Stone
+- Blood Charm
+- Bloodied Fetish
+- Bloodthirst Ring
+- Book of Constitution
+- Book of Holiness
+- Book of Intuition
+- Book of Rage
+- Book of Relaxation
+- Book of Sanity
+- Brawler's Gloves
+- Callous Talon
+- Calming Crystal
+- Camouflage Cloak
+- Caution Cloak
+- Chirurgeon's Charm
+- Cleansing Crystal
+- Cluster Pendant
+- Coat Of Many Colors
+- Countess' Fan
+- Coven Signet
+- Crescendo Box
+- Crew's Bell
+- Critical Stone
+- Crystal Pendant
+- Crystalline Fang
+- Damage Stone
+- Dark Bracer
+- Dark Crown
+- Dazzling Charm
+- Dazzling Mirror
+- Debuff Amulet
+- Debuff Charm
+- Debuff Stone
+- Deteriorating Bracer
+- Disease Charm
+- Dismas' Head
+- Distended Crowseye
+- Dodge Stone
+- Eldritch Slayer's Ring
+- Ethereal Crucifix
+- Fasting Seal
+- Feather Crystal
+- Flesh's Heart
+- Focus Ring
+- Fortifying Garlic
+- Fuseman's Matchstick
+- Gambler's Charm
+- Hag's Ladle
+- Health Stone
+- Heavy Boots
+- Hero's Ring
+- Junia's Head
+- Legendary Bracer
+- Lens of the Comet
+- Life Crystal
+- Man Slayer's Ring
+- Mantra of Fasting
+- Martyr's Seal
+- Mercurial Salve
+- Mildred's Locket
+- Miller's Pipe
+- Molted Tailfeather
+- Molted Wingfeather
+- Moon Cloak
+- Moon Ring
+- Move Amulet
+- Move Charm
+- Move Stone
+- Necromancer's Collar
+- Overture Box
+- Pagan Talisman
+- Phase Shifting Hide
+- Prismatic Heart Crystal
+- Prophet's Eye
+- Protection Stone
+- Quick Draw Charm
+- Rat Carcass
+- Reckless Charm
+- Recovery Charm
+- Sanguine Snuff
+- Sculptor's Tools
+- Seer Stone
+- Shimmering Cloak
+- Siren's Conch
+- Slippery Boots
+- Snake Oil
+- Sniper's Ring
+- Solar Bracer
+- Solar Crown
+- Speed Stone
+- Steady Bracer
+- Stun Amulet
+- Stun Charm
+- Stun Stone
+- Sun Cloak
+- Sun Ring
+- Surgical Gloves
+- Survival Guide
+- Swift Cloak
+- Tempting Goblet
+- Tenacity Ring
+- Thing's Mesmerizing Eye
+- Tough Ring
+- Unholy Slayer's Ring
+- Viscount's Spices
+- Vvulf's Tassle
+- Warrior's Bracer
+- Warrior's Cap
+- Wilbur's Flag
+- Worrystone

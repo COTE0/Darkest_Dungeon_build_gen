@@ -1,0 +1,8 @@
+.vscode/
+**/__pycache__/
+data_scripts/test_builds/
+data_scripts/generated_output.csv
+data_scripts/teams_dataset.csv
+data_scripts/teams_dataset_with_specials.csv
+data_scripts/seq2seq_checkpoint.pt
+data_scripts/.env

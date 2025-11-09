@@ -1,0 +1,935 @@
+[
+  {
+    "build_id": 1,
+    "build_description": "High bleed output, strong stress management, and flexible healing through Occultist and Flagellant.",
+    "teams": [
+      {
+        "description": "Early-game viable (common/uncommon trinkets)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Barbaric Yawp",
+              "Iron Swan"
+            ],
+            "trinkets": [
+              "Bleeding Pendant",
+              "Accuracy Stone"
+            ]
+          },
+          {
+            "name": "Flagellant",
+            "position": 2,
+            "skills": [
+              "Punish",
+              "Rain of Sorrows",
+              "Exsanguinate",
+              "Redeem"
+            ],
+            "trinkets": [
+              "Heartburst Hood",
+              "Bloodied Fetish"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 3,
+            "skills": [
+              "Harvest",
+              "Slice Off",
+              "Battle Ballad",
+              "Inspiring Tune"
+            ],
+            "trinkets": [
+              "Lucky Dice",
+              "Sickening Satchel"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Sacrificial Stab"
+            ],
+            "trinkets": [
+              "Eldritch Killing Incense",
+              "Evasion Incense"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare trinkets)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Barbaric Yawp",
+              "Iron Swan"
+            ],
+            "trinkets": [
+              "Double-Edged Pendant",
+              "Berserk Charm"
+            ]
+          },
+          {
+            "name": "Flagellant",
+            "position": 2,
+            "skills": [
+              "Punish",
+              "Rain of Sorrows",
+              "Exsanguinate",
+              "Redeem"
+            ],
+            "trinkets": [
+              "Punishment's Hood",
+              "Suffering's Collar"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 3,
+            "skills": [
+              "Harvest",
+              "Slice Off",
+              "Battle Ballad",
+              "Inspiring Tune"
+            ],
+            "trinkets": [
+              "Critical Dice",
+              "Bright Tambourine"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Sacrificial Stab"
+            ],
+            "trinkets": [
+              "Sacrifical Cauldron",
+              "Cursed Incense"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon trinkets)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Barbaric Yawp",
+              "Iron Swan"
+            ],
+            "trinkets": [
+              "Heaven's Hairpin",
+              "Berserk Charm"
+            ]
+          },
+          {
+            "name": "Flagellant",
+            "position": 2,
+            "skills": [
+              "Punish",
+              "Rain of Sorrows",
+              "Exsanguinate",
+              "Redeem"
+            ],
+            "trinkets": [
+              "Suffering's Collar",
+              "Eternity's Collar"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 3,
+            "skills": [
+              "Harvest",
+              "Slice Off",
+              "Battle Ballad",
+              "Inspiring Tune"
+            ],
+            "trinkets": [
+              "Dark Tambourine",
+              "Bright Tambourine"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Sacrificial Stab"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Sacrifical Cauldron"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral trinkets)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Barbaric Yawp",
+              "Iron Swan"
+            ],
+            "trinkets": [
+              "Hell's Hairpin",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Flagellant",
+            "position": 2,
+            "skills": [
+              "Punish",
+              "Rain of Sorrows",
+              "Exsanguinate",
+              "Redeem"
+            ],
+            "trinkets": [
+              "Eternity's Collar",
+              "Martyr's Seal"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 3,
+            "skills": [
+              "Harvest",
+              "Slice Off",
+              "Battle Ballad",
+              "Inspiring Tune"
+            ],
+            "trinkets": [
+              "Dark Tambourine",
+              "Ancestor's Scroll"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Sacrificial Stab"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Ancestor's Tentacle Idol"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Barbaric Yawp",
+              "Iron Swan"
+            ],
+            "trinkets": [
+              "Hell's Hairpin",
+              "Thirsting Blade"
+            ]
+          },
+          {
+            "name": "Flagellant",
+            "position": 2,
+            "skills": [
+              "Punish",
+              "Rain of Sorrows",
+              "Exsanguinate",
+              "Redeem"
+            ],
+            "trinkets": [
+              "Eternity's Collar",
+              "Acidic Husk Ichor"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 3,
+            "skills": [
+              "Harvest",
+              "Slice Off",
+              "Battle Ballad",
+              "Inspiring Tune"
+            ],
+            "trinkets": [
+              "Dark Tambourine",
+              "Dirge For The Devoured"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Sacrificial Stab"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Petrified Skull"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 2,
+    "build_description": "Marked target focused burst damage with heavy stun potential and strong sustain.",
+    "teams": [
+      {
+        "description": "Early-game viable (common/uncommon trinkets)",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Zealous Accusation",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Knight's Crest",
+              "Defender's Seal"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Finish Him",
+              "Flashbang",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Agility Talon",
+              "Unmovable Helmet"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Target Whistle",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Agility Whistle",
+              "Scouting Whistle"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Judgement",
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light"
+            ],
+            "trinkets": [
+              "Virtuous Chalice",
+              "Stun Stone"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare trinkets)",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Zealous Accusation",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Paralyzer's Crest",
+              "Book of Rage"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Finish Him",
+              "Flashbang",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Hunter's Talons",
+              "Sniper's Ring"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Target Whistle",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Cudgel Weight",
+              "Protective Collar"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Judgement",
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light"
+            ],
+            "trinkets": [
+              "Haste Chalice",
+              "Tome of Holy Healing"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon trinkets)",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Zealous Accusation",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Commander's Orders",
+              "Paralyzer's Crest"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Finish Him",
+              "Flashbang",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Hunter's Talons",
+              "Wounding Helmet"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Target Whistle",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Spiked Collar",
+              "Protective Collar"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Judgement",
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light"
+            ],
+            "trinkets": [
+              "Sacred Scroll",
+              "Tome of Holy Healing"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral trinkets)",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Zealous Accusation",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Holy Orders",
+              "Ancestor's Signet Ring"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Finish Him",
+              "Flashbang",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Wounding Helmet",
+              "Ancestor's Pistol"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Target Whistle",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Spiked Collar",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Judgement",
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light"
+            ],
+            "trinkets": [
+              "Sacred Scroll",
+              "Ancestor's Scroll"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Zealous Accusation",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Holy Orders",
+              "Non-Euclidean Hilt"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Finish Him",
+              "Flashbang",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Wounding Helmet",
+              "Mask Of The Timeless"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Target Whistle",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Spiked Collar",
+              "Huskfang Whistle"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Judgement",
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light"
+            ],
+            "trinkets": [
+              "Sacred Scroll",
+              "Heretical Passage"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 3,
+    "build_description": "Powerful blight and stun combination, focused on controlling and debilitating enemies with flexible healing from the Occultist.",
+    "teams": [
+      {
+        "description": "Early-game viable (common/uncommon trinkets)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Barbaric Yawp",
+              "Iron Swan"
+            ],
+            "trinkets": [
+              "Stun Stone",
+              "Accuracy Stone"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "position": 2,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Poison Dart"
+            ],
+            "trinkets": [
+              "Quickening Satchel",
+              "Sickening Satchel"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Witch's Vial",
+              "Rotgut Censer"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Vulnerability Hex"
+            ],
+            "trinkets": [
+              "Eldritch Killing Incense",
+              "Evasion Incense"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare trinkets)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Barbaric Yawp",
+              "Iron Swan"
+            ],
+            "trinkets": [
+              "Double-Edged Pendant",
+              "Stun Amulet"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "position": 2,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Poison Dart"
+            ],
+            "trinkets": [
+              "Blighting Satchel",
+              "Quick Draw Charm"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Poisoned Herb",
+              "Stun Amulet"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Vulnerability Hex"
+            ],
+            "trinkets": [
+              "Sacrifical Cauldron",
+              "Cursed Incense"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon trinkets)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Barbaric Yawp",
+              "Iron Swan"
+            ],
+            "trinkets": [
+              "Heaven's Hairpin",
+              "Stun Amulet"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "position": 2,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Poison Dart"
+            ],
+            "trinkets": [
+              "Lucky Talisman",
+              "Blighting Satchel"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Bloody Herb",
+              "Poisoned Herb"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Vulnerability Hex"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Sacrifical Cauldron"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral trinkets)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Barbaric Yawp",
+              "Iron Swan"
+            ],
+            "trinkets": [
+              "Hell's Hairpin",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "position": 2,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Poison Dart"
+            ],
+            "trinkets": [
+              "Raider's Talisman",
+              "Ancestor's Pistol"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ancestor's Tentacle Idol"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Vulnerability Hex"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Ancestor's Scroll"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Barbaric Yawp",
+              "Iron Swan"
+            ],
+            "trinkets": [
+              "Hell's Hairpin",
+              "Thirsting Blade"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "position": 2,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Poison Dart"
+            ],
+            "trinkets": [
+              "Raider's Talisman",
+              "Topshelf Tonic"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ashen Distillation"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery",
+              "Vulnerability Hex"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Petrified Skull"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,935 @@
+[
+  {
+    "build_id": 1,
+    "build_description": "A mobile bleed-focused team with strong stress control and backline stun. Jester provides stress relief and buffs, while Hellion and Highwayman inflict heavy bleeds and frontline damage, supported by Plague Doctor's backline stuns and blights. Highwayman's movement skills allow for flexible positioning and burst damage.",
+    "teams": [
+      {
+        "description": "Early-game viable (common/uncommon trinkets)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Bleed Out",
+              "Barbaric Yawp"
+            ],
+            "trinkets": [
+              "Bleeding Pendant",
+              "Warrior's Bracer"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 2,
+            "skills": [
+              "Duelist's Advance",
+              "Open Vein",
+              "Pistol Shot",
+              "Point Blank Shot"
+            ],
+            "trinkets": [
+              "Drifter's Buckle",
+              "Damage Stone"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Battlefield Medicine",
+              "Plague Grenade"
+            ],
+            "trinkets": [
+              "Witch's Vial",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 4,
+            "skills": [
+              "Inspiring Tune",
+              "Battle Ballad",
+              "Harvest",
+              "Solo"
+            ],
+            "trinkets": [
+              "Lucky Dice",
+              "Speed Stone"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Bleed Out",
+              "Barbaric Yawp"
+            ],
+            "trinkets": [
+              "Double-Edged Pendant",
+              "Heaven's Hairpin"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 2,
+            "skills": [
+              "Duelist's Advance",
+              "Open Vein",
+              "Pistol Shot",
+              "Point Blank Shot"
+            ],
+            "trinkets": [
+              "Sharpening Sheath",
+              "Bloodthirst Ring"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Battlefield Medicine",
+              "Plague Grenade"
+            ],
+            "trinkets": [
+              "Poisoned Herb",
+              "Bloody Herb"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 4,
+            "skills": [
+              "Inspiring Tune",
+              "Battle Ballad",
+              "Harvest",
+              "Solo"
+            ],
+            "trinkets": [
+              "Critical Dice",
+              "Bright Tambourine"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Bleed Out",
+              "Barbaric Yawp"
+            ],
+            "trinkets": [
+              "Hell's Hairpin",
+              "Double-Edged Pendant"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 2,
+            "skills": [
+              "Duelist's Advance",
+              "Open Vein",
+              "Pistol Shot",
+              "Point Blank Shot"
+            ],
+            "trinkets": [
+              "Gunslinger's Buckle",
+              "Sharpening Sheath"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Battlefield Medicine",
+              "Plague Grenade"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Poisoned Herb"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 4,
+            "skills": [
+              "Inspiring Tune",
+              "Battle Ballad",
+              "Harvest",
+              "Solo"
+            ],
+            "trinkets": [
+              "Dark Tambourine",
+              "Bright Tambourine"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Bleed Out",
+              "Barbaric Yawp"
+            ],
+            "trinkets": [
+              "Hell's Hairpin",
+              "Lioness Warpaint"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 2,
+            "skills": [
+              "Duelist's Advance",
+              "Open Vein",
+              "Pistol Shot",
+              "Point Blank Shot"
+            ],
+            "trinkets": [
+              "Gunslinger's Buckle",
+              "Ancestor's Pistol"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Battlefield Medicine",
+              "Plague Grenade"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Subject 40 Notes"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 4,
+            "skills": [
+              "Inspiring Tune",
+              "Battle Ballad",
+              "Harvest",
+              "Solo"
+            ],
+            "trinkets": [
+              "Dark Tambourine",
+              "Ancestor's Pen"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Bleed Out",
+              "Barbaric Yawp"
+            ],
+            "trinkets": [
+              "Thirsting Blade",
+              "Hell's Hairpin"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 2,
+            "skills": [
+              "Duelist's Advance",
+              "Open Vein",
+              "Pistol Shot",
+              "Point Blank Shot"
+            ],
+            "trinkets": [
+              "Crystalline Gunpowder",
+              "Gunslinger's Buckle"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Battlefield Medicine",
+              "Plague Grenade"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ashen Distillation"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 4,
+            "skills": [
+              "Inspiring Tune",
+              "Battle Ballad",
+              "Harvest",
+              "Solo"
+            ],
+            "trinkets": [
+              "Dirge For The Devoured",
+              "Dark Tambourine"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 2,
+    "build_description": "A precise mark-and-finish composition designed for targeted elimination. Musketeer and Bounty Hunter apply marks and deliver burst damage. Man-at-Arms protects key heroes and debuffs enemies, while Crusader provides consistent frontline damage and a reliable stun.",
+    "teams": [
+      {
+        "description": "Early-game viable (common/uncommon trinkets)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Sly Eyepatch",
+              "Protection Stone"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "position": 2,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Holy Lance",
+              "Battle Heal"
+            ],
+            "trinkets": [
+              "Knight's Crest",
+              "Warrior's Bracer"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 3,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Flashbang",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Agility Talon",
+              "Damage Stone"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "position": 4,
+            "skills": [
+              "Aimed Shot",
+              "Call the Shot",
+              "Patch Up",
+              "Skeet Shot"
+            ],
+            "trinkets": [
+              "Sturdy Boots",
+              "Archer's Ring"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Longevity Eyepatch",
+              "Heavy Boots"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "position": 2,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Holy Lance",
+              "Battle Heal"
+            ],
+            "trinkets": [
+              "Commander's Orders",
+              "Paralyzer's Crest"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 3,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Flashbang",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Hunter's Talons",
+              "Camper's Helmet"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "position": 4,
+            "skills": [
+              "Aimed Shot",
+              "Call the Shot",
+              "Patch Up",
+              "Skeet Shot"
+            ],
+            "trinkets": [
+              "Bull's Eye Hat",
+              "Sniper's Ring"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Rampart Shield",
+              "Guardian's Shield"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "position": 2,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Holy Lance",
+              "Battle Heal"
+            ],
+            "trinkets": [
+              "Holy Orders",
+              "Commander's Orders"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 3,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Flashbang",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Wounding Helmet",
+              "Hunter's Talons"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "position": 4,
+            "skills": [
+              "Aimed Shot",
+              "Call the Shot",
+              "Patch Up",
+              "Skeet Shot"
+            ],
+            "trinkets": [
+              "Wrathful Hat",
+              "Bull's Eye Hat"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Guardian's Shield",
+              "Old Unit Standard"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "position": 2,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Holy Lance",
+              "Battle Heal"
+            ],
+            "trinkets": [
+              "Holy Orders",
+              "Glittering Spaulders"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 3,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Flashbang",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Wounding Helmet",
+              "Crime Lords' Molars"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "position": 4,
+            "skills": [
+              "Aimed Shot",
+              "Call the Shot",
+              "Patch Up",
+              "Skeet Shot"
+            ],
+            "trinkets": [
+              "Wrathful Hat",
+              "Ancestor's Musket Ball"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Mirror Shield",
+              "Guardian's Shield"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "position": 2,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Holy Lance",
+              "Battle Heal"
+            ],
+            "trinkets": [
+              "Non-Euclidean Hilt",
+              "Holy Orders"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 3,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Flashbang",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Mask Of The Timeless",
+              "Wounding Helmet"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "position": 4,
+            "skills": [
+              "Aimed Shot",
+              "Call the Shot",
+              "Patch Up",
+              "Skeet Shot"
+            ],
+            "trinkets": [
+              "Icosahedric Musket Balls",
+              "Wrathful Hat"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 3,
+    "build_description": "A resilient, self-sustaining team focused on damage mitigation and slow attrition. Leper deals massive frontline damage while enduring hits. Man-at-Arms guards and debuffs, and the Plague Doctor/Occultist combo provides strong blight, stun, and healing to keep the team alive and control the backline.",
+    "teams": [
+      {
+        "description": "Early-game viable (common/uncommon trinkets)",
+        "heroes": [
+          {
+            "name": "Leper",
+            "position": 1,
+            "skills": [
+              "Chop",
+              "Hew",
+              "Withstand",
+              "Solemnity"
+            ],
+            "trinkets": [
+              "Healing Armlet",
+              "Redemption Armlet"
+            ]
+          },
+          {
+            "name": "Man-at-Arms",
+            "position": 2,
+            "skills": [
+              "Defender",
+              "Retribution",
+              "Bellow",
+              "Crush"
+            ],
+            "trinkets": [
+              "Sly Eyepatch",
+              "Protection Stone"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine",
+              "Blinding Gas"
+            ],
+            "trinkets": [
+              "Witch's Vial",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Vulnerability Hex",
+              "Abyssal Artillery",
+              "Hands from the Abyss"
+            ],
+            "trinkets": [
+              "Evasion Incense",
+              "Health Stone"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare)",
+        "heroes": [
+          {
+            "name": "Leper",
+            "position": 1,
+            "skills": [
+              "Chop",
+              "Hew",
+              "Withstand",
+              "Solemnity"
+            ],
+            "trinkets": [
+              "Fortunate Armlet",
+              "Book of Constitution"
+            ]
+          },
+          {
+            "name": "Man-at-Arms",
+            "position": 2,
+            "skills": [
+              "Defender",
+              "Retribution",
+              "Bellow",
+              "Crush"
+            ],
+            "trinkets": [
+              "Longevity Eyepatch",
+              "Heavy Boots"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine",
+              "Blinding Gas"
+            ],
+            "trinkets": [
+              "Poisoned Herb",
+              "Bloody Herb"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Vulnerability Hex",
+              "Abyssal Artillery",
+              "Hands from the Abyss"
+            ],
+            "trinkets": [
+              "Cursed Incense",
+              "Book of Holiness"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon)",
+        "heroes": [
+          {
+            "name": "Leper",
+            "position": 1,
+            "skills": [
+              "Chop",
+              "Hew",
+              "Withstand",
+              "Solemnity"
+            ],
+            "trinkets": [
+              "Immunity Mask",
+              "Berserk Mask"
+            ]
+          },
+          {
+            "name": "Man-at-Arms",
+            "position": 2,
+            "skills": [
+              "Defender",
+              "Retribution",
+              "Bellow",
+              "Crush"
+            ],
+            "trinkets": [
+              "Rampart Shield",
+              "Guardian's Shield"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine",
+              "Blinding Gas"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Poisoned Herb"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Vulnerability Hex",
+              "Abyssal Artillery",
+              "Hands from the Abyss"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Sacrifical Cauldron"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral)",
+        "heroes": [
+          {
+            "name": "Leper",
+            "position": 1,
+            "skills": [
+              "Chop",
+              "Hew",
+              "Withstand",
+              "Solemnity"
+            ],
+            "trinkets": [
+              "Berserk Mask",
+              "Last Will and Testament"
+            ]
+          },
+          {
+            "name": "Man-at-Arms",
+            "position": 2,
+            "skills": [
+              "Defender",
+              "Retribution",
+              "Bellow",
+              "Crush"
+            ],
+            "trinkets": [
+              "Guardian's Shield",
+              "Old Unit Standard"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine",
+              "Blinding Gas"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Subject 40 Notes"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Vulnerability Hex",
+              "Abyssal Artillery",
+              "Hands from the Abyss"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Vial of Sand"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
+        "heroes": [
+          {
+            "name": "Leper",
+            "position": 1,
+            "skills": [
+              "Chop",
+              "Hew",
+              "Withstand",
+              "Solemnity"
+            ],
+            "trinkets": [
+              "Petrified Amulet",
+              "Berserk Mask"
+            ]
+          },
+          {
+            "name": "Man-at-Arms",
+            "position": 2,
+            "skills": [
+              "Defender",
+              "Retribution",
+              "Bellow",
+              "Crush"
+            ],
+            "trinkets": [
+              "Mirror Shield",
+              "Guardian's Shield"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine",
+              "Blinding Gas"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ashen Distillation"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Vulnerability Hex",
+              "Abyssal Artillery",
+              "Hands from the Abyss"
+            ],
+            "trinkets": [
+              "Petrified Skull",
+              "Demon's Cauldron"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

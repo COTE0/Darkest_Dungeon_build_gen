@@ -1,0 +1,624 @@
+[
+  {
+    "build_id": 2,
+    "build_description": "Marks enemies for increased damage, leading to rapid elimination of high-priority threats, supported by tanking and utility.",
+    "teams": [
+      {
+        "description": "Early-game viable",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Defender's Seal",
+              "Protection Stone"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Flashbang"
+            ],
+            "trinkets": [
+              "Agility Talon",
+              "Warrior's Bracer"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 3,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Vulnerability Hex",
+              "Abyssal Artillery"
+            ],
+            "trinkets": [
+              "Eldritch Killing Incense",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Arbalest",
+            "position": 4,
+            "skills": [
+              "Sniper Shot",
+              "Sniper's Mark",
+              "Suppressing Fire",
+              "Battlefield Bandage"
+            ],
+            "trinkets": [
+              "Archer's Ring",
+              "Vengeful Greaves"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Longevity Eyepatch",
+              "Rampart Shield"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Flashbang"
+            ],
+            "trinkets": [
+              "Camper's Helmet",
+              "Hunter's Talons"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 3,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Vulnerability Hex",
+              "Abyssal Artillery"
+            ],
+            "trinkets": [
+              "Cursed Incense",
+              "Sacrifical Cauldron"
+            ]
+          },
+          {
+            "name": "Arbalest",
+            "position": 4,
+            "skills": [
+              "Sniper Shot",
+              "Sniper's Mark",
+              "Suppressing Fire",
+              "Battlefield Bandage"
+            ],
+            "trinkets": [
+              "Medic's Greaves",
+              "Bull's Eye Bandana"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Rampart Shield",
+              "Guardian's Shield"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Flashbang"
+            ],
+            "trinkets": [
+              "Hunter's Talons",
+              "Wounding Helmet"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 3,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Vulnerability Hex",
+              "Abyssal Artillery"
+            ],
+            "trinkets": [
+              "Sacrifical Cauldron",
+              "Demon's Cauldron"
+            ]
+          },
+          {
+            "name": "Arbalest",
+            "position": 4,
+            "skills": [
+              "Sniper Shot",
+              "Sniper's Mark",
+              "Suppressing Fire",
+              "Battlefield Bandage"
+            ],
+            "trinkets": [
+              "Bull's Eye Bandana",
+              "Wrathful Bandana"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Guardian's Shield",
+              "Ancestor's Signet Ring"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Flashbang"
+            ],
+            "trinkets": [
+              "Wounding Helmet",
+              "Vengeful Kill List"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 3,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Vulnerability Hex",
+              "Abyssal Artillery"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Ancestor's Map"
+            ]
+          },
+          {
+            "name": "Arbalest",
+            "position": 4,
+            "skills": [
+              "Sniper Shot",
+              "Sniper's Mark",
+              "Suppressing Fire",
+              "Battlefield Bandage"
+            ],
+            "trinkets": [
+              "Wrathful Bandana",
+              "Childhood Treasure"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Mirror Shield",
+              "Old Unit Standard"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Flashbang"
+            ],
+            "trinkets": [
+              "Mask Of The Timeless",
+              "Vengeful Kill List"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 3,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Vulnerability Hex",
+              "Abyssal Artillery"
+            ],
+            "trinkets": [
+              "Petrified Skull",
+              "Demon's Cauldron"
+            ]
+          },
+          {
+            "name": "Arbalest",
+            "position": 4,
+            "skills": [
+              "Sniper Shot",
+              "Sniper's Mark",
+              "Suppressing Fire",
+              "Battlefield Bandage"
+            ],
+            "trinkets": [
+              "Keening Bolts",
+              "Wrathful Bandana"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 3,
+    "build_description": "Control enemies through repeated stunning and heavy blight application, wearing them down while maintaining consistent healing.",
+    "teams": [
+      {
+        "description": "Early-game viable",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Zealous Accusation",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Knight's Crest",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Abomination",
+            "position": 2,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Slam",
+              "Absolution"
+            ],
+            "trinkets": [
+              "Lock of Patience",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Witch's Vial",
+              "Diseased Herb"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Virtuous Chalice",
+              "Healing Armlet"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Zealous Accusation",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Paralyzer's Crest",
+              "Commander's Orders"
+            ]
+          },
+          {
+            "name": "Abomination",
+            "position": 2,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Slam",
+              "Absolution"
+            ],
+            "trinkets": [
+              "Padlock of Transference",
+              "Lock of Fury"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Poisoned Herb",
+              "Bloody Herb"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Youth Chalice",
+              "Tome of Holy Healing"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Zealous Accusation",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Paralyzer's Crest",
+              "Holy Orders"
+            ]
+          },
+          {
+            "name": "Abomination",
+            "position": 2,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Slam",
+              "Absolution"
+            ],
+            "trinkets": [
+              "Padlock of Transference",
+              "Restraining Padlock"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Bloody Herb",
+              "Blasphemous Vial"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Tome of Holy Healing",
+              "Sacred Scroll"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Zealous Accusation",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Holy Orders",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Abomination",
+            "position": 2,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Slam",
+              "Absolution"
+            ],
+            "trinkets": [
+              "Restraining Padlock",
+              "Shameful Shroud"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ancestor's Map"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Sacred Scroll",
+              "Ancestor's Candle"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Zealous Accusation",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Non-Euclidean Hilt",
+              "Holy Orders"
+            ]
+          },
+          {
+            "name": "Abomination",
+            "position": 2,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Slam",
+              "Absolution"
+            ],
+            "trinkets": [
+              "Broken Key",
+              "Shameful Shroud"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Ashen Distillation",
+              "Blasphemous Vial"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Heretical Passage",
+              "Sacred Scroll"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

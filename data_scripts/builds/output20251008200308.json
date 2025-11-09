@@ -1,0 +1,935 @@
+[
+  {
+    "build_id": 1,
+    "build_description": "Bleed pressure, stress control, and Occultist healing with front-line tanking.",
+    "teams": [
+      {
+        "description": "Early-game sustain build",
+        "heroes": [
+          {
+            "name": "Flagellant",
+            "position": 1,
+            "skills": [
+              "Punish",
+              "Exsanguinate",
+              "Suffer",
+              "Reclaim"
+            ],
+            "trinkets": [
+              "Heartburst Hood",
+              "Bleed Stone"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 2,
+            "skills": [
+              "Harvest",
+              "Slice Off",
+              "Battle Ballad",
+              "Inspiring Tune"
+            ],
+            "trinkets": [
+              "Lucky Dice",
+              "Sickening Satchel"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Hound's Harry",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Agility Whistle",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Abyssal Artillery",
+              "Hands from the Abyss",
+              "Weakening Curse"
+            ],
+            "trinkets": [
+              "Evasion Incense",
+              "Eldritch Killing Incense"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition bleed and stress control",
+        "heroes": [
+          {
+            "name": "Flagellant",
+            "position": 1,
+            "skills": [
+              "Punish",
+              "Exsanguinate",
+              "Suffer",
+              "Reclaim"
+            ],
+            "trinkets": [
+              "Punishment's Hood",
+              "Bleed Amulet"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 2,
+            "skills": [
+              "Harvest",
+              "Slice Off",
+              "Battle Ballad",
+              "Inspiring Tune"
+            ],
+            "trinkets": [
+              "Critical Dice",
+              "Bright Tambourine"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Hound's Harry",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Cudgel Weight",
+              "Protective Collar"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Abyssal Artillery",
+              "Hands from the Abyss",
+              "Weakening Curse"
+            ],
+            "trinkets": [
+              "Cursed Incense",
+              "Sacrifical Cauldron"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game bleed and stress control",
+        "heroes": [
+          {
+            "name": "Flagellant",
+            "position": 1,
+            "skills": [
+              "Punish",
+              "Exsanguinate",
+              "Suffer",
+              "Reclaim"
+            ],
+            "trinkets": [
+              "Suffering's Collar",
+              "Bleed Amulet"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 2,
+            "skills": [
+              "Harvest",
+              "Slice Off",
+              "Battle Ballad",
+              "Inspiring Tune"
+            ],
+            "trinkets": [
+              "Dark Tambourine",
+              "Sniper's Ring"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Hound's Harry",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Spiked Collar",
+              "Protective Collar"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Abyssal Artillery",
+              "Hands from the Abyss",
+              "Weakening Curse"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Focus Ring"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game bleed and stress control",
+        "heroes": [
+          {
+            "name": "Flagellant",
+            "position": 1,
+            "skills": [
+              "Punish",
+              "Exsanguinate",
+              "Suffer",
+              "Reclaim"
+            ],
+            "trinkets": [
+              "Eternity's Collar",
+              "Martyr's Seal"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 2,
+            "skills": [
+              "Harvest",
+              "Slice Off",
+              "Battle Ballad",
+              "Inspiring Tune"
+            ],
+            "trinkets": [
+              "Dark Tambourine",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Hound's Harry",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Spiked Collar",
+              "Ancestor's Signet Ring"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Abyssal Artillery",
+              "Hands from the Abyss",
+              "Weakening Curse"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Ancestor's Tentacle Idol"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power bleed/stress build",
+        "heroes": [
+          {
+            "name": "Flagellant",
+            "position": 1,
+            "skills": [
+              "Punish",
+              "Exsanguinate",
+              "Suffer",
+              "Reclaim"
+            ],
+            "trinkets": [
+              "Acidic Husk Ichor",
+              "Eternity's Collar"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 2,
+            "skills": [
+              "Harvest",
+              "Slice Off",
+              "Battle Ballad",
+              "Inspiring Tune"
+            ],
+            "trinkets": [
+              "Dirge For The Devoured",
+              "Dark Tambourine"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Hound's Harry",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Spiked Collar",
+              "Ancestor's Signet Ring"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Wyrd Reconstruction",
+              "Abyssal Artillery",
+              "Hands from the Abyss",
+              "Weakening Curse"
+            ],
+            "trinkets": [
+              "Petrified Skull",
+              "Demon's Cauldron"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 2,
+    "build_description": "Massive stun potential, mark synergy, and focused burst damage.",
+    "teams": [
+      {
+        "description": "Early-game stun and damage",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "Barbaric Yawp",
+              "Iron Swan",
+              "Adrenaline Rush"
+            ],
+            "trinkets": [
+              "Bleeding Pendant",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Flashbang",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Agility Talon",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Target Whistle",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Agility Whistle",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 4,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Battlefield Medicine",
+              "Emboldening Vapours"
+            ],
+            "trinkets": [
+              "Witch's Vial",
+              "Stun Stone"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition stun and mark",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "Barbaric Yawp",
+              "Iron Swan",
+              "Adrenaline Rush"
+            ],
+            "trinkets": [
+              "Double-Edged Pendant",
+              "Bleed Amulet"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Flashbang",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Hunter's Talons",
+              "Camper's Helmet"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Target Whistle",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Cudgel Weight",
+              "Protective Collar"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 4,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Battlefield Medicine",
+              "Emboldening Vapours"
+            ],
+            "trinkets": [
+              "Poisoned Herb",
+              "Blight Amulet"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game stun and burst damage",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "Barbaric Yawp",
+              "Iron Swan",
+              "Adrenaline Rush"
+            ],
+            "trinkets": [
+              "Heaven's Hairpin",
+              "Double-Edged Pendant"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Flashbang",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Wounding Helmet",
+              "Hunter's Talons"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Target Whistle",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Spiked Collar",
+              "Protective Collar"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 4,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Battlefield Medicine",
+              "Emboldening Vapours"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Bloody Herb"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game stun and burst damage",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "Barbaric Yawp",
+              "Iron Swan",
+              "Adrenaline Rush"
+            ],
+            "trinkets": [
+              "Hell's Hairpin",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Flashbang",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Wounding Helmet",
+              "Crime Lords' Molars"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Target Whistle",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Spiked Collar",
+              "Ancestor's Signet Ring"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 4,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Battlefield Medicine",
+              "Emboldening Vapours"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ancestor's Scroll"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power stun and mark burst",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "Barbaric Yawp",
+              "Iron Swan",
+              "Adrenaline Rush"
+            ],
+            "trinkets": [
+              "Thirsting Blade",
+              "Hell's Hairpin"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Flashbang",
+              "Come Hither"
+            ],
+            "trinkets": [
+              "Mask Of The Timeless",
+              "Wounding Helmet"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Target Whistle",
+              "Blackjack",
+              "Cry Havoc"
+            ],
+            "trinkets": [
+              "Spiked Collar",
+              "Ancestor's Signet Ring"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 4,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Battlefield Medicine",
+              "Emboldening Vapours"
+            ],
+            "trinkets": [
+              "Ashen Distillation",
+              "Blasphemous Vial"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 3,
+    "build_description": "High damage, critical hits, and dodge through hero mobility and buffs.",
+    "teams": [
+      {
+        "description": "Early-game crit and dodge",
+        "heroes": [
+          {
+            "name": "Grave Robber",
+            "position": 1,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Poison Dart"
+            ],
+            "trinkets": [
+              "Quickening Satchel",
+              "Critical Stone"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 2,
+            "skills": [
+              "Battle Ballad",
+              "Inspiring Tune",
+              "Solo",
+              "Harvest"
+            ],
+            "trinkets": [
+              "Lucky Dice",
+              "Sickening Satchel"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 3,
+            "skills": [
+              "Pistol Shot",
+              "Duelist's Advance",
+              "Point Blank Shot",
+              "Grapeshot Blast"
+            ],
+            "trinkets": [
+              "Flashfire Gunpowder",
+              "Drifter's Buckle"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Virtuous Chalice",
+              "Health Stone"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition crit and dodge",
+        "heroes": [
+          {
+            "name": "Grave Robber",
+            "position": 1,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Poison Dart"
+            ],
+            "trinkets": [
+              "Blighting Satchel",
+              "Lucky Talisman"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 2,
+            "skills": [
+              "Battle Ballad",
+              "Inspiring Tune",
+              "Solo",
+              "Harvest"
+            ],
+            "trinkets": [
+              "Critical Dice",
+              "Bright Tambourine"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 3,
+            "skills": [
+              "Pistol Shot",
+              "Duelist's Advance",
+              "Point Blank Shot",
+              "Grapeshot Blast"
+            ],
+            "trinkets": [
+              "Sharpening Sheath",
+              "Dodgy Sheath"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Youth Chalice",
+              "Haste Chalice"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game crit, dodge, and damage",
+        "heroes": [
+          {
+            "name": "Grave Robber",
+            "position": 1,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Poison Dart"
+            ],
+            "trinkets": [
+              "Raider's Talisman",
+              "Lucky Talisman"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 2,
+            "skills": [
+              "Battle Ballad",
+              "Inspiring Tune",
+              "Solo",
+              "Harvest"
+            ],
+            "trinkets": [
+              "Dark Tambourine",
+              "Focus Ring"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 3,
+            "skills": [
+              "Pistol Shot",
+              "Duelist's Advance",
+              "Point Blank Shot",
+              "Grapeshot Blast"
+            ],
+            "trinkets": [
+              "Gunslinger's Buckle",
+              "Sharpening Sheath"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Sacred Scroll",
+              "Tome of Holy Healing"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game crit, dodge, and damage",
+        "heroes": [
+          {
+            "name": "Grave Robber",
+            "position": 1,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Poison Dart"
+            ],
+            "trinkets": [
+              "Raider's Talisman",
+              "Absinthe"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 2,
+            "skills": [
+              "Battle Ballad",
+              "Inspiring Tune",
+              "Solo",
+              "Harvest"
+            ],
+            "trinkets": [
+              "Dark Tambourine",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 3,
+            "skills": [
+              "Pistol Shot",
+              "Duelist's Advance",
+              "Point Blank Shot",
+              "Grapeshot Blast"
+            ],
+            "trinkets": [
+              "Gunslinger's Buckle",
+              "Ancestor's Pistol"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Sacred Scroll",
+              "Ancestor's Candle"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power crit, dodge, and damage",
+        "heroes": [
+          {
+            "name": "Grave Robber",
+            "position": 1,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Poison Dart"
+            ],
+            "trinkets": [
+              "Topshelf Tonic",
+              "Raider's Talisman"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 2,
+            "skills": [
+              "Battle Ballad",
+              "Inspiring Tune",
+              "Solo",
+              "Harvest"
+            ],
+            "trinkets": [
+              "Dirge For The Devoured",
+              "Dark Tambourine"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 3,
+            "skills": [
+              "Pistol Shot",
+              "Duelist's Advance",
+              "Point Blank Shot",
+              "Grapeshot Blast"
+            ],
+            "trinkets": [
+              "Crystalline Gunpowder",
+              "Gunslinger's Buckle"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Sacred Scroll",
+              "Junia's Head"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

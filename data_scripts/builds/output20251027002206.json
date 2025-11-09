@@ -1,0 +1,1246 @@
+[
+  {
+    "build_id": 1,
+    "build_description": "This team focuses on widespread backline control and sustained damage. Plague Doctor and Hellion provide powerful AoE stuns and blight/bleeds, crippling enemy ranks. Man-at-Arms offers protection and buffs, while Vestal ensures consistent healing and stress relief. The goal is to lock down dangerous enemies, whittle down their HP with DoTs, and finish them off.",
+    "teams": [
+      {
+        "description": "1. Early-game viable (common/uncommon)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Iron Swan",
+              "Barbaric Yawp"
+            ],
+            "trinkets": [
+              "Bleeding Pendant",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Man-at-Arms",
+            "position": 2,
+            "skills": [
+              "Crush",
+              "Defender",
+              "Bolster",
+              "Bellow"
+            ],
+            "trinkets": [
+              "Warrior's Bracer",
+              "Defender's Seal"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Witch's Vial",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Comfort",
+              "Divine Grace",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Virtuous Chalice",
+              "Book of Constitution"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "2. Early-mid transition (uncommon/rare)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Iron Swan",
+              "Barbaric Yawp"
+            ],
+            "trinkets": [
+              "Double-Edged Pendant",
+              "Stun Amulet"
+            ]
+          },
+          {
+            "name": "Man-at-Arms",
+            "position": 2,
+            "skills": [
+              "Crush",
+              "Defender",
+              "Bolster",
+              "Bellow"
+            ],
+            "trinkets": [
+              "Longevity Eyepatch",
+              "Rampart Shield"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Poisoned Herb",
+              "Bloody Herb"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Comfort",
+              "Divine Grace",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Haste Chalice",
+              "Book of Holiness"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "3. Mid-game (rare/very rare/uncommon)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Iron Swan",
+              "Barbaric Yawp"
+            ],
+            "trinkets": [
+              "Heaven's Hairpin",
+              "Double-Edged Pendant"
+            ]
+          },
+          {
+            "name": "Man-at-Arms",
+            "position": 2,
+            "skills": [
+              "Crush",
+              "Defender",
+              "Bolster",
+              "Bellow"
+            ],
+            "trinkets": [
+              "Rampart Shield",
+              "Guardian's Shield"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Bloody Herb",
+              "Blasphemous Vial"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Comfort",
+              "Divine Grace",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Tome of Holy Healing",
+              "Sacred Scroll"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "4. Late-game (very rare/ancestral)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Iron Swan",
+              "Barbaric Yawp"
+            ],
+            "trinkets": [
+              "Hell's Hairpin",
+              "Lioness Warpaint"
+            ]
+          },
+          {
+            "name": "Man-at-Arms",
+            "position": 2,
+            "skills": [
+              "Crush",
+              "Defender",
+              "Bolster",
+              "Bellow"
+            ],
+            "trinkets": [
+              "Guardian's Shield",
+              "Ancestor's Coat"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Comfort",
+              "Divine Grace",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Sacred Scroll",
+              "Junia's Head"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "5. Optimized high-power build (very rare/ancestral/trophy/crystalline)",
+        "heroes": [
+          {
+            "name": "Hellion",
+            "position": 1,
+            "skills": [
+              "Wicked Hack",
+              "If It Bleeds",
+              "Iron Swan",
+              "Barbaric Yawp"
+            ],
+            "trinkets": [
+              "Hell's Hairpin",
+              "Thirsting Blade"
+            ]
+          },
+          {
+            "name": "Man-at-Arms",
+            "position": 2,
+            "skills": [
+              "Crush",
+              "Defender",
+              "Bolster",
+              "Bellow"
+            ],
+            "trinkets": [
+              "Guardian's Shield",
+              "Mirror Shield"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ashen Distillation"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Comfort",
+              "Divine Grace",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Sacred Scroll",
+              "Junia's Head"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 2,
+    "build_description": "A precision striking force designed to quickly mark and eliminate priority targets, especially human enemies and those in the back ranks. Arbalest and Houndmaster apply marks and deal significant damage, while Bounty Hunter capitalizes on marked foes with massive damage boosts. Crusader provides strong front-line damage, healing, and stress relief, ensuring the team's resilience.",
+    "teams": [
+      {
+        "description": "1. Early-game viable (common/uncommon)",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Battle Heal",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Knight's Crest",
+              "Defender's Seal"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Flashbang"
+            ],
+            "trinkets": [
+              "Agility Talon",
+              "Unmovable Helmet"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Target Whistle",
+              "Blackjack",
+              "Lick Wounds"
+            ],
+            "trinkets": [
+              "Agility Whistle",
+              "Scouting Whistle"
+            ]
+          },
+          {
+            "name": "Arbalest",
+            "position": 4,
+            "skills": [
+              "Sniper Shot",
+              "Sniper's Mark",
+              "Battlefield Bandage",
+              "Rallying Flare"
+            ],
+            "trinkets": [
+              "Sturdy Greaves",
+              "Archer's Ring"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "2. Early-mid transition (uncommon/rare)",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Battle Heal",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Swordsman's Crest",
+              "Book of Constitution"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Flashbang"
+            ],
+            "trinkets": [
+              "Hunter's Talons",
+              "Agility Talon"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Target Whistle",
+              "Blackjack",
+              "Lick Wounds"
+            ],
+            "trinkets": [
+              "Protective Collar",
+              "Cudgel Weight"
+            ]
+          },
+          {
+            "name": "Arbalest",
+            "position": 4,
+            "skills": [
+              "Sniper Shot",
+              "Sniper's Mark",
+              "Battlefield Bandage",
+              "Rallying Flare"
+            ],
+            "trinkets": [
+              "Medic's Greaves",
+              "Bull's Eye Bandana"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "3. Mid-game (rare/very rare/uncommon)",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Battle Heal",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Commander's Orders",
+              "Holy Orders"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Flashbang"
+            ],
+            "trinkets": [
+              "Hunter's Talons",
+              "Wounding Helmet"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Target Whistle",
+              "Blackjack",
+              "Lick Wounds"
+            ],
+            "trinkets": [
+              "Spiked Collar",
+              "Protective Collar"
+            ]
+          },
+          {
+            "name": "Arbalest",
+            "position": 4,
+            "skills": [
+              "Sniper Shot",
+              "Sniper's Mark",
+              "Battlefield Bandage",
+              "Rallying Flare"
+            ],
+            "trinkets": [
+              "Sniper's Ring",
+              "Bull's Eye Bandana"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "4. Late-game (very rare/ancestral)",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Battle Heal",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Holy Orders",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Flashbang"
+            ],
+            "trinkets": [
+              "Wounding Helmet",
+              "Ancestor's Pistol"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Target Whistle",
+              "Blackjack",
+              "Lick Wounds"
+            ],
+            "trinkets": [
+              "Spiked Collar",
+              "Ancestor's Coat"
+            ]
+          },
+          {
+            "name": "Arbalest",
+            "position": 4,
+            "skills": [
+              "Sniper Shot",
+              "Sniper's Mark",
+              "Battlefield Bandage",
+              "Rallying Flare"
+            ],
+            "trinkets": [
+              "Wrathful Bandana",
+              "Ancestor's Musket Ball"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "5. Optimized high-power build (very rare/ancestral/trophy/crystalline)",
+        "heroes": [
+          {
+            "name": "Crusader",
+            "position": 1,
+            "skills": [
+              "Smite",
+              "Stunning Blow",
+              "Battle Heal",
+              "Inspiring Cry"
+            ],
+            "trinkets": [
+              "Holy Orders",
+              "Non-Euclidean Hilt"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "position": 2,
+            "skills": [
+              "Collect Bounty",
+              "Mark for Death",
+              "Finish Him",
+              "Flashbang"
+            ],
+            "trinkets": [
+              "Wounding Helmet",
+              "Mask Of The Timeless"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "position": 3,
+            "skills": [
+              "Hound's Rush",
+              "Target Whistle",
+              "Blackjack",
+              "Lick Wounds"
+            ],
+            "trinkets": [
+              "Spiked Collar",
+              "Huskfang Whistle"
+            ]
+          },
+          {
+            "name": "Arbalest",
+            "position": 4,
+            "skills": [
+              "Sniper Shot",
+              "Sniper's Mark",
+              "Battlefield Bandage",
+              "Rallying Flare"
+            ],
+            "trinkets": [
+              "Wrathful Bandana",
+              "Keening Bolts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 3,
+    "build_description": "This team thrives on chaotic, high-damage bursts from movement abilities and critical hits. Grave Robber and Highwayman utilize Lunge/Duelist's Advance to reposition and deliver massive damage, often with high crit chance. Abomination provides powerful stuns, blight, and beast-form AoE damage. Occultist offers crucial healing, backline damage, and additional stuns to support the aggressive playstyle.",
+    "teams": [
+      {
+        "description": "1. Early-game viable (common/uncommon)",
+        "heroes": [
+          {
+            "name": "Abomination",
+            "position": 1,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Rake",
+              "Transform"
+            ],
+            "trinkets": [
+              "Lock of Patience",
+              "Protective Padlock"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 2,
+            "skills": [
+              "Pistol Shot",
+              "Wicked Slice",
+              "Duelist's Advance",
+              "Point Blank Shot"
+            ],
+            "trinkets": [
+              "Drifter's Buckle",
+              "Flashfire Gunpowder"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "position": 3,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Toxin Trickery"
+            ],
+            "trinkets": [
+              "Quickening Satchel",
+              "Sickening Satchel"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Sacrificial Stab",
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery"
+            ],
+            "trinkets": [
+              "Evasion Incense",
+              "Eldritch Killing Incense"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "2. Early-mid transition (uncommon/rare)",
+        "heroes": [
+          {
+            "name": "Abomination",
+            "position": 1,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Rake",
+              "Transform"
+            ],
+            "trinkets": [
+              "Padlock of Transference",
+              "Lock of Fury"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 2,
+            "skills": [
+              "Pistol Shot",
+              "Wicked Slice",
+              "Duelist's Advance",
+              "Point Blank Shot"
+            ],
+            "trinkets": [
+              "Sharpening Sheath",
+              "Dodgy Sheath"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "position": 3,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Toxin Trickery"
+            ],
+            "trinkets": [
+              "Blighting Satchel",
+              "Lucky Talisman"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Sacrificial Stab",
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery"
+            ],
+            "trinkets": [
+              "Cursed Incense",
+              "Sacrifical Cauldron"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "3. Mid-game (rare/very rare/uncommon)",
+        "heroes": [
+          {
+            "name": "Abomination",
+            "position": 1,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Rake",
+              "Transform"
+            ],
+            "trinkets": [
+              "Restraining Padlock",
+              "Lock of Fury"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 2,
+            "skills": [
+              "Pistol Shot",
+              "Wicked Slice",
+              "Duelist's Advance",
+              "Point Blank Shot"
+            ],
+            "trinkets": [
+              "Sharpening Sheath",
+              "Gunslinger's Buckle"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "position": 3,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Toxin Trickery"
+            ],
+            "trinkets": [
+              "Raider's Talisman",
+              "Lucky Talisman"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Sacrificial Stab",
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery"
+            ],
+            "trinkets": [
+              "Sacrifical Cauldron",
+              "Demon's Cauldron"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "4. Late-game (very rare/ancestral)",
+        "heroes": [
+          {
+            "name": "Abomination",
+            "position": 1,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Rake",
+              "Transform"
+            ],
+            "trinkets": [
+              "Restraining Padlock",
+              "Osmond Chains"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 2,
+            "skills": [
+              "Pistol Shot",
+              "Wicked Slice",
+              "Duelist's Advance",
+              "Point Blank Shot"
+            ],
+            "trinkets": [
+              "Gunslinger's Buckle",
+              "Dismas' Head"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "position": 3,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Toxin Trickery"
+            ],
+            "trinkets": [
+              "Raider's Talisman",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Sacrificial Stab",
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Ancestor's Tentacle Idol"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "5. Optimized high-power build (very rare/ancestral/trophy/crystalline)",
+        "heroes": [
+          {
+            "name": "Abomination",
+            "position": 1,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Rake",
+              "Transform"
+            ],
+            "trinkets": [
+              "Restraining Padlock",
+              "Broken Key"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 2,
+            "skills": [
+              "Pistol Shot",
+              "Wicked Slice",
+              "Duelist's Advance",
+              "Point Blank Shot"
+            ],
+            "trinkets": [
+              "Gunslinger's Buckle",
+              "Crystalline Gunpowder"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "position": 3,
+            "skills": [
+              "Lunge",
+              "Shadow Fade",
+              "Pick to the Face",
+              "Toxin Trickery"
+            ],
+            "trinkets": [
+              "Raider's Talisman",
+              "Topshelf Tonic"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "position": 4,
+            "skills": [
+              "Sacrificial Stab",
+              "Wyrd Reconstruction",
+              "Hands from the Abyss",
+              "Abyssal Artillery"
+            ],
+            "trinkets": [
+              "Demon's Cauldron",
+              "Petrified Skull"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 4,
+    "build_description": "A robust defense-focused team that leverages Riposte and Guard mechanics to mitigate incoming damage while dealing consistent counter-damage. Man-at-Arms sets up Retribution and guards key allies. Shieldbreaker adds her own Riposte, pierces protection, and maintains high dodge/protection with Serpent Sway. Musketeer provides reliable backline damage and marks, while Vestal keeps the team healthy and can stun front-rank threats.",
+    "teams": [
+      {
+        "description": "1. Early-game viable (common/uncommon)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Retribution",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Warrior's Bracer",
+              "Defender's Seal"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "position": 2,
+            "skills": [
+              "Pierce",
+              "Puncture",
+              "Serpent Sway",
+              "Adder's Kiss"
+            ],
+            "trinkets": [
+              "Venomous Vial",
+              "Slippery Boots"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "position": 3,
+            "skills": [
+              "Aimed Shot",
+              "Skeet Shot",
+              "Call the Shot",
+              "Smokescreen"
+            ],
+            "trinkets": [
+              "Sturdy Boots",
+              "Archer's Ring"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Comfort",
+              "Divine Grace",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Virtuous Chalice",
+              "Dazzling Charm"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "2. Early-mid transition (uncommon/rare)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Retribution",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Longevity Eyepatch",
+              "Rampart Shield"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "position": 2,
+            "skills": [
+              "Pierce",
+              "Puncture",
+              "Serpent Sway",
+              "Adder's Kiss"
+            ],
+            "trinkets": [
+              "Shimmering Scale",
+              "Fanged Spear Tip"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "position": 3,
+            "skills": [
+              "Aimed Shot",
+              "Skeet Shot",
+              "Call the Shot",
+              "Smokescreen"
+            ],
+            "trinkets": [
+              "Medic's Boots",
+              "Sniper's Ring"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Comfort",
+              "Divine Grace",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Haste Chalice",
+              "Stun Amulet"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "3. Mid-game (rare/very rare/uncommon)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Retribution",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Rampart Shield",
+              "Guardian's Shield"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "position": 2,
+            "skills": [
+              "Pierce",
+              "Puncture",
+              "Serpent Sway",
+              "Adder's Kiss"
+            ],
+            "trinkets": [
+              "Fanged Spear Tip",
+              "Cuirboilli"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "position": 3,
+            "skills": [
+              "Aimed Shot",
+              "Skeet Shot",
+              "Call the Shot",
+              "Smokescreen"
+            ],
+            "trinkets": [
+              "Bull's Eye Hat",
+              "Wrathful Hat"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Comfort",
+              "Divine Grace",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Tome of Holy Healing",
+              "Sacred Scroll"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "4. Late-game (very rare/ancestral)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Retribution",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Guardian's Shield",
+              "Ancestor's Coat"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "position": 2,
+            "skills": [
+              "Pierce",
+              "Puncture",
+              "Serpent Sway",
+              "Adder's Kiss"
+            ],
+            "trinkets": [
+              "Cuirboilli",
+              "Obsidian Dagger"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "position": 3,
+            "skills": [
+              "Aimed Shot",
+              "Skeet Shot",
+              "Call the Shot",
+              "Smokescreen"
+            ],
+            "trinkets": [
+              "Wrathful Hat",
+              "Ancestor's Musket Ball"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Comfort",
+              "Divine Grace",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Sacred Scroll",
+              "Junia's Head"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "5. Optimized high-power build (very rare/ancestral/trophy/crystalline)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Retribution",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Guardian's Shield",
+              "Mirror Shield"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "position": 2,
+            "skills": [
+              "Pierce",
+              "Puncture",
+              "Serpent Sway",
+              "Adder's Kiss"
+            ],
+            "trinkets": [
+              "Cuirboilli",
+              "Spectral Speartip"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "position": 3,
+            "skills": [
+              "Aimed Shot",
+              "Skeet Shot",
+              "Call the Shot",
+              "Smokescreen"
+            ],
+            "trinkets": [
+              "Wrathful Hat",
+              "Icosahedric Musket Balls"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Comfort",
+              "Divine Grace",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Sacred Scroll",
+              "Junia's Head"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

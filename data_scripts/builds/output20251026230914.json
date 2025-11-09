@@ -1,0 +1,624 @@
+[
+  {
+    "build_id": 2,
+    "build_description": "This team specializes in controlling enemy actions through repeated stuns and debilitating blight damage. The Vestal and Man-at-Arms provide reliable healing and protection, while the Plague Doctor and Abomination deliver consistent blight and powerful stuns to both front and back ranks. The Abomination can transform for burst damage when necessary, making this a versatile and oppressive setup against most enemy types.",
+    "teams": [
+      {
+        "description": "Early-game viable (common/uncommon trinkets)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Protection Stone",
+              "Sly Eyepatch"
+            ]
+          },
+          {
+            "name": "Abomination",
+            "position": 2,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Rake",
+              "Transform"
+            ],
+            "trinkets": [
+              "Lock of Patience",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Rotgut Censer",
+              "Witch's Vial"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Virtuous Chalice",
+              "Stun Stone"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Longevity Eyepatch",
+              "Steady Bracer"
+            ]
+          },
+          {
+            "name": "Abomination",
+            "position": 2,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Rake",
+              "Transform"
+            ],
+            "trinkets": [
+              "Protective Padlock",
+              "Blight Amulet"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Poisoned Herb",
+              "Blight Amulet"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Youth Chalice",
+              "Profane Scroll"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Rampart Shield",
+              "Guardian's Shield"
+            ]
+          },
+          {
+            "name": "Abomination",
+            "position": 2,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Rake",
+              "Transform"
+            ],
+            "trinkets": [
+              "Lock of Fury",
+              "Restraining Padlock"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Bloody Herb",
+              "Blasphemous Vial"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Tome of Holy Healing",
+              "Sacred Scroll"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Guardian's Shield",
+              "Old Unit Standard"
+            ]
+          },
+          {
+            "name": "Abomination",
+            "position": 2,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Rake",
+              "Transform"
+            ],
+            "trinkets": [
+              "Restraining Padlock",
+              "Osmond Chains"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Blasphemous Vial",
+              "Subject 40 Notes"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Sacred Scroll",
+              "Junia's Head"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Defender",
+              "Command"
+            ],
+            "trinkets": [
+              "Mirror Shield",
+              "Barristan's Head"
+            ]
+          },
+          {
+            "name": "Abomination",
+            "position": 2,
+            "skills": [
+              "Manacles",
+              "Beast's Bile",
+              "Rake",
+              "Transform"
+            ],
+            "trinkets": [
+              "Broken Key",
+              "Restraining Padlock"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "position": 3,
+            "skills": [
+              "Blinding Gas",
+              "Noxious Blast",
+              "Plague Grenade",
+              "Battlefield Medicine"
+            ],
+            "trinkets": [
+              "Ashen Distillation",
+              "Blasphemous Vial"
+            ]
+          },
+          {
+            "name": "Vestal",
+            "position": 4,
+            "skills": [
+              "Divine Grace",
+              "Divine Comfort",
+              "Dazzling Light",
+              "Judgement"
+            ],
+            "trinkets": [
+              "Heretical Passage",
+              "Sacred Scroll"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 3,
+    "build_description": "This team is built around maximizing critical hits and Riposte damage for rapid enemy elimination. The Jester constantly buffs the party's crit and speed, while the Highwayman and Man-at-Arms trigger Riposte effects to counter enemy attacks. The Arbalest provides powerful backline damage, marks targets for concentrated fire, and offers crucial healing and stress relief with Rallying Flare. This composition rewards aggressive play and excels at clearing encounters quickly.",
+    "teams": [
+      {
+        "description": "Early-game viable (common/uncommon trinkets)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Retribution",
+              "Command"
+            ],
+            "trinkets": [
+              "Protection Stone",
+              "Sly Eyepatch"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 2,
+            "skills": [
+              "Wicked Slice",
+              "Pistol Shot",
+              "Duelist's Advance",
+              "Point Blank Shot"
+            ],
+            "trinkets": [
+              "Flashfire Gunpowder",
+              "Drifter's Buckle"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 3,
+            "skills": [
+              "Battle Ballad",
+              "Inspiring Tune",
+              "Harvest",
+              "Slice Off"
+            ],
+            "trinkets": [
+              "Lucky Dice",
+              "Speed Stone"
+            ]
+          },
+          {
+            "name": "Arbalest",
+            "position": 4,
+            "skills": [
+              "Sniper Shot",
+              "Sniper's Mark",
+              "Battlefield Bandage",
+              "Rallying Flare"
+            ],
+            "trinkets": [
+              "Archer's Ring",
+              "Sturdy Greaves"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Retribution",
+              "Command"
+            ],
+            "trinkets": [
+              "Longevity Eyepatch",
+              "Steady Bracer"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 2,
+            "skills": [
+              "Wicked Slice",
+              "Pistol Shot",
+              "Duelist's Advance",
+              "Point Blank Shot"
+            ],
+            "trinkets": [
+              "Dodgy Sheath",
+              "Sharpening Sheath"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 3,
+            "skills": [
+              "Battle Ballad",
+              "Inspiring Tune",
+              "Harvest",
+              "Slice Off"
+            ],
+            "trinkets": [
+              "Critical Dice",
+              "Gambler's Charm"
+            ]
+          },
+          {
+            "name": "Arbalest",
+            "position": 4,
+            "skills": [
+              "Sniper Shot",
+              "Sniper's Mark",
+              "Battlefield Bandage",
+              "Rallying Flare"
+            ],
+            "trinkets": [
+              "Medic's Greaves",
+              "Sniper's Ring"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Retribution",
+              "Command"
+            ],
+            "trinkets": [
+              "Rampart Shield",
+              "Guardian's Shield"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 2,
+            "skills": [
+              "Wicked Slice",
+              "Pistol Shot",
+              "Duelist's Advance",
+              "Point Blank Shot"
+            ],
+            "trinkets": [
+              "Sharpening Sheath",
+              "Gunslinger's Buckle"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 3,
+            "skills": [
+              "Battle Ballad",
+              "Inspiring Tune",
+              "Harvest",
+              "Slice Off"
+            ],
+            "trinkets": [
+              "Bright Tambourine",
+              "Dark Tambourine"
+            ]
+          },
+          {
+            "name": "Arbalest",
+            "position": 4,
+            "skills": [
+              "Sniper Shot",
+              "Sniper's Mark",
+              "Battlefield Bandage",
+              "Rallying Flare"
+            ],
+            "trinkets": [
+              "Bull's Eye Bandana",
+              "Wrathful Bandana"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Retribution",
+              "Command"
+            ],
+            "trinkets": [
+              "Guardian's Shield",
+              "Old Unit Standard"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 2,
+            "skills": [
+              "Wicked Slice",
+              "Pistol Shot",
+              "Duelist's Advance",
+              "Point Blank Shot"
+            ],
+            "trinkets": [
+              "Gunslinger's Buckle",
+              "Dismas' Head"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 3,
+            "skills": [
+              "Battle Ballad",
+              "Inspiring Tune",
+              "Harvest",
+              "Slice Off"
+            ],
+            "trinkets": [
+              "Dark Tambourine",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Arbalest",
+            "position": 4,
+            "skills": [
+              "Sniper Shot",
+              "Sniper's Mark",
+              "Battlefield Bandage",
+              "Rallying Flare"
+            ],
+            "trinkets": [
+              "Wrathful Bandana",
+              "Ancestor's Pistol"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline)",
+        "heroes": [
+          {
+            "name": "Man-at-Arms",
+            "position": 1,
+            "skills": [
+              "Crush",
+              "Rampart",
+              "Retribution",
+              "Command"
+            ],
+            "trinkets": [
+              "Mirror Shield",
+              "Barristan's Head"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "position": 2,
+            "skills": [
+              "Wicked Slice",
+              "Pistol Shot",
+              "Duelist's Advance",
+              "Point Blank Shot"
+            ],
+            "trinkets": [
+              "Crystalline Gunpowder",
+              "Dismas' Head"
+            ]
+          },
+          {
+            "name": "Jester",
+            "position": 3,
+            "skills": [
+              "Battle Ballad",
+              "Inspiring Tune",
+              "Harvest",
+              "Slice Off"
+            ],
+            "trinkets": [
+              "Dirge For The Devoured",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Arbalest",
+            "position": 4,
+            "skills": [
+              "Sniper Shot",
+              "Sniper's Mark",
+              "Battlefield Bandage",
+              "Rallying Flare"
+            ],
+            "trinkets": [
+              "Keening Bolts",
+              "Ancestor's Pistol"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

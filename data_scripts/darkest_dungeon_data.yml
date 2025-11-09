@@ -1,0 +1,615 @@
+heroes:
+  - name: Abomination
+    skills:
+      - Manacles
+      - Beast's Bile
+      - Rake
+      - Slam
+      - Absolution
+      - Transform
+      - Rage
+  - name: Antiquarian
+    skills:
+      - Protect Me!
+      - Festering Vapours
+      - Fortifying Vapours
+      - Invigorating Vapours
+      - Nervous Stab
+      - Get Down!
+      - Flashpowder
+  - name: Arbalest
+    skills:
+      - Sniper Shot
+      - Sniper's Mark
+      - Suppressing Fire
+      - Bola
+      - Blindfire
+      - Battlefield Bandage
+      - Rallying Flare
+  - name: Bounty Hunter
+    skills:
+      - Collect Bounty
+      - Mark for Death
+      - Finish Him
+      - Come Hither
+      - Flashbang
+      - Caltrops
+      - Uppercut
+  - name: Crusader
+    skills:
+      - Smite
+      - Zealous Accusation
+      - Holy Lance
+      - Stunning Blow
+      - Bulwark of Faith
+      - Battle Heal
+      - Inspiring Cry
+  - name: Flagellant
+    skills:
+      - Punish
+      - Rain of Sorrows
+      - Suffer
+      - Endure
+      - Redeem
+      - Exsanguinate
+      - Reclaim
+  - name: Grave Robber
+    skills:
+      - Lunge
+      - Shadow Fade
+      - Pick to the Face
+      - Flashing Daggers
+      - Thrown Dagger
+      - Poison Dart
+      - Toxin Trickery
+  - name: Hellion
+    skills:
+      - Wicked Hack
+      - If It Bleeds
+      - Iron Swan
+      - Breakthrough
+      - Bleed Out
+      - Adrenaline Rush
+      - Barbaric Yawp
+  - name: Highwayman
+    skills:
+      - Pistol Shot
+      - Wicked Slice
+      - Duelist's Advance
+      - Grapeshot Blast
+      - Point Blank Shot
+      - Open Vein
+      - Tracking Shot
+  - name: Houndmaster
+    skills:
+      - Hound's Rush
+      - Hound's Harry
+      - Lick Wounds
+      - Blackjack
+      - Cry Havoc
+      - Target Whistle
+  - name: Jester
+    skills:
+      - Harvest
+      - Slice Off
+      - Finale
+      - Solo
+      - Dirk Stab
+      - Battle Ballad
+      - Inspiring Tune
+  - name: Leper
+    skills:
+      - Chop
+      - Hew
+      - Purge
+      - Revenge
+      - Withstand
+      - Intimidate
+      - Solemnity
+  - name: Man-at-Arms
+    skills:
+      - Crush
+      - Rampart
+      - Defender
+      - Retribution
+      - Bolster
+      - Command
+      - Bellow
+  - name: Musketeer
+    skills:
+      - Aimed Shot
+      - Smokescreen
+      - Skeet Shot
+      - Sidearm
+      - Buckshot
+      - Patch Up
+      - Call the Shot
+  - name: Occultist
+    skills:
+      - Sacrificial Stab
+      - Wyrd Reconstruction
+      - Hands from the Abyss
+      - Weakening Curse
+      - Abyssal Artillery
+      - Daemon's Pull
+      - Vulnerability Hex
+  - name: Plague Doctor
+    skills:
+      - Blinding Gas
+      - Noxious Blast
+      - Plague Grenade
+      - Incision
+      - Battlefield Medicine
+      - Disorienting Blast
+      - Emboldening Vapours
+  - name: Shieldbreaker
+    skills:
+      - Pierce
+      - Puncture
+      - Impale
+      - Serpent Sway
+      - Captivate
+      - Adder's Kiss
+      - Expose
+  - name: Vestal
+    skills:
+      - Judgement
+      - Divine Grace
+      - Divine Comfort
+      - Dazzling Light
+      - Hand of Light
+      - Illumination
+      - Mace Bash
+
+trinkets:
+  crystalline:
+    - name: Lens of the Comet
+    - name: Petrified Skull
+      class: Occultist
+    - name: Broken Key
+      class: Abomination
+    - name: Smoking Skull
+      class: Antiquarian
+    - name: Ashen Distillation
+      class: Plague Doctor
+    - name: Dirge For The Devoured
+      class: Jester
+    - name: Acidic Husk Ichor
+      class: Flagellant
+    - name: Spectral Speartip
+      class: Shieldbreaker
+    - name: Crystal Pendant
+    - name: Heretical Passage
+      class: Vestal
+    - name: Huskfang Whistle
+      class: Houndmaster
+    - name: Mask Of The Timeless
+      class: Bounty Hunter
+    - name: Mirror Shield
+      class: Man-at-Arms
+    - name: Topshelf Tonic
+      class: Grave Robber
+    - name: Petrified Amulet
+      class: Leper
+    - name: Crystalline Gunpowder
+      class: Highwayman
+    - name: Cluster Pendant
+    - name: Thirsting Blade
+      class: Hellion
+    - name: Icosahedric Musket Balls
+      class: Musketeer
+    - name: Keening Bolts
+      class: Arbalest
+    - name: Coat Of Many Colors
+    - name: Miller's Pipe
+    - name: Non-Euclidean Hilt
+      class: Crusader
+    - name: Mildred's Locket
+
+  common:
+    - name: Accuracy Stone
+    - name: Bleed Charm
+    - name: Bleed Stone
+    - name: Blight Charm
+    - name: Blight Stone
+    - name: Critical Stone
+    - name: Debuff Charm
+    - name: Debuff Stone
+    - name: Disease Charm
+    - name: Dodge Stone
+    - name: Health Stone
+    - name: Move Charm
+    - name: Move Stone
+    - name: Protection Stone
+    - name: Stun Charm
+    - name: Stun Stone
+    - name: Archer's Ring
+    - name: Bloodied Fetish
+    - name: Book of Intuition
+    - name: Caution Cloak
+    - name: Damage Stone
+    - name: Dazzling Charm
+    - name: Deteriorating Bracer
+    - name: Reckless Charm
+    - name: Slippery Boots
+    - name: Snake Oil
+    - name: Speed Stone
+    - name: Survival Guide
+    - name: Warrior's Bracer
+    - name: Warrior's Cap
+    - name: Lock of Patience
+      class: Abomination
+    - name: Bag of Marbles
+      class: Antiquarian
+    - name: Sturdy Greaves
+      class: Arbalest
+    - name: Vengeful Greaves
+      class: Arbalest
+    - name: Agility Talon
+      class: Bounty Hunter
+    - name: Unmovable Helmet
+      class: Bounty Hunter
+    - name: Defender's Seal
+      class: Crusader
+    - name: Knight's Crest
+      class: Crusader
+    - name: Swordsman's Crest
+      class: Crusader
+    - name: Heartburst Hood
+      class: Flagellant
+    - name: Quickening Satchel
+      class: Grave Robber
+    - name: Sickening Satchel
+      class: Grave Robber
+    - name: Bleeding Pendant
+      class: Hellion
+    - name: Selfish Pendant
+      class: Hellion
+    - name: Drifter's Buckle
+      class: Highwayman
+    - name: Flashfire Gunpowder
+      class: Highwayman
+    - name: Stalwart Buckle
+      class: Highwayman
+    - name: Agility Whistle
+      class: Houndmaster
+    - name: Scouting Whistle
+      class: Houndmaster
+    - name: Sickening Satchel
+      class: Jester
+    - name: Lucky Dice
+      class: Jester
+    - name: Healing Armlet
+      class: Leper
+    - name: Redemption Armlet
+      class: Leper
+    - name: Cleansing Eyepatch
+      class: Man-at-Arms
+    - name: Sly Eyepatch
+      class: Man-at-Arms
+    - name: Sturdy Boots
+      class: Musketeer
+    - name: Vengeful Boots
+      class: Musketeer
+    - name: Eldritch Killing Incense
+      class: Occultist
+    - name: Evasion Incense
+      class: Occultist
+    - name: Diseased Herb
+      class: Plague Doctor
+    - name: Rotgut Censer
+      class: Plague Doctor
+    - name: Witch's Vial
+      class: Plague Doctor
+    - name: Venomous Vial
+      class: Shieldbreaker
+    - name: Virtuous Chalice
+      class: Vestal
+
+  uncommon:
+    - name: Padlock of Transference
+      class: Abomination
+    - name: Protective Padlock
+      class: Abomination
+    - name: Bloodcourse Medallion
+      class: Antiquarian
+    - name: Carapace Idol
+      class: Antiquarian
+    - name: Medic's Greaves
+      class: Arbalest
+    - name: Camper's Helmet
+      class: Bounty Hunter
+    - name: Paralyzer's Crest
+      class: Crusader
+    - name: Resurrection's Collar
+      class: Flagellant
+    - name: Punishment's Hood
+      class: Flagellant
+    - name: Blighting Satchel
+      class: Grave Robber
+    - name: Double-Edged Pendant
+      class: Hellion
+    - name: Dodgy Sheath
+      class: Highwayman
+    - name: Cudgel Weight
+      class: Houndmaster
+    - name: Critical Dice
+      class: Jester
+    - name: Fortunate Armlet
+      class: Leper
+    - name: Longevity Eyepatch
+      class: Man-at-Arms
+    - name: Medic's Boots
+      class: Musketeer
+    - name: Cursed Incense
+      class: Occultist
+    - name: Poisoned Herb
+      class: Plague Doctor
+    - name: Shimmering Scale
+      class: Shieldbreaker
+    - name: Dancer's Footwraps
+      class: Shieldbreaker
+    - name: Haste Chalice
+      class: Vestal
+    - name: Youth Chalice
+      class: Vestal
+    - name: Bleed Amulet
+    - name: Blight Amulet
+    - name: Blood Charm
+    - name: Bloodthirst Ring
+    - name: Book of Constitution
+    - name: Book of Holiness
+    - name: Book of Rage
+    - name: Book of Relaxation
+    - name: Camouflage Cloak
+    - name: Calming Crystal
+    - name: Chirurgeon's Charm
+    - name: Dark Bracer
+    - name: Debuff Amulet
+    - name: Gambler's Charm
+    - name: Heavy Boots
+    - name: Life Crystal
+    - name: Move Amulet
+    - name: Seer Stone
+    - name: Shimmering Cloak
+    - name: Solar Bracer
+    - name: Steady Bracer
+    - name: Stun Amulet
+    - name: Surgical Gloves
+    - name: Swift Cloak
+    - name: Tenacity Ring
+    - name: Worrystone
+
+  rare:
+    - name: Beast Slayer's Ring
+    - name: Berserk Charm
+    - name: Brawler's Gloves
+    - name: Dark Crown
+    - name: Eldritch Slayer's Ring
+    - name: Fasting Seal
+    - name: Feather Crystal
+    - name: Man Slayer's Ring
+    - name: Moon Cloak
+    - name: Moon Ring
+    - name: Quick Draw Charm
+    - name: Recovery Charm
+    - name: Sniper's Ring
+    - name: Solar Crown
+    - name: Sun Cloak
+    - name: Sun Ring
+    - name: Unholy Slayer's Ring
+    - name: Lock of Fury
+      class: Abomination
+    - name: Fleet Florin
+      class: Abomination
+    - name: Bull's Eye Bandana
+      class: Arbalest
+    - name: Hunter's Talons
+      class: Bounty Hunter
+    - name: Commander's Orders
+      class: Crusader
+    - name: Suffering's Collar
+      class: Flagellant
+    - name: Lucky Talisman
+      class: Grave Robber
+    - name: Heaven's Hairpin
+      class: Hellion
+    - name: Sharpening Sheath
+      class: Highwayman
+    - name: Protective Collar
+      class: Houndmaster
+    - name: Bright Tambourine
+      class: Jester
+    - name: Immunity Mask
+      class: Leper
+    - name: Rampart Shield
+      class: Man-at-Arms
+    - name: Bull's Eye Hat
+      class: Musketeer
+    - name: Sacrifical Cauldron
+      class: Occultist
+    - name: Bloody Herb
+      class: Plague Doctor
+    - name: Fanged Spear Tip
+      class: Shieldbreaker
+    - name: Profane Scroll
+      class: Vestal
+    - name: Tome of Holy Healing
+      class: Vestal
+
+  very_rare:
+    - name: Book of Sanity
+    - name: Cleansing Crystal
+    - name: Ethereal Crucifix
+    - name: Focus Ring
+    - name: Fortifying Garlic
+    - name: Hero's Ring
+    - name: Legendary Bracer
+    - name: Martyr's Seal
+    - name: Tough Ring
+    - name: Restraining Padlock
+      class: Abomination
+    - name: Candle of Life
+      class: Antiquarian
+    - name: Wrathful Bandana
+      class: Arbalest
+    - name: Wounding Helmet
+      class: Bounty Hunter
+    - name: Holy Orders
+      class: Crusader
+    - name: Eternity's Collar
+      class: Flagellant
+    - name: Raider's Talisman
+      class: Grave Robber
+    - name: Hell's Hairpin
+      class: Hellion
+    - name: Gunslinger's Buckle
+      class: Highwayman
+    - name: Spiked Collar
+      class: Houndmaster
+    - name: Dark Tambourine
+      class: Jester
+    - name: Berserk Mask
+      class: Leper
+    - name: Guardian's Shield
+      class: Man-at-Arms
+    - name: Wrathful Hat
+      class: Musketeer
+    - name: Demon's Cauldron
+      class: Occultist
+    - name: Blasphemous Vial
+      class: Plague Doctor
+    - name: Cuirboilli
+      class: Shieldbreaker
+    - name: Sacred Scroll
+      class: Vestal
+    - name: Aria Box
+    - name: Crescendo Box
+    - name: Overture Box
+    - name: Barristan's Head
+    - name: Dismas' Head
+    - name: Junia's Head
+    - name: Tempting Goblet
+    - name: Ancestor's Vintage
+    - name: Coven Signet
+    - name: Dazzling Mirror
+    - name: Mantra of Fasting
+    - name: Mercurial Salve
+    - name: Pagan Talisman
+    - name: Rat Carcass
+    - name: Sanguine Snuff
+    - name: Sculptor's Tools
+    - name: Shameful Shroud
+      class: Abomination
+    - name: Osmond Chains
+      class: Abomination
+    - name: The Master's Essence
+      class: Antiquarian
+    - name: Two of Three
+      class: Antiquarian
+    - name: Childhood Treasure
+      class: Arbalest
+    - name: Bedtime Story
+      class: Arbalest
+    - name: Crime Lords' Molars
+      class: Bounty Hunter
+    - name: Vengeful Kill List
+      class: Bounty Hunter
+    - name: Glittering Spaulders
+      class: Crusader
+    - name: Signed Conscription
+      class: Crusader
+    - name: Chipped Tooth
+      class: Flagellant
+    - name: Shard of Glass
+      class: Flagellant
+    - name: Absinthe
+      class: Grave Robber
+    - name: Sharpened Letter Opener
+      class: Grave Robber
+    - name: Lioness Warpaint
+      class: Hellion
+    - name: Mark of the Outcast
+      class: Hellion
+    - name: Bloodied Neckerchief
+      class: Highwayman
+    - name: Shameful Locket
+      class: Highwayman
+    - name: Evidence of Corruption
+      class: Houndmaster
+    - name: Battered Lawman's Badge
+      class: Houndmaster
+    - name: Tyrant's Tasting Cup
+      class: Jester
+    - name: Tyrant's Fingerbone
+      class: Jester
+    - name: Last Will and Testament
+      class: Leper
+    - name: Tin Flute
+      class: Leper
+    - name: Old Unit Standard
+      class: Man-at-Arms
+    - name: Toy Soldier
+      class: Man-at-Arms
+    - name: Second Place Trophy
+      class: Musketeer
+    - name: Silver Musket Ball
+      class: Musketeer
+    - name: Blood Pact
+      class: Occultist
+    - name: Vial of Sand
+      class: Occultist
+    - name: Subject 40 Notes
+      class: Plague Doctor
+    - name: Dissection Kit
+      class: Plague Doctor
+    - name: Obsidian Dagger
+      class: Shieldbreaker
+    - name: Severed Hand
+      class: Shieldbreaker
+    - name: Atonement Beads
+      class: Vestal
+    - name: Salacious Diary
+      class: Vestal
+
+  ancestral:
+    - name: Ancestor's Bottle
+    - name: Ancestor's Candle
+    - name: Ancestor's Coat
+    - name: Ancestor's Handkerchief
+    - name: Ancestor's Lantern
+    - name: Ancestor's Map
+    - name: Ancestor's Mustache Cream
+    - name: Ancestor's Musket Ball
+    - name: Ancestor's Pen
+    - name: Ancestor's Pistol
+    - name: Ancestor's Portrait
+    - name: Ancestor's Scroll
+    - name: Ancestor's Signet Ring
+    - name: Ancestor's Tentacle Idol
+
+  trophy:
+    - name: Necromancer's Collar
+    - name: Prophet's Eye
+    - name: Hag's Ladle
+    - name: Fuseman's Matchstick
+    - name: Wilbur's Flag
+    - name: Flesh's Heart
+    - name: Siren's Conch
+    - name: Crew's Bell
+    - name: Vvulf's Tassle
+    - name: Baron's Lash
+    - name: Viscount's Spices
+    - name: Countess' Fan
+
+  shrieker:
+    - name: Callous Talon
+    - name: Distended Crowseye
+    - name: Molted Tailfeather
+    - name: Molted Wingfeather
+
+  thing:
+    - name: Thing's Mesmerizing Eye
+    - name: Crystalline Fang
+    - name: Phase Shifting Hide
+    - name: Prismatic Heart Crystal
