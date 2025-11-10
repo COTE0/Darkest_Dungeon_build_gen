@@ -2,19 +2,54 @@
   {
     "build_id": 1,
     "build_description": "dance-oriented composition focused on manipulating combat positions for maximum burst damage and tactical advantage. Grave Robber and Highwayman constantly reposition using Lunge, Shadow Fade, Duelist's Advance, and Point Blank Shot to hit key targets and manage the front lines, while the Abomination provides frontline stun and damage, and the Vestal provides reliable healing and backline stuns.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Grave Robber",
+        "position": 4,
+        "skills": [
+          "Lunge",
+          "Shadow Fade",
+          "Thrown Dagger",
+          "Poison Dart"
+        ]
+      },
+      {
+        "name": "Highwayman",
+        "position": 3,
+        "skills": [
+          "Duelist's Advance",
+          "Point Blank Shot",
+          "Wicked Slice",
+          "Open Vein"
+        ]
+      },
+      {
+        "name": "Abomination",
+        "position": 2,
+        "skills": [
+          "Manacles",
+          "Rake",
+          "Slam",
+          "Transform"
+        ]
+      },
+      {
+        "name": "Vestal",
+        "position": 1,
+        "skills": [
+          "Divine Grace",
+          "Divine Comfort",
+          "Dazzling Light",
+          "Judgement"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Grave Robber",
-            "position": 4,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Thrown Dagger",
-              "Poison Dart"
-            ],
             "trinkets": [
               "Quickening Satchel",
               "Accuracy Stone"
@@ -22,13 +57,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Wicked Slice",
-              "Open Vein"
-            ],
             "trinkets": [
               "Drifter's Buckle",
               "Damage Stone"
@@ -36,13 +64,6 @@
           },
           {
             "name": "Abomination",
-            "position": 2,
-            "skills": [
-              "Manacles",
-              "Rake",
-              "Slam",
-              "Transform"
-            ],
             "trinkets": [
               "Lock of Patience",
               "Stun Stone"
@@ -50,13 +71,6 @@
           },
           {
             "name": "Vestal",
-            "position": 1,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Virtuous Chalice",
               "Stun Stone"
@@ -66,16 +80,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Grave Robber",
-            "position": 4,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Thrown Dagger",
-              "Poison Dart"
-            ],
             "trinkets": [
               "Blighting Satchel",
               "Swift Cloak"
@@ -83,13 +90,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Wicked Slice",
-              "Open Vein"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Focus Ring"
@@ -97,13 +97,6 @@
           },
           {
             "name": "Abomination",
-            "position": 2,
-            "skills": [
-              "Manacles",
-              "Rake",
-              "Slam",
-              "Transform"
-            ],
             "trinkets": [
               "Padlock of Transference",
               "Stun Amulet"
@@ -111,13 +104,6 @@
           },
           {
             "name": "Vestal",
-            "position": 1,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Haste Chalice",
               "Stun Amulet"
@@ -127,16 +113,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Grave Robber",
-            "position": 4,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Thrown Dagger",
-              "Poison Dart"
-            ],
             "trinkets": [
               "Raider's Talisman",
               "Lucky Talisman"
@@ -144,13 +123,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Wicked Slice",
-              "Open Vein"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Sniper's Ring"
@@ -158,13 +130,6 @@
           },
           {
             "name": "Abomination",
-            "position": 2,
-            "skills": [
-              "Manacles",
-              "Rake",
-              "Slam",
-              "Transform"
-            ],
             "trinkets": [
               "Lock of Fury",
               "Restraining Padlock"
@@ -172,13 +137,6 @@
           },
           {
             "name": "Vestal",
-            "position": 1,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Profane Scroll"
@@ -188,16 +146,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Grave Robber",
-            "position": 4,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Thrown Dagger",
-              "Poison Dart"
-            ],
             "trinkets": [
               "Absinthe",
               "Raider's Talisman"
@@ -205,13 +156,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Wicked Slice",
-              "Open Vein"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Ancestor's Pistol"
@@ -219,13 +163,6 @@
           },
           {
             "name": "Abomination",
-            "position": 2,
-            "skills": [
-              "Manacles",
-              "Rake",
-              "Slam",
-              "Transform"
-            ],
             "trinkets": [
               "Restraining Padlock",
               "Osmond Chains"
@@ -233,13 +170,6 @@
           },
           {
             "name": "Vestal",
-            "position": 1,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Ancestor's Scroll"
@@ -249,16 +179,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/trophy/crystalline)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Grave Robber",
-            "position": 4,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Thrown Dagger",
-              "Poison Dart"
-            ],
             "trinkets": [
               "Absinthe",
               "Topshelf Tonic"
@@ -266,13 +189,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Wicked Slice",
-              "Open Vein"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Crystalline Gunpowder"
@@ -280,13 +196,6 @@
           },
           {
             "name": "Abomination",
-            "position": 2,
-            "skills": [
-              "Manacles",
-              "Rake",
-              "Slam",
-              "Transform"
-            ],
             "trinkets": [
               "Restraining Padlock",
               "Broken Key"
@@ -294,13 +203,6 @@
           },
           {
             "name": "Vestal",
-            "position": 1,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Heretical Passage"
@@ -313,19 +215,54 @@
   {
     "build_id": 2,
     "build_description": "The Stalwart Line creates an impenetrable defense, leveraging Guard and Riposte mechanics to absorb damage and punish attackers. The Man-at-Arms guards allies and sets up Riposte, while the Shieldbreaker uses Serpent Sway for evasion and counter-attacks, along with high damage Pierce. The Crusader provides reliable frontline damage and stuns, and the Occultist delivers crucial healing, backline stuns, and debuffs.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Man-at-Arms",
+        "position": 1,
+        "skills": [
+          "Rampart",
+          "Defender",
+          "Retribution",
+          "Bolster"
+        ]
+      },
+      {
+        "name": "Shieldbreaker",
+        "position": 2,
+        "skills": [
+          "Pierce",
+          "Serpent Sway",
+          "Puncture",
+          "Adder's Kiss"
+        ]
+      },
+      {
+        "name": "Crusader",
+        "position": 3,
+        "skills": [
+          "Smite",
+          "Stunning Blow",
+          "Zealous Accusation",
+          "Battle Heal"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 4,
+        "skills": [
+          "Wyrd Reconstruction",
+          "Hands from the Abyss",
+          "Weakening Curse",
+          "Abyssal Artillery"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Rampart",
-              "Defender",
-              "Retribution",
-              "Bolster"
-            ],
             "trinkets": [
               "Sly Eyepatch",
               "Protection Stone"
@@ -333,13 +270,6 @@
           },
           {
             "name": "Shieldbreaker",
-            "position": 2,
-            "skills": [
-              "Pierce",
-              "Serpent Sway",
-              "Puncture",
-              "Adder's Kiss"
-            ],
             "trinkets": [
               "Venomous Vial",
               "Damage Stone"
@@ -347,13 +277,6 @@
           },
           {
             "name": "Crusader",
-            "position": 3,
-            "skills": [
-              "Smite",
-              "Stunning Blow",
-              "Zealous Accusation",
-              "Battle Heal"
-            ],
             "trinkets": [
               "Knight's Crest",
               "Stun Stone"
@@ -361,13 +284,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Weakening Curse",
-              "Abyssal Artillery"
-            ],
             "trinkets": [
               "Eldritch Killing Incense",
               "Stun Stone"
@@ -377,16 +293,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Rampart",
-              "Defender",
-              "Retribution",
-              "Bolster"
-            ],
             "trinkets": [
               "Longevity Eyepatch",
               "Steady Bracer"
@@ -394,13 +303,6 @@
           },
           {
             "name": "Shieldbreaker",
-            "position": 2,
-            "skills": [
-              "Pierce",
-              "Serpent Sway",
-              "Puncture",
-              "Adder's Kiss"
-            ],
             "trinkets": [
               "Shimmering Scale",
               "Fanged Spear Tip"
@@ -408,13 +310,6 @@
           },
           {
             "name": "Crusader",
-            "position": 3,
-            "skills": [
-              "Smite",
-              "Stunning Blow",
-              "Zealous Accusation",
-              "Battle Heal"
-            ],
             "trinkets": [
               "Paralyzer's Crest",
               "Commander's Orders"
@@ -422,13 +317,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Weakening Curse",
-              "Abyssal Artillery"
-            ],
             "trinkets": [
               "Cursed Incense",
               "Focus Ring"
@@ -438,16 +326,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Rampart",
-              "Defender",
-              "Retribution",
-              "Bolster"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Rampart Shield"
@@ -455,13 +336,6 @@
           },
           {
             "name": "Shieldbreaker",
-            "position": 2,
-            "skills": [
-              "Pierce",
-              "Serpent Sway",
-              "Puncture",
-              "Adder's Kiss"
-            ],
             "trinkets": [
               "Cuirboilli",
               "Fanged Spear Tip"
@@ -469,13 +343,6 @@
           },
           {
             "name": "Crusader",
-            "position": 3,
-            "skills": [
-              "Smite",
-              "Stunning Blow",
-              "Zealous Accusation",
-              "Battle Heal"
-            ],
             "trinkets": [
               "Holy Orders",
               "Commander's Orders"
@@ -483,13 +350,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Weakening Curse",
-              "Abyssal Artillery"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Sacrifical Cauldron"
@@ -499,16 +359,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Rampart",
-              "Defender",
-              "Retribution",
-              "Bolster"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Ancestor's Coat"
@@ -516,13 +369,6 @@
           },
           {
             "name": "Shieldbreaker",
-            "position": 2,
-            "skills": [
-              "Pierce",
-              "Serpent Sway",
-              "Puncture",
-              "Adder's Kiss"
-            ],
             "trinkets": [
               "Cuirboilli",
               "Ancestor's Musket Ball"
@@ -530,13 +376,6 @@
           },
           {
             "name": "Crusader",
-            "position": 3,
-            "skills": [
-              "Smite",
-              "Stunning Blow",
-              "Zealous Accusation",
-              "Battle Heal"
-            ],
             "trinkets": [
               "Holy Orders",
               "Ancestor's Pen"
@@ -544,13 +383,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Weakening Curse",
-              "Abyssal Artillery"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Ancestor's Tentacle Idol"
@@ -560,16 +392,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/trophy/crystalline)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Rampart",
-              "Defender",
-              "Retribution",
-              "Bolster"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Mirror Shield"
@@ -577,13 +402,6 @@
           },
           {
             "name": "Shieldbreaker",
-            "position": 2,
-            "skills": [
-              "Pierce",
-              "Serpent Sway",
-              "Puncture",
-              "Adder's Kiss"
-            ],
             "trinkets": [
               "Cuirboilli",
               "Spectral Speartip"
@@ -591,13 +409,6 @@
           },
           {
             "name": "Crusader",
-            "position": 3,
-            "skills": [
-              "Smite",
-              "Stunning Blow",
-              "Zealous Accusation",
-              "Battle Heal"
-            ],
             "trinkets": [
               "Holy Orders",
               "Non-Euclidean Hilt"
@@ -605,13 +416,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Weakening Curse",
-              "Abyssal Artillery"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Petrified Skull"
@@ -624,19 +428,54 @@
   {
     "build_id": 3,
     "build_description": "The Hunter's Trap specializes in marking high-priority targets and eliminating them with focused burst damage, particularly effective against dangerous backline enemies. Houndmaster and Musketeer coordinate marks with Call the Shot and Target Whistle, then unleash devastating attacks with Aimed Shot and Hound's Rush. The Abomination provides a powerful frontline presence and stuns, supported by the Vestal's consistent healing and crowd control.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Abomination",
+        "position": 1,
+        "skills": [
+          "Manacles",
+          "Rake",
+          "Slam",
+          "Transform"
+        ]
+      },
+      {
+        "name": "Houndmaster",
+        "position": 2,
+        "skills": [
+          "Hound's Rush",
+          "Target Whistle",
+          "Blackjack",
+          "Cry Havoc"
+        ]
+      },
+      {
+        "name": "Musketeer",
+        "position": 3,
+        "skills": [
+          "Aimed Shot",
+          "Call the Shot",
+          "Smokescreen",
+          "Skeet Shot"
+        ]
+      },
+      {
+        "name": "Vestal",
+        "position": 4,
+        "skills": [
+          "Divine Grace",
+          "Divine Comfort",
+          "Dazzling Light",
+          "Judgement"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Abomination",
-            "position": 1,
-            "skills": [
-              "Manacles",
-              "Rake",
-              "Slam",
-              "Transform"
-            ],
             "trinkets": [
               "Lock of Patience",
               "Stun Stone"
@@ -644,13 +483,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Target Whistle",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Agility Whistle",
               "Damage Stone"
@@ -658,13 +490,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 3,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Skeet Shot"
-            ],
             "trinkets": [
               "Sturdy Boots",
               "Accuracy Stone"
@@ -672,13 +497,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Virtuous Chalice",
               "Stun Stone"
@@ -688,16 +506,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Abomination",
-            "position": 1,
-            "skills": [
-              "Manacles",
-              "Rake",
-              "Slam",
-              "Transform"
-            ],
             "trinkets": [
               "Padlock of Transference",
               "Stun Amulet"
@@ -705,13 +516,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Target Whistle",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Cudgel Weight",
               "Focus Ring"
@@ -719,13 +523,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 3,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Skeet Shot"
-            ],
             "trinkets": [
               "Sniper's Ring",
               "Medic's Boots"
@@ -733,13 +530,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Haste Chalice",
               "Stun Amulet"
@@ -749,16 +539,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Abomination",
-            "position": 1,
-            "skills": [
-              "Manacles",
-              "Rake",
-              "Slam",
-              "Transform"
-            ],
             "trinkets": [
               "Lock of Fury",
               "Restraining Padlock"
@@ -766,13 +549,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Target Whistle",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Protective Collar",
               "Hunter's Talons"
@@ -780,13 +556,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 3,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Skeet Shot"
-            ],
             "trinkets": [
               "Bull's Eye Hat",
               "Sniper's Ring"
@@ -794,13 +563,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Profane Scroll"
@@ -810,16 +572,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Abomination",
-            "position": 1,
-            "skills": [
-              "Manacles",
-              "Rake",
-              "Slam",
-              "Transform"
-            ],
             "trinkets": [
               "Restraining Padlock",
               "Osmond Chains"
@@ -827,13 +582,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Target Whistle",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Ancestor's Map"
@@ -841,13 +589,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 3,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Skeet Shot"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Ancestor's Musket Ball"
@@ -855,13 +596,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Ancestor's Scroll"
@@ -871,16 +605,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/trophy/crystalline)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Abomination",
-            "position": 1,
-            "skills": [
-              "Manacles",
-              "Rake",
-              "Slam",
-              "Transform"
-            ],
             "trinkets": [
               "Restraining Padlock",
               "Broken Key"
@@ -888,13 +615,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Target Whistle",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Huskfang Whistle"
@@ -902,13 +622,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 3,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Skeet Shot"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Icosahedric Musket Balls"
@@ -916,13 +629,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Heretical Passage"
@@ -935,19 +641,54 @@
   {
     "build_id": 4,
     "build_description": "Toxic Tides focuses on controlling the enemy's backline with powerful Blight and Stun effects, while the frontline applies sustained damage and secondary stuns. The Occultist and Grave Robber combine Abyssal Artillery, Hands from the Abyss, and Poison Dart to neutralize enemy damage dealers, supported by the Highwayman's flexible damage and AoE, and the Crusader's reliable frontline stuns and damage.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Crusader",
+        "position": 1,
+        "skills": [
+          "Stunning Blow",
+          "Zealous Accusation",
+          "Smite",
+          "Battle Heal"
+        ]
+      },
+      {
+        "name": "Highwayman",
+        "position": 2,
+        "skills": [
+          "Wicked Slice",
+          "Grapeshot Blast",
+          "Open Vein",
+          "Pistol Shot"
+        ]
+      },
+      {
+        "name": "Grave Robber",
+        "position": 3,
+        "skills": [
+          "Poison Dart",
+          "Flashing Daggers",
+          "Lunge",
+          "Shadow Fade"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 4,
+        "skills": [
+          "Abyssal Artillery",
+          "Hands from the Abyss",
+          "Weakening Curse",
+          "Wyrd Reconstruction"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Stunning Blow",
-              "Zealous Accusation",
-              "Smite",
-              "Battle Heal"
-            ],
             "trinkets": [
               "Knight's Crest",
               "Stun Stone"
@@ -955,13 +696,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Wicked Slice",
-              "Grapeshot Blast",
-              "Open Vein",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Flashfire Gunpowder",
               "Accuracy Stone"
@@ -969,13 +703,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 3,
-            "skills": [
-              "Poison Dart",
-              "Flashing Daggers",
-              "Lunge",
-              "Shadow Fade"
-            ],
             "trinkets": [
               "Sickening Satchel",
               "Accuracy Stone"
@@ -983,13 +710,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Abyssal Artillery",
-              "Hands from the Abyss",
-              "Weakening Curse",
-              "Wyrd Reconstruction"
-            ],
             "trinkets": [
               "Eldritch Killing Incense",
               "Stun Stone"
@@ -999,16 +719,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Stunning Blow",
-              "Zealous Accusation",
-              "Smite",
-              "Battle Heal"
-            ],
             "trinkets": [
               "Paralyzer's Crest",
               "Commander's Orders"
@@ -1016,13 +729,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Wicked Slice",
-              "Grapeshot Blast",
-              "Open Vein",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Sniper's Ring"
@@ -1030,13 +736,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 3,
-            "skills": [
-              "Poison Dart",
-              "Flashing Daggers",
-              "Lunge",
-              "Shadow Fade"
-            ],
             "trinkets": [
               "Blighting Satchel",
               "Swift Cloak"
@@ -1044,13 +743,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Abyssal Artillery",
-              "Hands from the Abyss",
-              "Weakening Curse",
-              "Wyrd Reconstruction"
-            ],
             "trinkets": [
               "Cursed Incense",
               "Focus Ring"
@@ -1060,16 +752,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Stunning Blow",
-              "Zealous Accusation",
-              "Smite",
-              "Battle Heal"
-            ],
             "trinkets": [
               "Holy Orders",
               "Commander's Orders"
@@ -1077,13 +762,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Wicked Slice",
-              "Grapeshot Blast",
-              "Open Vein",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Gunslinger's Buckle"
@@ -1091,13 +769,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 3,
-            "skills": [
-              "Poison Dart",
-              "Flashing Daggers",
-              "Lunge",
-              "Shadow Fade"
-            ],
             "trinkets": [
               "Raider's Talisman",
               "Blighting Satchel"
@@ -1105,13 +776,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Abyssal Artillery",
-              "Hands from the Abyss",
-              "Weakening Curse",
-              "Wyrd Reconstruction"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Sacrifical Cauldron"
@@ -1121,16 +785,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Stunning Blow",
-              "Zealous Accusation",
-              "Smite",
-              "Battle Heal"
-            ],
             "trinkets": [
               "Holy Orders",
               "Ancestor's Pen"
@@ -1138,13 +795,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Wicked Slice",
-              "Grapeshot Blast",
-              "Open Vein",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Ancestor's Pistol"
@@ -1152,13 +802,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 3,
-            "skills": [
-              "Poison Dart",
-              "Flashing Daggers",
-              "Lunge",
-              "Shadow Fade"
-            ],
             "trinkets": [
               "Absinthe",
               "Raider's Talisman"
@@ -1166,13 +809,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Abyssal Artillery",
-              "Hands from the Abyss",
-              "Weakening Curse",
-              "Wyrd Reconstruction"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Ancestor's Tentacle Idol"
@@ -1182,16 +818,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/trophy/crystalline)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Stunning Blow",
-              "Zealous Accusation",
-              "Smite",
-              "Battle Heal"
-            ],
             "trinkets": [
               "Holy Orders",
               "Non-Euclidean Hilt"
@@ -1199,13 +828,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Wicked Slice",
-              "Grapeshot Blast",
-              "Open Vein",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Crystalline Gunpowder"
@@ -1213,13 +835,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 3,
-            "skills": [
-              "Poison Dart",
-              "Flashing Daggers",
-              "Lunge",
-              "Shadow Fade"
-            ],
             "trinkets": [
               "Absinthe",
               "Topshelf Tonic"
@@ -1227,13 +842,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Abyssal Artillery",
-              "Hands from the Abyss",
-              "Weakening Curse",
-              "Wyrd Reconstruction"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Petrified Skull"

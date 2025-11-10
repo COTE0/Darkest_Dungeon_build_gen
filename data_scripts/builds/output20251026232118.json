@@ -2,19 +2,54 @@
   {
     "build_id": 4,
     "build_description": "The 'Protection/Guard & Riposte' team is a resilient composition that soaks up damage through guarding and protection, then counters with devastating ripostes and direct attacks. The Man-at-Arms protects key damage dealers while actively riposting and buffing. The Highwayman unleashes powerful ripostes and Point Blank Shot. The Shieldbreaker pierces high protection targets and uses Aegis for defense, while the Vestal ensures the team's sustained healing.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Man-at-Arms",
+        "position": 1,
+        "skills": [
+          "Defender",
+          "Retribution",
+          "Rampart",
+          "Command"
+        ]
+      },
+      {
+        "name": "Shieldbreaker",
+        "position": 2,
+        "skills": [
+          "Pierce",
+          "Puncture",
+          "Serpent Sway",
+          "Adder's Kiss"
+        ]
+      },
+      {
+        "name": "Highwayman",
+        "position": 3,
+        "skills": [
+          "Duelist's Advance",
+          "Point Blank Shot",
+          "Pistol Shot",
+          "Grapeshot Blast"
+        ]
+      },
+      {
+        "name": "Vestal",
+        "position": 4,
+        "skills": [
+          "Divine Grace",
+          "Divine Comfort",
+          "Dazzling Light",
+          "Judgement"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon trinkets)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Defender",
-              "Retribution",
-              "Rampart",
-              "Command"
-            ],
             "trinkets": [
               "Defender's Seal",
               "Health Stone"
@@ -22,13 +57,6 @@
           },
           {
             "name": "Shieldbreaker",
-            "position": 2,
-            "skills": [
-              "Pierce",
-              "Puncture",
-              "Serpent Sway",
-              "Adder's Kiss"
-            ],
             "trinkets": [
               "Venomous Vial",
               "Damage Stone"
@@ -36,13 +64,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Pistol Shot",
-              "Grapeshot Blast"
-            ],
             "trinkets": [
               "Drifter's Buckle",
               "Damage Stone"
@@ -50,13 +71,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Virtuous Chalice",
               "Healing Armlet"
@@ -66,16 +80,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare trinkets)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Defender",
-              "Retribution",
-              "Rampart",
-              "Command"
-            ],
             "trinkets": [
               "Longevity Eyepatch",
               "Defender's Seal"
@@ -83,13 +90,6 @@
           },
           {
             "name": "Shieldbreaker",
-            "position": 2,
-            "skills": [
-              "Pierce",
-              "Puncture",
-              "Serpent Sway",
-              "Adder's Kiss"
-            ],
             "trinkets": [
               "Shimmering Scale",
               "Fanged Spear Tip"
@@ -97,13 +97,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Pistol Shot",
-              "Grapeshot Blast"
-            ],
             "trinkets": [
               "Dodgy Sheath",
               "Sharpening Sheath"
@@ -111,13 +104,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Youth Chalice",
               "Tome of Holy Healing"
@@ -127,16 +113,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon trinkets)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Defender",
-              "Retribution",
-              "Rampart",
-              "Command"
-            ],
             "trinkets": [
               "Rampart Shield",
               "Guardian's Shield"
@@ -144,13 +123,6 @@
           },
           {
             "name": "Shieldbreaker",
-            "position": 2,
-            "skills": [
-              "Pierce",
-              "Puncture",
-              "Serpent Sway",
-              "Adder's Kiss"
-            ],
             "trinkets": [
               "Fanged Spear Tip",
               "Cuirboilli"
@@ -158,13 +130,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Pistol Shot",
-              "Grapeshot Blast"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Gunslinger's Buckle"
@@ -172,13 +137,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Tome of Holy Healing",
               "Sacred Scroll"
@@ -188,16 +146,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral trinkets)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Defender",
-              "Retribution",
-              "Rampart",
-              "Command"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Old Unit Standard"
@@ -205,13 +156,6 @@
           },
           {
             "name": "Shieldbreaker",
-            "position": 2,
-            "skills": [
-              "Pierce",
-              "Puncture",
-              "Serpent Sway",
-              "Adder's Kiss"
-            ],
             "trinkets": [
               "Cuirboilli",
               "Obsidian Dagger"
@@ -219,13 +163,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Pistol Shot",
-              "Grapeshot Blast"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Bloodied Neckerchief"
@@ -233,13 +170,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Atonement Beads"
@@ -249,16 +179,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Defender",
-              "Retribution",
-              "Rampart",
-              "Command"
-            ],
             "trinkets": [
               "Mirror Shield",
               "Guardian's Shield"
@@ -266,13 +189,6 @@
           },
           {
             "name": "Shieldbreaker",
-            "position": 2,
-            "skills": [
-              "Pierce",
-              "Puncture",
-              "Serpent Sway",
-              "Adder's Kiss"
-            ],
             "trinkets": [
               "Spectral Speartip",
               "Obsidian Dagger"
@@ -280,13 +196,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Pistol Shot",
-              "Grapeshot Blast"
-            ],
             "trinkets": [
               "Crystalline Gunpowder",
               "Gunslinger's Buckle"
@@ -294,13 +203,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Heretical Passage",
               "Sacred Scroll"

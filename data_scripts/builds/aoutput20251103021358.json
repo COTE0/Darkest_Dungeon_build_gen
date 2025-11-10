@@ -2,19 +2,54 @@
   {
     "build_id": 1,
     "build_description": "This team focuses on marking high-priority targets and bursting them down with the Bounty Hunter. The Man-at-Arms provides protection and buffs, while the Occultist and Musketeer contribute backline damage, marking, and utility. Stuns from multiple sources control the frontline.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Man-at-Arms",
+        "position": 1,
+        "skills": [
+          "Rampart",
+          "Retribution",
+          "Defender",
+          "Command"
+        ]
+      },
+      {
+        "name": "Bounty Hunter",
+        "position": 2,
+        "skills": [
+          "Collect Bounty",
+          "Mark for Death",
+          "Finish Him",
+          "Flashbang"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 3,
+        "skills": [
+          "Wyrd Reconstruction",
+          "Vulnerability Hex",
+          "Hands from the Abyss",
+          "Abyssal Artillery"
+        ]
+      },
+      {
+        "name": "Musketeer",
+        "position": 4,
+        "skills": [
+          "Aimed Shot",
+          "Call the Shot",
+          "Smokescreen",
+          "Buckshot"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game focus on basic stats: Accuracy, Stun, and Damage for burst. Man-at-Arms provides some defense and speed.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Rampart",
-              "Retribution",
-              "Defender",
-              "Command"
-            ],
             "trinkets": [
               "Warrior's Bracer",
               "Sly Eyepatch"
@@ -22,13 +57,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Finish Him",
-              "Flashbang"
-            ],
             "trinkets": [
               "Agility Talon",
               "Damage Stone"
@@ -36,13 +64,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Vulnerability Hex",
-              "Hands from the Abyss",
-              "Abyssal Artillery"
-            ],
             "trinkets": [
               "Eldritch Killing Incense",
               "Accuracy Stone"
@@ -50,13 +71,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Buckshot"
-            ],
             "trinkets": [
               "Vengeful Boots",
               "Accuracy Stone"
@@ -66,16 +80,9 @@
       },
       {
         "description": "Early-mid transition with improved stun chance, accuracy, and focused damage. Occultist gets better debuff support.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Rampart",
-              "Retribution",
-              "Defender",
-              "Command"
-            ],
             "trinkets": [
               "Longevity Eyepatch",
               "Warrior's Bracer"
@@ -83,13 +90,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Finish Him",
-              "Flashbang"
-            ],
             "trinkets": [
               "Hunter's Talons",
               "Agility Talon"
@@ -97,13 +97,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Vulnerability Hex",
-              "Hands from the Abyss",
-              "Abyssal Artillery"
-            ],
             "trinkets": [
               "Cursed Incense",
               "Eldritch Killing Incense"
@@ -111,13 +104,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Buckshot"
-            ],
             "trinkets": [
               "Bull's Eye Hat",
               "Medic's Boots"
@@ -127,16 +113,9 @@
       },
       {
         "description": "Mid-game with rare and very rare trinkets. Stronger mark synergy, improved stuns, and more reliable damage.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Rampart",
-              "Retribution",
-              "Defender",
-              "Command"
-            ],
             "trinkets": [
               "Rampart Shield",
               "Longevity Eyepatch"
@@ -144,13 +123,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Finish Him",
-              "Flashbang"
-            ],
             "trinkets": [
               "Wounding Helmet",
               "Hunter's Talons"
@@ -158,13 +130,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Vulnerability Hex",
-              "Hands from the Abyss",
-              "Abyssal Artillery"
-            ],
             "trinkets": [
               "Sacrifical Cauldron",
               "Cursed Incense"
@@ -172,13 +137,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Buckshot"
-            ],
             "trinkets": [
               "Bull's Eye Hat",
               "Wrathful Hat"
@@ -188,16 +146,9 @@
       },
       {
         "description": "Late-game focusing on very rare and ancestral trinkets for maximum burst and control. Ancestor's Pistol for BH provides excellent mark synergy.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Rampart",
-              "Retribution",
-              "Defender",
-              "Command"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Old Unit Standard"
@@ -205,13 +156,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Finish Him",
-              "Flashbang"
-            ],
             "trinkets": [
               "Wounding Helmet",
               "Ancestor's Pistol"
@@ -219,13 +163,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Vulnerability Hex",
-              "Hands from the Abyss",
-              "Abyssal Artillery"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Ancestor's Scroll"
@@ -233,13 +170,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Buckshot"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Ancestor's Musket Ball"
@@ -249,16 +179,9 @@
       },
       {
         "description": "Optimized high-power build. Crystalline trinkets enhance core roles: BH burst, Musketeer AoE/Mark. Ancestral provide overall strength.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Rampart",
-              "Retribution",
-              "Defender",
-              "Command"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Mirror Shield"
@@ -266,13 +189,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Finish Him",
-              "Flashbang"
-            ],
             "trinkets": [
               "Mask Of The Timeless",
               "Crime Lords' Molars"
@@ -280,13 +196,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Vulnerability Hex",
-              "Hands from the Abyss",
-              "Abyssal Artillery"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Petrified Skull"
@@ -294,13 +203,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Buckshot"
-            ],
             "trinkets": [
               "Icosahedric Musket Balls",
               "Ancestor's Musket Ball"
@@ -313,19 +215,54 @@
   {
     "build_id": 2,
     "build_description": "A potent Bleed and Crit-focused team with strong stress healing. The Jester buffs the party's crit and speed while managing stress. The Hellion and Highwayman apply heavy Bleed effects and high damage, while the Vestal provides reliable healing and stun support.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Hellion",
+        "position": 1,
+        "skills": [
+          "Wicked Hack",
+          "If It Bleeds",
+          "Adrenaline Rush",
+          "Iron Swan"
+        ]
+      },
+      {
+        "name": "Highwayman",
+        "position": 2,
+        "skills": [
+          "Point Blank Shot",
+          "Open Vein",
+          "Duelist's Advance",
+          "Pistol Shot"
+        ]
+      },
+      {
+        "name": "Jester",
+        "position": 3,
+        "skills": [
+          "Harvest",
+          "Slice Off",
+          "Battle Ballad",
+          "Inspiring Tune"
+        ]
+      },
+      {
+        "name": "Vestal",
+        "position": 4,
+        "skills": [
+          "Divine Grace",
+          "Divine Comfort",
+          "Dazzling Light",
+          "Judgement"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game focus on basic Bleed chance, Accuracy, and Crit for damage. Vestal gets healing and stun support.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "If It Bleeds",
-              "Adrenaline Rush",
-              "Iron Swan"
-            ],
             "trinkets": [
               "Bleeding Pendant",
               "Damage Stone"
@@ -333,13 +270,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Point Blank Shot",
-              "Open Vein",
-              "Duelist's Advance",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Flashfire Gunpowder",
               "Critical Stone"
@@ -347,13 +277,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Harvest",
-              "Slice Off",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Lucky Dice",
               "Speed Stone"
@@ -361,13 +284,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Virtuous Chalice",
               "Stun Stone"
@@ -377,16 +293,9 @@
       },
       {
         "description": "Early-mid transition with better Bleed chance, Crit, and Speed. Jester helps manage stress and buffs.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "If It Bleeds",
-              "Adrenaline Rush",
-              "Iron Swan"
-            ],
             "trinkets": [
               "Double-Edged Pendant",
               "Bleeding Pendant"
@@ -394,13 +303,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Point Blank Shot",
-              "Open Vein",
-              "Duelist's Advance",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Flashfire Gunpowder"
@@ -408,13 +310,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Harvest",
-              "Slice Off",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Critical Dice",
               "Lucky Dice"
@@ -422,13 +317,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Haste Chalice",
               "Virtuous Chalice"
@@ -438,16 +326,9 @@
       },
       {
         "description": "Mid-game with rare and very rare trinkets. Stronger Bleed effects, more crit, and improved speed/stress management.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "If It Bleeds",
-              "Adrenaline Rush",
-              "Iron Swan"
-            ],
             "trinkets": [
               "Heaven's Hairpin",
               "Double-Edged Pendant"
@@ -455,13 +336,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Point Blank Shot",
-              "Open Vein",
-              "Duelist's Advance",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Gunslinger's Buckle"
@@ -469,13 +343,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Harvest",
-              "Slice Off",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Bright Tambourine",
               "Critical Dice"
@@ -483,13 +350,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Tome of Holy Healing",
               "Haste Chalice"
@@ -499,16 +359,9 @@
       },
       {
         "description": "Late-game with very rare and ancestral trinkets. Maximized Bleed, Crit, Speed, and powerful stress healing/combat buffs.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "If It Bleeds",
-              "Adrenaline Rush",
-              "Iron Swan"
-            ],
             "trinkets": [
               "Hell's Hairpin",
               "Ancestor's Pen"
@@ -516,13 +369,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Point Blank Shot",
-              "Open Vein",
-              "Duelist's Advance",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Ancestor's Pistol"
@@ -530,13 +376,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Harvest",
-              "Slice Off",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Dark Tambourine",
               "Ancestor's Scroll"
@@ -544,13 +383,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Ancestor's Bottle"
@@ -560,16 +392,9 @@
       },
       {
         "description": "Optimized high-power build. Crystalline trinkets for Hellion's Bleed and HWM's damage. Jester gets his signature trinket.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "If It Bleeds",
-              "Adrenaline Rush",
-              "Iron Swan"
-            ],
             "trinkets": [
               "Thirsting Blade",
               "Hell's Hairpin"
@@ -577,13 +402,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Point Blank Shot",
-              "Open Vein",
-              "Duelist's Advance",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Crystalline Gunpowder",
               "Gunslinger's Buckle"
@@ -591,13 +409,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Harvest",
-              "Slice Off",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Dirge For The Devoured",
               "Dark Tambourine"
@@ -605,13 +416,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Heretical Passage",
               "Sacred Scroll"
@@ -624,19 +428,54 @@
   {
     "build_id": 4,
     "build_description": "A dynamic team focused on movement, Riposte mechanics, and AoE damage. The Jester and Highwayman actively shuffle positions, setting up devastating Finale and Point Blank Shot attacks, while triggering Riposte. The Man-at-Arms provides frontline stability, more Riposte, and debuffs, complemented by the Musketeer's backline AoE and debuffs.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Man-at-Arms",
+        "position": 1,
+        "skills": [
+          "Rampart",
+          "Retribution",
+          "Defender",
+          "Bellow"
+        ]
+      },
+      {
+        "name": "Highwayman",
+        "position": 2,
+        "skills": [
+          "Duelist's Advance",
+          "Point Blank Shot",
+          "Grapeshot Blast",
+          "Open Vein"
+        ]
+      },
+      {
+        "name": "Jester",
+        "position": 3,
+        "skills": [
+          "Inspiring Tune",
+          "Harvest",
+          "Battle Ballad",
+          "Slice Off"
+        ]
+      },
+      {
+        "name": "Musketeer",
+        "position": 4,
+        "skills": [
+          "Buckshot",
+          "Smokescreen",
+          "Aimed Shot",
+          "Skeet Shot"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game focus on basic Speed, Accuracy, and Damage. MAA gets some stun/prot, Jester speed for buffs.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Rampart",
-              "Retribution",
-              "Defender",
-              "Bellow"
-            ],
             "trinkets": [
               "Warrior's Bracer",
               "Stun Stone"
@@ -644,13 +483,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Grapeshot Blast",
-              "Open Vein"
-            ],
             "trinkets": [
               "Flashfire Gunpowder",
               "Damage Stone"
@@ -658,13 +490,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Inspiring Tune",
-              "Harvest",
-              "Battle Ballad",
-              "Slice Off"
-            ],
             "trinkets": [
               "Lucky Dice",
               "Speed Stone"
@@ -672,13 +497,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Buckshot",
-              "Smokescreen",
-              "Aimed Shot",
-              "Skeet Shot"
-            ],
             "trinkets": [
               "Vengeful Boots",
               "Accuracy Stone"
@@ -688,16 +506,9 @@
       },
       {
         "description": "Early-mid transition with improved speed, crit, and ripote damage. Jester gets more reliable buffs.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Rampart",
-              "Retribution",
-              "Defender",
-              "Bellow"
-            ],
             "trinkets": [
               "Longevity Eyepatch",
               "Warrior's Bracer"
@@ -705,13 +516,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Grapeshot Blast",
-              "Open Vein"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Flashfire Gunpowder"
@@ -719,13 +523,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Inspiring Tune",
-              "Harvest",
-              "Battle Ballad",
-              "Slice Off"
-            ],
             "trinkets": [
               "Critical Dice",
               "Lucky Dice"
@@ -733,13 +530,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Buckshot",
-              "Smokescreen",
-              "Aimed Shot",
-              "Skeet Shot"
-            ],
             "trinkets": [
               "Bull's Eye Hat",
               "Medic's Boots"
@@ -749,16 +539,9 @@
       },
       {
         "description": "Mid-game with rare and very rare trinkets. Stronger Riposte, crit, and speed tuning. Musketeer gets reliable damage.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Rampart",
-              "Retribution",
-              "Defender",
-              "Bellow"
-            ],
             "trinkets": [
               "Rampart Shield",
               "Longevity Eyepatch"
@@ -766,13 +549,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Grapeshot Blast",
-              "Open Vein"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Sharpening Sheath"
@@ -780,13 +556,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Inspiring Tune",
-              "Harvest",
-              "Battle Ballad",
-              "Slice Off"
-            ],
             "trinkets": [
               "Bright Tambourine",
               "Critical Dice"
@@ -794,13 +563,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Buckshot",
-              "Smokescreen",
-              "Aimed Shot",
-              "Skeet Shot"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Bull's Eye Hat"
@@ -810,16 +572,9 @@
       },
       {
         "description": "Late-game with very rare and ancestral trinkets. Maximized Riposte damage, crit chance, and speed for dynamic combat.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Rampart",
-              "Retribution",
-              "Defender",
-              "Bellow"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Ancestor's Signet Ring"
@@ -827,13 +582,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Grapeshot Blast",
-              "Open Vein"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Ancestor's Pistol"
@@ -841,13 +589,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Inspiring Tune",
-              "Harvest",
-              "Battle Ballad",
-              "Slice Off"
-            ],
             "trinkets": [
               "Dark Tambourine",
               "Ancestor's Pen"
@@ -855,13 +596,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Buckshot",
-              "Smokescreen",
-              "Aimed Shot",
-              "Skeet Shot"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Ancestor's Musket Ball"
@@ -871,16 +605,9 @@
       },
       {
         "description": "Optimized high-power build. Crystalline trinkets for MAA's defense/Riposte, HWM's damage, and Musketeer's power. Jester enhances party-wide crit/speed.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Rampart",
-              "Retribution",
-              "Defender",
-              "Bellow"
-            ],
             "trinkets": [
               "Mirror Shield",
               "Guardian's Shield"
@@ -888,13 +615,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Grapeshot Blast",
-              "Open Vein"
-            ],
             "trinkets": [
               "Crystalline Gunpowder",
               "Gunslinger's Buckle"
@@ -902,13 +622,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Inspiring Tune",
-              "Harvest",
-              "Battle Ballad",
-              "Slice Off"
-            ],
             "trinkets": [
               "Dirge For The Devoured",
               "Dark Tambourine"
@@ -916,13 +629,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Buckshot",
-              "Smokescreen",
-              "Aimed Shot",
-              "Skeet Shot"
-            ],
             "trinkets": [
               "Icosahedric Musket Balls",
               "Wrathful Hat"

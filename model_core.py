@@ -11,11 +11,11 @@ from functools import partial
 
 MODEL_CONFIG = {
     'EMB_SIZE': 128,
-    'HID_SIZE': 512,
-    'N_LAYERS': 3,
+    'HID_SIZE': 768,
+    'N_LAYERS': 2,
     'DROPOUT': 0.25,
     'K_TOP': 4,
-    'TEMPERATURE': 0.8,
+    'TEMPERATURE': 1.1,
     'MAX_LEN': 90,
 }
 
@@ -300,7 +300,7 @@ def collate_batch(batch: List[Dict], vocab: Vocab, device=None):
     }
 
 class Encoder(nn.Module):
-    def __init__(self, vocab_size, emb_size, hid_size, n_layers, dropout):
+    def __init__(self, vocab_size, emb_size, hid_size, dropout, n_layers = MODEL_CONFIG.get('N_LAYERS')):
         super().__init__()
         self.embedding = nn.Embedding(vocab_size, emb_size, padding_idx=0)
         self.lstm = nn.LSTM(emb_size, hid_size, num_layers=n_layers,
@@ -325,7 +325,7 @@ class Encoder(nn.Module):
         return out, (dec_h, dec_c)
 
 class Decoder(nn.Module):
-    def __init__(self, vocab_size, emb_size, hid_size, n_layers, dropout, max_len=MODEL_CONFIG['MAX_LEN']):
+    def __init__(self, vocab_size, emb_size, hid_size, dropout, n_layers = MODEL_CONFIG.get('N_LAYERS'), max_len=MODEL_CONFIG['MAX_LEN']):
         super().__init__()
         self.embedding = nn.Embedding(vocab_size, emb_size, padding_idx=0)
         self.pos_embedding = nn.Embedding(max_len, emb_size)

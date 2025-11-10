@@ -2,19 +2,54 @@
   {
     "build_id": 2,
     "build_description": "This team specializes in blight application and stun control, effectively locking down and melting backline enemies. Man-at-Arms provides crucial protection and front-line stun, while the Grave Robber adds burst damage and secondary blight.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Man-at-Arms",
+        "position": 1,
+        "skills": [
+          "Crush",
+          "Rampart",
+          "Defender",
+          "Bolster"
+        ]
+      },
+      {
+        "name": "Grave Robber",
+        "position": 2,
+        "skills": [
+          "Lunge",
+          "Shadow Fade",
+          "Pick to the Face",
+          "Poison Dart"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 3,
+        "skills": [
+          "Wyrd Reconstruction",
+          "Hands from the Abyss",
+          "Weakening Curse",
+          "Abyssal Artillery"
+        ]
+      },
+      {
+        "name": "Plague Doctor",
+        "position": 4,
+        "skills": [
+          "Blinding Gas",
+          "Noxious Blast",
+          "Plague Grenade",
+          "Battlefield Medicine"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon trinkets)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Defender",
-              "Bolster"
-            ],
             "trinkets": [
               "Warrior's Cap",
               "Protection Stone"
@@ -22,13 +57,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 2,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Pick to the Face",
-              "Poison Dart"
-            ],
             "trinkets": [
               "Sickening Satchel",
               "Dodge Stone"
@@ -36,13 +64,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Weakening Curse",
-              "Abyssal Artillery"
-            ],
             "trinkets": [
               "Eldritch Killing Incense",
               "Accuracy Stone"
@@ -50,13 +71,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 4,
-            "skills": [
-              "Blinding Gas",
-              "Noxious Blast",
-              "Plague Grenade",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Rotgut Censer",
               "Blight Stone"
@@ -66,16 +80,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare trinkets)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Defender",
-              "Bolster"
-            ],
             "trinkets": [
               "Longevity Eyepatch",
               "Steady Bracer"
@@ -83,13 +90,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 2,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Pick to the Face",
-              "Poison Dart"
-            ],
             "trinkets": [
               "Blighting Satchel",
               "Shimmering Cloak"
@@ -97,13 +97,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Weakening Curse",
-              "Abyssal Artillery"
-            ],
             "trinkets": [
               "Cursed Incense",
               "Seer Stone"
@@ -111,13 +104,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 4,
-            "skills": [
-              "Blinding Gas",
-              "Noxious Blast",
-              "Plague Grenade",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Poisoned Herb",
               "Blight Amulet"
@@ -127,16 +113,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon trinkets)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Defender",
-              "Bolster"
-            ],
             "trinkets": [
               "Rampart Shield",
               "Tough Ring"
@@ -144,13 +123,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 2,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Pick to the Face",
-              "Poison Dart"
-            ],
             "trinkets": [
               "Lucky Talisman",
               "Raider's Talisman"
@@ -158,13 +130,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Weakening Curse",
-              "Abyssal Artillery"
-            ],
             "trinkets": [
               "Sacrifical Cauldron",
               "Cursed Incense"
@@ -172,13 +137,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 4,
-            "skills": [
-              "Blinding Gas",
-              "Noxious Blast",
-              "Plague Grenade",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Bloody Herb",
               "Blasphemous Vial"
@@ -188,16 +146,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral trinkets)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Defender",
-              "Bolster"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Ancestor's Coat"
@@ -205,13 +156,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 2,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Pick to the Face",
-              "Poison Dart"
-            ],
             "trinkets": [
               "Raider's Talisman",
               "Absinthe"
@@ -219,13 +163,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Weakening Curse",
-              "Abyssal Artillery"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Ancestor's Tentacle Idol"
@@ -233,13 +170,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 4,
-            "skills": [
-              "Blinding Gas",
-              "Noxious Blast",
-              "Plague Grenade",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Blasphemous Vial",
               "Subject 40 Notes"
@@ -249,16 +179,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/trophy/crystalline trinkets)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Defender",
-              "Bolster"
-            ],
             "trinkets": [
               "Mirror Shield",
               "Guardian's Shield"
@@ -266,13 +189,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 2,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Pick to the Face",
-              "Poison Dart"
-            ],
             "trinkets": [
               "Topshelf Tonic",
               "Raider's Talisman"
@@ -280,13 +196,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Weakening Curse",
-              "Abyssal Artillery"
-            ],
             "trinkets": [
               "Petrified Skull",
               "Demon's Cauldron"
@@ -294,13 +203,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 4,
-            "skills": [
-              "Blinding Gas",
-              "Noxious Blast",
-              "Plague Grenade",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Ashen Distillation",
               "Blasphemous Vial"

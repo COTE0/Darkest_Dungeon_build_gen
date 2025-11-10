@@ -4,16 +4,15 @@ import glob
 import random
 import yaml
 import os
-from random import choices
 from typing import List, Dict, Any, Tuple
 from utils import PATHS
 
 RARITY_MAP = {
     0: {"pool": ["common", "uncommon"], "range": (10, 20)},
-    1: {"pool": ["uncommon", "rare"], "range": (15, 25)},
+    1: {"pool": ["uncommon", "rare"], "range": (15, 30)},
     2: {"pool": ["uncommon", "rare", "very_rare"], "range": (20, 30)},
-    3: {"pool": ["very_rare", "ancestral"], "range": (25, 35)},
-    4: {"pool": ["very_rare", "ancestral", "trophy", "crystalline"], "range": (30, 40)},
+    3: {"pool": ["very_rare", "ancestral"], "range": (25, 40)},
+    4: {"pool": ["very_rare", "ancestral", "trophy", "crystalline"], "range": (30, 50)},
 }
 
 def load_game_data() -> Tuple[List[str], Dict[str, List[str]]]:
@@ -44,7 +43,7 @@ def load_game_data() -> Tuple[List[str], Dict[str, List[str]]]:
 
 def generate_variant(team: Dict[str, Any], variation_index: int, all_heroes: List[str], all_trinkets_by_rarity: Dict[str, List[str]]) -> Dict[str, str]:    
     team_tokens = []
-    original_trinkets = set()
+    original_trinkets = []
     heroes = sorted(team["heroes"], key=lambda hero: hero["position"])
 
     for hero in heroes:
@@ -55,34 +54,19 @@ def generate_variant(team: Dict[str, Any], variation_index: int, all_heroes: Lis
             "+".join(hero.get("trinkets", []))
         )
         team_tokens.append(hero_str)
-        original_trinkets.update(hero.get("trinkets", []))
+        original_trinkets.extend(hero.get("trinkets", []))
         
     target_sequence = "|".join(team_tokens)
     
     
-    original_heroes = [h['name'] for h in team['heroes']]
+    core_heroes = [h['name'] for h in team['heroes']]
     
-    if len(original_heroes) >= 4:
-        core_heroes = random.sample(original_heroes, 4)
-    else:
-        core_heroes = original_heroes 
-
     roster_size = random.randint(16, 28)
-    
-    available_for_random = [h for h in all_heroes if h not in core_heroes]
-    
-    heroes_needed = roster_size - len(core_heroes)
-    if heroes_needed > 0:
-        if len(available_for_random) >= heroes_needed:
-            other_heroes = choices(available_for_random, k=heroes_needed)
-        else:
-            other_heroes = available_for_random
-    else:
-        other_heroes = []
+        
+    heroes_needed = max(0, roster_size - len(core_heroes))
+    other_heroes = random.choices(all_heroes, k=heroes_needed)
 
-
-    input_roster_names = list(set(core_heroes + other_heroes))
-    random.shuffle(input_roster_names)
+    input_roster_names = core_heroes + other_heroes
     
     rarity_info = RARITY_MAP.get(variation_index, RARITY_MAP[0])
     trinket_pool_rarities = rarity_info["pool"]
@@ -92,26 +76,19 @@ def generate_variant(team: Dict[str, Any], variation_index: int, all_heroes: Lis
     available_trinket_names = []
     for rarity in trinket_pool_rarities:
         available_trinket_names.extend(all_trinkets_by_rarity.get(rarity, []))
-    
-    available_trinket_names = list(set(available_trinket_names))
-    
+        
     num_to_sample = max(0, total_trinket_count - len(original_trinkets))
+        
+    additional_trinkets = random.choices(available_trinket_names, k=num_to_sample)
     
-    trinkets_to_sample_from = [t for t in available_trinket_names if t not in original_trinkets]
-    
-    num_to_sample = min(num_to_sample, len(trinkets_to_sample_from))
-
-    additional_trinkets = random.sample(trinkets_to_sample_from, num_to_sample)
-    
-    input_trinkets = list(original_trinkets | set(additional_trinkets))
+    input_trinkets = additional_trinkets + original_trinkets
+    random.shuffle(input_roster_names)
 
     random.shuffle(input_trinkets)
 
     input_sequence = "|".join(input_roster_names) + "|"  + "|".join(input_trinkets)
     
     return {"input_sequence": input_sequence, "target_sequence": target_sequence}
-
-
 
 def main():
     print("Loading data from darkest_dungeon_data.yml...")
@@ -135,11 +112,33 @@ def main():
                 builds = json.load(f)
             
             for build in builds:
-                for i, team in enumerate(build["teams"]):
+                base_heroes = build.get("heroes", [])
+                base_heroes_map = {hero['name']: hero for hero in base_heroes}
+                
+                variations = build.get("trinket_variations", [])
+                
+                for i, variation in enumerate(variations):
                     processed_teams_count += 1
                     
+                    reconstructed_team = {"heroes": []}
+                    
+                    for hero_trinket_info in variation.get("hero_trinkets", []):
+                        hero_name = hero_trinket_info.get("name")
+                        if not hero_name or hero_name not in base_heroes_map:
+                            continue
+                        
+                        base_hero = base_heroes_map[hero_name]
+                        
+                        merged_hero = {
+                            "name": hero_name,
+                            "position": base_hero.get("position", 0),
+                            "skills": base_hero.get("skills", []),
+                            "trinkets": hero_trinket_info.get("trinkets", [])
+                        }
+                        reconstructed_team["heroes"].append(merged_hero)
+                    
                     for _ in range(VARIANTS_PER_TEAM):
-                        row = generate_variant(team, i, all_heroes, all_trinkets_by_rarity)
+                        row = generate_variant(reconstructed_team, i, all_heroes, all_trinkets_by_rarity)
                         all_rows.append(row)
 
         except FileNotFoundError:
@@ -155,8 +154,11 @@ def main():
         writer.writeheader()
         writer.writerows(all_rows)
 
-    print(f"\n Data from {len(json_files)} files connected.")
-    print(f"Processed {processed_teams_count} teams.")
-    print(f"Saved {len(all_rows)} rows (variants x {VARIANTS_PER_TEAM}) into {csv_file_path}.")
+    num_variants = len(all_rows)
 
-main()
+    print(f"\n Data from {len(json_files)} files connected.")
+    print(f"Processed {processed_teams_count} team variations.")
+    print(f"Saved {num_variants} rows into {csv_file_path}.")
+
+if __name__ == "__main__":
+    main()

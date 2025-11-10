@@ -2,19 +2,54 @@
   {
     "build_id": 2,
     "build_description": "This team specializes in disrupting enemy backlines with pulls, stuns, and blight. The Bounty Hunter and Occultist reposition foes, allowing Abomination to apply blight or unleash transformed damage, while Musketeer provides ranged damage and debuffs.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Abomination",
+        "position": 1,
+        "skills": [
+          "Manacles",
+          "Beast's Bile",
+          "Transform",
+          "Rake"
+        ]
+      },
+      {
+        "name": "Bounty Hunter",
+        "position": 2,
+        "skills": [
+          "Come Hither",
+          "Flashbang",
+          "Collect Bounty",
+          "Finish Him"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 3,
+        "skills": [
+          "Wyrd Reconstruction",
+          "Vulnerability Hex",
+          "Abyssal Artillery",
+          "Weakening Curse"
+        ]
+      },
+      {
+        "name": "Musketeer",
+        "position": 4,
+        "skills": [
+          "Aimed Shot",
+          "Smokescreen",
+          "Skeet Shot",
+          "Call the Shot"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Abomination",
-            "position": 1,
-            "skills": [
-              "Manacles",
-              "Beast's Bile",
-              "Transform",
-              "Rake"
-            ],
             "trinkets": [
               "Lock of Patience",
               "Blight Stone"
@@ -22,13 +57,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Come Hither",
-              "Flashbang",
-              "Collect Bounty",
-              "Finish Him"
-            ],
             "trinkets": [
               "Agility Talon",
               "Stun Stone"
@@ -36,13 +64,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Vulnerability Hex",
-              "Abyssal Artillery",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Eldritch Killing Incense",
               "Stun Stone"
@@ -50,13 +71,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Smokescreen",
-              "Skeet Shot",
-              "Call the Shot"
-            ],
             "trinkets": [
               "Accuracy Stone",
               "Archer's Ring"
@@ -66,16 +80,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Abomination",
-            "position": 1,
-            "skills": [
-              "Manacles",
-              "Beast's Bile",
-              "Transform",
-              "Rake"
-            ],
             "trinkets": [
               "Protective Padlock",
               "Padlock of Transference"
@@ -83,13 +90,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Come Hither",
-              "Flashbang",
-              "Collect Bounty",
-              "Finish Him"
-            ],
             "trinkets": [
               "Camper's Helmet",
               "Hunter's Talons"
@@ -97,13 +97,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Vulnerability Hex",
-              "Abyssal Artillery",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Cursed Incense",
               "Seer Stone"
@@ -111,13 +104,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Smokescreen",
-              "Skeet Shot",
-              "Call the Shot"
-            ],
             "trinkets": [
               "Medic's Boots",
               "Sniper's Ring"
@@ -127,16 +113,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Abomination",
-            "position": 1,
-            "skills": [
-              "Manacles",
-              "Beast's Bile",
-              "Transform",
-              "Rake"
-            ],
             "trinkets": [
               "Lock of Fury",
               "Fleet Florin"
@@ -144,13 +123,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Come Hither",
-              "Flashbang",
-              "Collect Bounty",
-              "Finish Him"
-            ],
             "trinkets": [
               "Hunter's Talons",
               "Quick Draw Charm"
@@ -158,13 +130,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Daemon's Pull",
-              "Abyssal Artillery",
-              "Weakening Curse",
-              "Wyrd Reconstruction"
-            ],
             "trinkets": [
               "Sacrifical Cauldron",
               "Cursed Incense"
@@ -172,13 +137,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Smokescreen",
-              "Skeet Shot",
-              "Call the Shot"
-            ],
             "trinkets": [
               "Bull's Eye Hat",
               "Sniper's Ring"
@@ -188,16 +146,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Abomination",
-            "position": 1,
-            "skills": [
-              "Manacles",
-              "Beast's Bile",
-              "Transform",
-              "Rake"
-            ],
             "trinkets": [
               "Restraining Padlock",
               "Osmond Chains"
@@ -205,13 +156,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Come Hither",
-              "Flashbang",
-              "Collect Bounty",
-              "Finish Him"
-            ],
             "trinkets": [
               "Wounding Helmet",
               "Ancestor's Pistol"
@@ -219,13 +163,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Vulnerability Hex",
-              "Abyssal Artillery",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Vial of Sand"
@@ -233,13 +170,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Smokescreen",
-              "Skeet Shot",
-              "Call the Shot"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Ancestor's Musket Ball"
@@ -249,16 +179,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Abomination",
-            "position": 1,
-            "skills": [
-              "Manacles",
-              "Beast's Bile",
-              "Transform",
-              "Rake"
-            ],
             "trinkets": [
               "Broken Key",
               "Restraining Padlock"
@@ -266,13 +189,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Come Hither",
-              "Flashbang",
-              "Collect Bounty",
-              "Finish Him"
-            ],
             "trinkets": [
               "Mask Of The Timeless",
               "Vengeful Kill List"
@@ -280,13 +196,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Vulnerability Hex",
-              "Abyssal Artillery",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Petrified Skull",
               "Demon's Cauldron"
@@ -294,13 +203,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Smokescreen",
-              "Skeet Shot",
-              "Call the Shot"
-            ],
             "trinkets": [
               "Icosahedric Musket Balls",
               "Wrathful Hat"
@@ -313,19 +215,54 @@
   {
     "build_id": 3,
     "build_description": "A bleed-centric composition utilizing Hellion's raw power and Jester's persistent bleeds. Highwayman adds riposte and flexible damage, while Occultist supports with healing, debuffs, and crucial stuns to control the battlefield.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Hellion",
+        "position": 1,
+        "skills": [
+          "If It Bleeds",
+          "Bleed Out",
+          "Barbaric Yawp",
+          "Wicked Hack"
+        ]
+      },
+      {
+        "name": "Highwayman",
+        "position": 2,
+        "skills": [
+          "Open Vein",
+          "Duelist's Advance",
+          "Wicked Slice",
+          "Pistol Shot"
+        ]
+      },
+      {
+        "name": "Jester",
+        "position": 3,
+        "skills": [
+          "Slice Off",
+          "Harvest",
+          "Battle Ballad",
+          "Inspiring Tune"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 4,
+        "skills": [
+          "Wyrd Reconstruction",
+          "Vulnerability Hex",
+          "Abyssal Artillery",
+          "Weakening Curse"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "If It Bleeds",
-              "Bleed Out",
-              "Barbaric Yawp",
-              "Wicked Hack"
-            ],
             "trinkets": [
               "Bleeding Pendant",
               "Damage Stone"
@@ -333,13 +270,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Open Vein",
-              "Duelist's Advance",
-              "Wicked Slice",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Drifter's Buckle",
               "Damage Stone"
@@ -347,13 +277,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Slice Off",
-              "Harvest",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Sickening Satchel",
               "Speed Stone"
@@ -361,13 +284,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Vulnerability Hex",
-              "Abyssal Artillery",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Stun Stone",
               "Evasion Incense"
@@ -377,16 +293,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "If It Bleeds",
-              "Bleed Out",
-              "Barbaric Yawp",
-              "Wicked Hack"
-            ],
             "trinkets": [
               "Double-Edged Pendant",
               "Bleed Amulet"
@@ -394,13 +303,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Open Vein",
-              "Duelist's Advance",
-              "Wicked Slice",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Dodgy Sheath",
               "Gambler's Charm"
@@ -408,13 +310,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Slice Off",
-              "Harvest",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Critical Dice",
               "Bleed Amulet"
@@ -422,13 +317,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Vulnerability Hex",
-              "Abyssal Artillery",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Cursed Incense",
               "Stun Amulet"
@@ -438,16 +326,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "If It Bleeds",
-              "Bleed Out",
-              "Barbaric Yawp",
-              "Wicked Hack"
-            ],
             "trinkets": [
               "Heaven's Hairpin",
               "Berserk Charm"
@@ -455,13 +336,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Open Vein",
-              "Duelist's Advance",
-              "Wicked Slice",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Quick Draw Charm"
@@ -469,13 +343,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Slice Off",
-              "Harvest",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Bright Tambourine",
               "Critical Dice"
@@ -483,13 +350,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Vulnerability Hex",
-              "Abyssal Artillery",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Sacrifical Cauldron",
               "Stun Amulet"
@@ -499,16 +359,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "If It Bleeds",
-              "Bleed Out",
-              "Barbaric Yawp",
-              "Wicked Hack"
-            ],
             "trinkets": [
               "Hell's Hairpin",
               "Lioness Warpaint"
@@ -516,13 +369,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Open Vein",
-              "Duelist's Advance",
-              "Wicked Slice",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Ancestor's Pistol"
@@ -530,13 +376,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Slice Off",
-              "Harvest",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Dark Tambourine",
               "Ancestor's Pen"
@@ -544,13 +383,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Vulnerability Hex",
-              "Abyssal Artillery",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Vial of Sand"
@@ -560,16 +392,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "If It Bleeds",
-              "Bleed Out",
-              "Barbaric Yawp",
-              "Wicked Hack"
-            ],
             "trinkets": [
               "Thirsting Blade",
               "Hell's Hairpin"
@@ -577,13 +402,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Open Vein",
-              "Duelist's Advance",
-              "Wicked Slice",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Crystalline Gunpowder",
               "Gunslinger's Buckle"
@@ -591,13 +409,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Slice Off",
-              "Harvest",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Dirge For The Devoured",
               "Dark Tambourine"
@@ -605,13 +416,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Vulnerability Hex",
-              "Abyssal Artillery",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Petrified Skull",
               "Demon's Cauldron"
@@ -624,19 +428,54 @@
   {
     "build_id": 4,
     "build_description": "A focused mark-and-execute team designed for high single-target burst damage. Bounty Hunter and Musketeer apply and capitalize on marks, with Highwayman providing additional marked damage and flexibility. Man-at-Arms buffs the team and protects key damage dealers.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Man-at-Arms",
+        "position": 1,
+        "skills": [
+          "Command",
+          "Defender",
+          "Rampart",
+          "Crush"
+        ]
+      },
+      {
+        "name": "Bounty Hunter",
+        "position": 2,
+        "skills": [
+          "Mark for Death",
+          "Collect Bounty",
+          "Finish Him",
+          "Flashbang"
+        ]
+      },
+      {
+        "name": "Highwayman",
+        "position": 3,
+        "skills": [
+          "Tracking Shot",
+          "Pistol Shot",
+          "Wicked Slice",
+          "Duelist's Advance"
+        ]
+      },
+      {
+        "name": "Musketeer",
+        "position": 4,
+        "skills": [
+          "Call the Shot",
+          "Aimed Shot",
+          "Smokescreen",
+          "Sidearm"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Command",
-              "Defender",
-              "Rampart",
-              "Crush"
-            ],
             "trinkets": [
               "Protection Stone",
               "Warrior's Cap"
@@ -644,13 +483,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Mark for Death",
-              "Collect Bounty",
-              "Finish Him",
-              "Flashbang"
-            ],
             "trinkets": [
               "Agility Talon",
               "Stun Stone"
@@ -658,13 +490,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Tracking Shot",
-              "Pistol Shot",
-              "Wicked Slice",
-              "Duelist's Advance"
-            ],
             "trinkets": [
               "Damage Stone",
               "Accuracy Stone"
@@ -672,13 +497,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Call the Shot",
-              "Aimed Shot",
-              "Smokescreen",
-              "Sidearm"
-            ],
             "trinkets": [
               "Accuracy Stone",
               "Archer's Ring"
@@ -688,16 +506,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Command",
-              "Defender",
-              "Rampart",
-              "Crush"
-            ],
             "trinkets": [
               "Longevity Eyepatch",
               "Steady Bracer"
@@ -705,13 +516,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Mark for Death",
-              "Collect Bounty",
-              "Finish Him",
-              "Flashbang"
-            ],
             "trinkets": [
               "Camper's Helmet",
               "Hunter's Talons"
@@ -719,13 +523,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Tracking Shot",
-              "Pistol Shot",
-              "Wicked Slice",
-              "Duelist's Advance"
-            ],
             "trinkets": [
               "Solar Bracer",
               "Dodgy Sheath"
@@ -733,13 +530,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Call the Shot",
-              "Aimed Shot",
-              "Smokescreen",
-              "Sidearm"
-            ],
             "trinkets": [
               "Sniper's Ring",
               "Medic's Boots"
@@ -749,16 +539,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Command",
-              "Defender",
-              "Rampart",
-              "Crush"
-            ],
             "trinkets": [
               "Rampart Shield",
               "Commander's Orders"
@@ -766,13 +549,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Mark for Death",
-              "Collect Bounty",
-              "Finish Him",
-              "Flashbang"
-            ],
             "trinkets": [
               "Hunter's Talons",
               "Quick Draw Charm"
@@ -780,13 +556,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Tracking Shot",
-              "Pistol Shot",
-              "Wicked Slice",
-              "Duelist's Advance"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Quick Draw Charm"
@@ -794,13 +563,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Call the Shot",
-              "Aimed Shot",
-              "Smokescreen",
-              "Sidearm"
-            ],
             "trinkets": [
               "Bull's Eye Hat",
               "Sniper's Ring"
@@ -810,16 +572,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Command",
-              "Defender",
-              "Rampart",
-              "Crush"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Ancestor's Coat"
@@ -827,13 +582,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Mark for Death",
-              "Collect Bounty",
-              "Finish Him",
-              "Flashbang"
-            ],
             "trinkets": [
               "Wounding Helmet",
               "Vengeful Kill List"
@@ -841,13 +589,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Tracking Shot",
-              "Pistol Shot",
-              "Wicked Slice",
-              "Duelist's Advance"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Ancestor's Pistol"
@@ -855,13 +596,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Call the Shot",
-              "Aimed Shot",
-              "Smokescreen",
-              "Sidearm"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Ancestor's Musket Ball"
@@ -871,16 +605,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Command",
-              "Defender",
-              "Rampart",
-              "Crush"
-            ],
             "trinkets": [
               "Mirror Shield",
               "Guardian's Shield"
@@ -888,13 +615,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Mark for Death",
-              "Collect Bounty",
-              "Finish Him",
-              "Flashbang"
-            ],
             "trinkets": [
               "Mask Of The Timeless",
               "Vengeful Kill List"
@@ -902,13 +622,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Tracking Shot",
-              "Pistol Shot",
-              "Wicked Slice",
-              "Duelist's Advance"
-            ],
             "trinkets": [
               "Crystalline Gunpowder",
               "Gunslinger's Buckle"
@@ -916,13 +629,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Call the Shot",
-              "Aimed Shot",
-              "Smokescreen",
-              "Sidearm"
-            ],
             "trinkets": [
               "Icosahedric Musket Balls",
               "Wrathful Hat"

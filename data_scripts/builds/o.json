@@ -2,19 +2,54 @@
   {
     "build_id": 2,
     "build_description": "A 'Mark & Burst' composition designed to identify and swiftly eliminate high-priority backline targets. Houndmaster and Musketeer synergize by applying marks and delivering devastating ranged attacks. Crusader anchors the frontline with damage, stunning, and stress relief, while Vestal provides reliable healing and supplementary stunning, ensuring the team's endurance.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Crusader",
+        "position": 1,
+        "skills": [
+          "Smite",
+          "Zealous Accusation",
+          "Stunning Blow",
+          "Inspiring Cry"
+        ]
+      },
+      {
+        "name": "Houndmaster",
+        "position": 2,
+        "skills": [
+          "Hound's Rush",
+          "Target Whistle",
+          "Blackjack",
+          "Cry Havoc"
+        ]
+      },
+      {
+        "name": "Vestal",
+        "position": 3,
+        "skills": [
+          "Judgement",
+          "Divine Grace",
+          "Divine Comfort",
+          "Dazzling Light"
+        ]
+      },
+      {
+        "name": "Musketeer",
+        "position": 4,
+        "skills": [
+          "Aimed Shot",
+          "Call the Shot",
+          "Skeet Shot",
+          "Patch Up"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon trinkets)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Zealous Accusation",
-              "Stunning Blow",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Knight's Crest",
               "Warrior's Bracer"
@@ -22,13 +57,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Target Whistle",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Agility Whistle",
               "Damage Stone"
@@ -36,13 +64,6 @@
           },
           {
             "name": "Vestal",
-            "position": 3,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Virtuous Chalice",
               "Book of Intuition"
@@ -50,13 +71,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Skeet Shot",
-              "Patch Up"
-            ],
             "trinkets": [
               "Sturdy Boots",
               "Archer's Ring"
@@ -66,16 +80,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Zealous Accusation",
-              "Stunning Blow",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Paralyzer's Crest",
               "Defender's Seal"
@@ -83,13 +90,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Target Whistle",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Cudgel Weight",
               "Protective Collar"
@@ -97,13 +97,6 @@
           },
           {
             "name": "Vestal",
-            "position": 3,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Haste Chalice",
               "Book of Holiness"
@@ -111,13 +104,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Skeet Shot",
-              "Patch Up"
-            ],
             "trinkets": [
               "Medic's Boots",
               "Sniper's Ring"
@@ -127,16 +113,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Zealous Accusation",
-              "Stunning Blow",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Commander's Orders",
               "Paralyzer's Crest"
@@ -144,13 +123,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Target Whistle",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Protective Collar",
               "Spiked Collar"
@@ -158,13 +130,6 @@
           },
           {
             "name": "Vestal",
-            "position": 3,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Tome of Holy Healing",
               "Haste Chalice"
@@ -172,13 +137,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Skeet Shot",
-              "Patch Up"
-            ],
             "trinkets": [
               "Bull's Eye Hat",
               "Sniper's Ring"
@@ -188,16 +146,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Zealous Accusation",
-              "Stunning Blow",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Holy Orders",
               "Ancestor's Pen"
@@ -205,13 +156,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Target Whistle",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Ancestor's Pistol"
@@ -219,13 +163,6 @@
           },
           {
             "name": "Vestal",
-            "position": 3,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Ancestor's Scroll"
@@ -233,13 +170,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Skeet Shot",
-              "Patch Up"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Ancestor's Musket Ball"
@@ -249,16 +179,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Zealous Accusation",
-              "Stunning Blow",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Non-Euclidean Hilt",
               "Holy Orders"
@@ -266,13 +189,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Target Whistle",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Huskfang Whistle",
               "Spiked Collar"
@@ -280,13 +196,6 @@
           },
           {
             "name": "Vestal",
-            "position": 3,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Heretical Passage",
               "Sacred Scroll"
@@ -294,13 +203,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Skeet Shot",
-              "Patch Up"
-            ],
             "trinkets": [
               "Icosahedric Musket Balls",
               "Wrathful Hat"
@@ -313,19 +215,54 @@
   {
     "build_id": 3,
     "build_description": "This team focuses on applying heavy bleed to the enemy frontline, sustained damage, and counter-attacks through Riposte. Hellion and Houndmaster lay down significant bleed damage, while Highwayman adds to the bleeding and punishes attackers with Duelist's Advance. Vestal provides constant healing and light control, ensuring the team outlasts the enemy.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Hellion",
+        "position": 1,
+        "skills": [
+          "Wicked Hack",
+          "If It Bleeds",
+          "Bleed Out",
+          "Barbaric Yawp"
+        ]
+      },
+      {
+        "name": "Highwayman",
+        "position": 2,
+        "skills": [
+          "Wicked Slice",
+          "Duelist's Advance",
+          "Open Vein",
+          "Pistol Shot"
+        ]
+      },
+      {
+        "name": "Houndmaster",
+        "position": 3,
+        "skills": [
+          "Hound's Rush",
+          "Hound's Harry",
+          "Blackjack",
+          "Cry Havoc"
+        ]
+      },
+      {
+        "name": "Vestal",
+        "position": 4,
+        "skills": [
+          "Judgement",
+          "Divine Grace",
+          "Divine Comfort",
+          "Dazzling Light"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon trinkets)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "If It Bleeds",
-              "Bleed Out",
-              "Barbaric Yawp"
-            ],
             "trinkets": [
               "Bleeding Pendant",
               "Warrior's Bracer"
@@ -333,13 +270,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Wicked Slice",
-              "Duelist's Advance",
-              "Open Vein",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Drifter's Buckle",
               "Damage Stone"
@@ -347,13 +277,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 3,
-            "skills": [
-              "Hound's Rush",
-              "Hound's Harry",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Agility Whistle",
               "Bleed Stone"
@@ -361,13 +284,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Virtuous Chalice",
               "Book of Intuition"
@@ -377,16 +293,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "If It Bleeds",
-              "Bleed Out",
-              "Barbaric Yawp"
-            ],
             "trinkets": [
               "Double-Edged Pendant",
               "Bleed Amulet"
@@ -394,13 +303,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Wicked Slice",
-              "Duelist's Advance",
-              "Open Vein",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Dodgy Sheath"
@@ -408,13 +310,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 3,
-            "skills": [
-              "Hound's Rush",
-              "Hound's Harry",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Protective Collar",
               "Bleed Amulet"
@@ -422,13 +317,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Haste Chalice",
               "Book of Holiness"
@@ -438,16 +326,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "If It Bleeds",
-              "Bleed Out",
-              "Barbaric Yawp"
-            ],
             "trinkets": [
               "Heaven's Hairpin",
               "Double-Edged Pendant"
@@ -455,13 +336,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Wicked Slice",
-              "Duelist's Advance",
-              "Open Vein",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Gunslinger's Buckle"
@@ -469,13 +343,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 3,
-            "skills": [
-              "Hound's Rush",
-              "Hound's Harry",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Protective Collar"
@@ -483,13 +350,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Tome of Holy Healing",
               "Haste Chalice"
@@ -499,16 +359,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "If It Bleeds",
-              "Bleed Out",
-              "Barbaric Yawp"
-            ],
             "trinkets": [
               "Hell's Hairpin",
               "Lioness Warpaint"
@@ -516,13 +369,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Wicked Slice",
-              "Duelist's Advance",
-              "Open Vein",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Bloodied Neckerchief"
@@ -530,13 +376,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 3,
-            "skills": [
-              "Hound's Rush",
-              "Hound's Harry",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Ancestor's Pistol"
@@ -544,13 +383,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Ancestor's Scroll"
@@ -560,16 +392,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "If It Bleeds",
-              "Bleed Out",
-              "Barbaric Yawp"
-            ],
             "trinkets": [
               "Thirsting Blade",
               "Hell's Hairpin"
@@ -577,13 +402,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Wicked Slice",
-              "Duelist's Advance",
-              "Open Vein",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Crystalline Gunpowder",
               "Gunslinger's Buckle"
@@ -591,13 +409,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 3,
-            "skills": [
-              "Hound's Rush",
-              "Hound's Harry",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Huskfang Whistle",
               "Spiked Collar"
@@ -605,13 +416,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Heretical Passage",
               "Sacred Scroll"
@@ -624,19 +428,54 @@
   {
     "build_id": 4,
     "build_description": "A 'Shuffle & Debuff' team built around disrupting enemy positioning, debuffing their effectiveness, and delivering precise damage. Occultist's pulls and debuffs combine with Plague Doctor's shuffles and blights to disorient foes. Musketeer leverages marks and high ranged damage, while Crusader maintains frontline integrity with Holy Lance offering crucial shuffle recovery or backline reach, along with stress relief.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Crusader",
+        "position": 1,
+        "skills": [
+          "Smite",
+          "Zealous Accusation",
+          "Holy Lance",
+          "Inspiring Cry"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 2,
+        "skills": [
+          "Wyrd Reconstruction",
+          "Hands from the Abyss",
+          "Daemon's Pull",
+          "Weakening Curse"
+        ]
+      },
+      {
+        "name": "Plague Doctor",
+        "position": 3,
+        "skills": [
+          "Blinding Gas",
+          "Noxious Blast",
+          "Disorienting Blast",
+          "Emboldening Vapours"
+        ]
+      },
+      {
+        "name": "Musketeer",
+        "position": 4,
+        "skills": [
+          "Aimed Shot",
+          "Call the Shot",
+          "Smokescreen",
+          "Buckshot"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon trinkets)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Zealous Accusation",
-              "Holy Lance",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Knight's Crest",
               "Warrior's Bracer"
@@ -644,13 +483,6 @@
           },
           {
             "name": "Occultist",
-            "position": 2,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Daemon's Pull",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Evasion Incense",
               "Stun Stone"
@@ -658,13 +490,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 3,
-            "skills": [
-              "Blinding Gas",
-              "Noxious Blast",
-              "Disorienting Blast",
-              "Emboldening Vapours"
-            ],
             "trinkets": [
               "Witch's Vial",
               "Blight Stone"
@@ -672,13 +497,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Buckshot"
-            ],
             "trinkets": [
               "Sturdy Boots",
               "Archer's Ring"
@@ -688,16 +506,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Zealous Accusation",
-              "Holy Lance",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Paralyzer's Crest",
               "Defender's Seal"
@@ -705,13 +516,6 @@
           },
           {
             "name": "Occultist",
-            "position": 2,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Daemon's Pull",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Cursed Incense",
               "Stun Amulet"
@@ -719,13 +523,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 3,
-            "skills": [
-              "Blinding Gas",
-              "Noxious Blast",
-              "Disorienting Blast",
-              "Emboldening Vapours"
-            ],
             "trinkets": [
               "Poisoned Herb",
               "Bloody Herb"
@@ -733,13 +530,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Buckshot"
-            ],
             "trinkets": [
               "Medic's Boots",
               "Sniper's Ring"
@@ -749,16 +539,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Zealous Accusation",
-              "Holy Lance",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Commander's Orders",
               "Paralyzer's Crest"
@@ -766,13 +549,6 @@
           },
           {
             "name": "Occultist",
-            "position": 2,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Daemon's Pull",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Sacrifical Cauldron",
               "Cursed Incense"
@@ -780,13 +556,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 3,
-            "skills": [
-              "Blinding Gas",
-              "Noxious Blast",
-              "Disorienting Blast",
-              "Emboldening Vapours"
-            ],
             "trinkets": [
               "Bloody Herb",
               "Blasphemous Vial"
@@ -794,13 +563,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Buckshot"
-            ],
             "trinkets": [
               "Bull's Eye Hat",
               "Sniper's Ring"
@@ -810,16 +572,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Zealous Accusation",
-              "Holy Lance",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Holy Orders",
               "Ancestor's Pen"
@@ -827,13 +582,6 @@
           },
           {
             "name": "Occultist",
-            "position": 2,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Daemon's Pull",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Ancestor's Tentacle Idol"
@@ -841,13 +589,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 3,
-            "skills": [
-              "Blinding Gas",
-              "Noxious Blast",
-              "Disorienting Blast",
-              "Emboldening Vapours"
-            ],
             "trinkets": [
               "Blasphemous Vial",
               "Ancestor's Pen"
@@ -855,13 +596,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Buckshot"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Ancestor's Musket Ball"
@@ -871,16 +605,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Zealous Accusation",
-              "Holy Lance",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Non-Euclidean Hilt",
               "Holy Orders"
@@ -888,13 +615,6 @@
           },
           {
             "name": "Occultist",
-            "position": 2,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Daemon's Pull",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Petrified Skull",
               "Demon's Cauldron"
@@ -902,13 +622,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 3,
-            "skills": [
-              "Blinding Gas",
-              "Noxious Blast",
-              "Disorienting Blast",
-              "Emboldening Vapours"
-            ],
             "trinkets": [
               "Ashen Distillation",
               "Blasphemous Vial"
@@ -916,13 +629,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Buckshot"
-            ],
             "trinkets": [
               "Icosahedric Musket Balls",
               "Wrathful Hat"

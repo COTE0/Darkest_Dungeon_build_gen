@@ -2,19 +2,54 @@
   {
     "build_id": 1,
     "build_description": "This 'Crit & Shuffle Dance' team focuses on high critical hits and dynamic positioning. Jester provides global crit and speed buffs, while Highwayman's Duelist's Advance and Point Blank Shot create a potent dance, generating riposte opportunities and burst damage. Hellion applies frontline pressure and stuns, while Houndmaster offers reliable stuns, stress relief, and damage.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Hellion",
+        "position": 1,
+        "skills": [
+          "Wicked Hack",
+          "Iron Swan",
+          "Barbaric Yawp",
+          "Adrenaline Rush"
+        ]
+      },
+      {
+        "name": "Houndmaster",
+        "position": 2,
+        "skills": [
+          "Hound's Rush",
+          "Blackjack",
+          "Cry Havoc",
+          "Lick Wounds"
+        ]
+      },
+      {
+        "name": "Highwayman",
+        "position": 3,
+        "skills": [
+          "Pistol Shot",
+          "Duelist's Advance",
+          "Point Blank Shot",
+          "Open Vein"
+        ]
+      },
+      {
+        "name": "Jester",
+        "position": 4,
+        "skills": [
+          "Harvest",
+          "Battle Ballad",
+          "Inspiring Tune",
+          "Solo"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game Crit & Shuffle Dance",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "Iron Swan",
-              "Barbaric Yawp",
-              "Adrenaline Rush"
-            ],
             "trinkets": [
               "Bleeding Pendant",
               "Accuracy Stone"
@@ -22,13 +57,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Blackjack",
-              "Cry Havoc",
-              "Lick Wounds"
-            ],
             "trinkets": [
               "Agility Whistle",
               "Stun Stone"
@@ -36,13 +64,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Pistol Shot",
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Open Vein"
-            ],
             "trinkets": [
               "Drifter's Buckle",
               "Critical Stone"
@@ -50,13 +71,6 @@
           },
           {
             "name": "Jester",
-            "position": 4,
-            "skills": [
-              "Harvest",
-              "Battle Ballad",
-              "Inspiring Tune",
-              "Solo"
-            ],
             "trinkets": [
               "Lucky Dice",
               "Speed Stone"
@@ -66,16 +80,9 @@
       },
       {
         "description": "Early-mid Crit & Shuffle Dance",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "Iron Swan",
-              "Barbaric Yawp",
-              "Adrenaline Rush"
-            ],
             "trinkets": [
               "Double-Edged Pendant",
               "Bleed Amulet"
@@ -83,13 +90,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Blackjack",
-              "Cry Havoc",
-              "Lick Wounds"
-            ],
             "trinkets": [
               "Cudgel Weight",
               "Stun Amulet"
@@ -97,13 +97,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Pistol Shot",
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Open Vein"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Sniper's Ring"
@@ -111,13 +104,6 @@
           },
           {
             "name": "Jester",
-            "position": 4,
-            "skills": [
-              "Harvest",
-              "Battle Ballad",
-              "Inspiring Tune",
-              "Solo"
-            ],
             "trinkets": [
               "Critical Dice",
               "Bright Tambourine"
@@ -127,16 +113,9 @@
       },
       {
         "description": "Mid-game Crit & Shuffle Dance",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "Iron Swan",
-              "Barbaric Yawp",
-              "Adrenaline Rush"
-            ],
             "trinkets": [
               "Hell's Hairpin",
               "Lioness Warpaint"
@@ -144,13 +123,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Blackjack",
-              "Cry Havoc",
-              "Lick Wounds"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Protective Collar"
@@ -158,13 +130,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Pistol Shot",
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Open Vein"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Sniper's Ring"
@@ -172,13 +137,6 @@
           },
           {
             "name": "Jester",
-            "position": 4,
-            "skills": [
-              "Harvest",
-              "Battle Ballad",
-              "Inspiring Tune",
-              "Solo"
-            ],
             "trinkets": [
               "Dark Tambourine",
               "Bright Tambourine"
@@ -188,16 +146,9 @@
       },
       {
         "description": "Late-game Crit & Shuffle Dance",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "Iron Swan",
-              "Barbaric Yawp",
-              "Adrenaline Rush"
-            ],
             "trinkets": [
               "Hell's Hairpin",
               "Ancestor's Pen"
@@ -205,13 +156,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Blackjack",
-              "Cry Havoc",
-              "Lick Wounds"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Ancestor's Musket Ball"
@@ -219,13 +163,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Pistol Shot",
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Open Vein"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Ancestor's Pistol"
@@ -233,13 +170,6 @@
           },
           {
             "name": "Jester",
-            "position": 4,
-            "skills": [
-              "Harvest",
-              "Battle Ballad",
-              "Inspiring Tune",
-              "Solo"
-            ],
             "trinkets": [
               "Dark Tambourine",
               "Ancestor's Pen"
@@ -249,16 +179,9 @@
       },
       {
         "description": "Optimized High-Power Crit & Shuffle Dance",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "Iron Swan",
-              "Barbaric Yawp",
-              "Adrenaline Rush"
-            ],
             "trinkets": [
               "Hell's Hairpin",
               "Thirsting Blade"
@@ -266,13 +189,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Blackjack",
-              "Cry Havoc",
-              "Lick Wounds"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Huskfang Whistle"
@@ -280,13 +196,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 3,
-            "skills": [
-              "Pistol Shot",
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Open Vein"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Crystalline Gunpowder"
@@ -294,13 +203,6 @@
           },
           {
             "name": "Jester",
-            "position": 4,
-            "skills": [
-              "Harvest",
-              "Battle Ballad",
-              "Inspiring Tune",
-              "Solo"
-            ],
             "trinkets": [
               "Dark Tambourine",
               "Dirge For The Devoured"
@@ -313,19 +215,54 @@
   {
     "build_id": 2,
     "build_description": "The 'Backline Control & Mark Barrage' team is designed to quickly eliminate high-priority backline enemies. Musketeer and Bounty Hunter combine their marking abilities with high-damage finishers. Occultist provides additional marks, backline artillery, and essential healing, while Man-at-Arms protects the team, stuns the frontline, and buffs damage with Command.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Man-at-Arms",
+        "position": 1,
+        "skills": [
+          "Crush",
+          "Rampart",
+          "Defender",
+          "Command"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 2,
+        "skills": [
+          "Sacrificial Stab",
+          "Wyrd Reconstruction",
+          "Abyssal Artillery",
+          "Vulnerability Hex"
+        ]
+      },
+      {
+        "name": "Bounty Hunter",
+        "position": 3,
+        "skills": [
+          "Collect Bounty",
+          "Mark for Death",
+          "Flashbang",
+          "Come Hither"
+        ]
+      },
+      {
+        "name": "Musketeer",
+        "position": 4,
+        "skills": [
+          "Aimed Shot",
+          "Call the Shot",
+          "Smokescreen",
+          "Patch Up"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game Backline Control & Mark Barrage",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Defender",
-              "Command"
-            ],
             "trinkets": [
               "Warrior's Bracer",
               "Cleansing Eyepatch"
@@ -333,13 +270,6 @@
           },
           {
             "name": "Occultist",
-            "position": 2,
-            "skills": [
-              "Sacrificial Stab",
-              "Wyrd Reconstruction",
-              "Abyssal Artillery",
-              "Vulnerability Hex"
-            ],
             "trinkets": [
               "Eldritch Killing Incense",
               "Stun Charm"
@@ -347,13 +277,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 3,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Flashbang",
-              "Come Hither"
-            ],
             "trinkets": [
               "Unmovable Helmet",
               "Agility Talon"
@@ -361,13 +284,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Patch Up"
-            ],
             "trinkets": [
               "Archer's Ring",
               "Sturdy Boots"
@@ -377,16 +293,9 @@
       },
       {
         "description": "Early-mid Backline Control & Mark Barrage",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Defender",
-              "Command"
-            ],
             "trinkets": [
               "Longevity Eyepatch",
               "Rampart Shield"
@@ -394,13 +303,6 @@
           },
           {
             "name": "Occultist",
-            "position": 2,
-            "skills": [
-              "Sacrificial Stab",
-              "Wyrd Reconstruction",
-              "Abyssal Artillery",
-              "Vulnerability Hex"
-            ],
             "trinkets": [
               "Cursed Incense",
               "Sacrifical Cauldron"
@@ -408,13 +310,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 3,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Flashbang",
-              "Come Hither"
-            ],
             "trinkets": [
               "Hunter's Talons",
               "Camper's Helmet"
@@ -422,13 +317,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Patch Up"
-            ],
             "trinkets": [
               "Medic's Boots",
               "Sniper's Ring"
@@ -438,16 +326,9 @@
       },
       {
         "description": "Mid-game Backline Control & Mark Barrage",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Defender",
-              "Command"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Rampart Shield"
@@ -455,13 +336,6 @@
           },
           {
             "name": "Occultist",
-            "position": 2,
-            "skills": [
-              "Sacrificial Stab",
-              "Wyrd Reconstruction",
-              "Abyssal Artillery",
-              "Vulnerability Hex"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Sacrifical Cauldron"
@@ -469,13 +343,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 3,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Flashbang",
-              "Come Hither"
-            ],
             "trinkets": [
               "Wounding Helmet",
               "Hunter's Talons"
@@ -483,13 +350,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Patch Up"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Sniper's Ring"
@@ -499,16 +359,9 @@
       },
       {
         "description": "Late-game Backline Control & Mark Barrage",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Defender",
-              "Command"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Ancestor's Coat"
@@ -516,13 +369,6 @@
           },
           {
             "name": "Occultist",
-            "position": 2,
-            "skills": [
-              "Sacrificial Stab",
-              "Wyrd Reconstruction",
-              "Abyssal Artillery",
-              "Vulnerability Hex"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Ancestor's Tentacle Idol"
@@ -530,13 +376,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 3,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Flashbang",
-              "Come Hither"
-            ],
             "trinkets": [
               "Wounding Helmet",
               "Ancestor's Pen"
@@ -544,13 +383,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Patch Up"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Ancestor's Musket Ball"
@@ -560,16 +392,9 @@
       },
       {
         "description": "Optimized High-Power Backline Control & Mark Barrage",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Defender",
-              "Command"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Mirror Shield"
@@ -577,13 +402,6 @@
           },
           {
             "name": "Occultist",
-            "position": 2,
-            "skills": [
-              "Sacrificial Stab",
-              "Wyrd Reconstruction",
-              "Abyssal Artillery",
-              "Vulnerability Hex"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Petrified Skull"
@@ -591,13 +409,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 3,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Flashbang",
-              "Come Hither"
-            ],
             "trinkets": [
               "Wounding Helmet",
               "Mask Of The Timeless"
@@ -605,13 +416,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Patch Up"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Icosahedric Musket Balls"
@@ -624,19 +428,54 @@
   {
     "build_id": 3,
     "build_description": "This 'Prot & Guard Stalwart' composition emphasizes resilience and sustained combat. Man-at-Arms guards vulnerable allies and uses Riposte to punish attackers, while Leper absorbs damage and delivers massive blows. Vestal provides robust healing and frontline stuns. Highwayman offers consistent ranged damage or can use Duelist's Advance for a backline riposte.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Man-at-Arms",
+        "position": 1,
+        "skills": [
+          "Crush",
+          "Defender",
+          "Retribution",
+          "Bolster"
+        ]
+      },
+      {
+        "name": "Leper",
+        "position": 2,
+        "skills": [
+          "Chop",
+          "Hew",
+          "Withstand",
+          "Solemnity"
+        ]
+      },
+      {
+        "name": "Vestal",
+        "position": 3,
+        "skills": [
+          "Judgement",
+          "Divine Grace",
+          "Divine Comfort",
+          "Dazzling Light"
+        ]
+      },
+      {
+        "name": "Highwayman",
+        "position": 4,
+        "skills": [
+          "Pistol Shot",
+          "Duelist's Advance",
+          "Tracking Shot",
+          "Open Vein"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game Prot & Guard Stalwart",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Defender",
-              "Retribution",
-              "Bolster"
-            ],
             "trinkets": [
               "Warrior's Bracer",
               "Cleansing Eyepatch"
@@ -644,13 +483,6 @@
           },
           {
             "name": "Leper",
-            "position": 2,
-            "skills": [
-              "Chop",
-              "Hew",
-              "Withstand",
-              "Solemnity"
-            ],
             "trinkets": [
               "Healing Armlet",
               "Redemption Armlet"
@@ -658,13 +490,6 @@
           },
           {
             "name": "Vestal",
-            "position": 3,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Virtuous Chalice",
               "Stun Charm"
@@ -672,13 +497,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 4,
-            "skills": [
-              "Pistol Shot",
-              "Duelist's Advance",
-              "Tracking Shot",
-              "Open Vein"
-            ],
             "trinkets": [
               "Drifter's Buckle",
               "Accuracy Stone"
@@ -688,16 +506,9 @@
       },
       {
         "description": "Early-mid Prot & Guard Stalwart",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Defender",
-              "Retribution",
-              "Bolster"
-            ],
             "trinkets": [
               "Longevity Eyepatch",
               "Rampart Shield"
@@ -705,13 +516,6 @@
           },
           {
             "name": "Leper",
-            "position": 2,
-            "skills": [
-              "Chop",
-              "Hew",
-              "Withstand",
-              "Solemnity"
-            ],
             "trinkets": [
               "Immunity Mask",
               "Fortunate Armlet"
@@ -719,13 +523,6 @@
           },
           {
             "name": "Vestal",
-            "position": 3,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Haste Chalice",
               "Profane Scroll"
@@ -733,13 +530,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 4,
-            "skills": [
-              "Pistol Shot",
-              "Duelist's Advance",
-              "Tracking Shot",
-              "Open Vein"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Sniper's Ring"
@@ -749,16 +539,9 @@
       },
       {
         "description": "Mid-game Prot & Guard Stalwart",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Defender",
-              "Retribution",
-              "Bolster"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Rampart Shield"
@@ -766,13 +549,6 @@
           },
           {
             "name": "Leper",
-            "position": 2,
-            "skills": [
-              "Chop",
-              "Hew",
-              "Withstand",
-              "Solemnity"
-            ],
             "trinkets": [
               "Berserk Mask",
               "Immunity Mask"
@@ -780,13 +556,6 @@
           },
           {
             "name": "Vestal",
-            "position": 3,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Profane Scroll"
@@ -794,13 +563,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 4,
-            "skills": [
-              "Pistol Shot",
-              "Duelist's Advance",
-              "Tracking Shot",
-              "Open Vein"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Sharpening Sheath"
@@ -810,16 +572,9 @@
       },
       {
         "description": "Late-game Prot & Guard Stalwart",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Defender",
-              "Retribution",
-              "Bolster"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Ancestor's Coat"
@@ -827,13 +582,6 @@
           },
           {
             "name": "Leper",
-            "position": 2,
-            "skills": [
-              "Chop",
-              "Hew",
-              "Withstand",
-              "Solemnity"
-            ],
             "trinkets": [
               "Berserk Mask",
               "Last Will and Testament"
@@ -841,13 +589,6 @@
           },
           {
             "name": "Vestal",
-            "position": 3,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Ancestor's Scroll"
@@ -855,13 +596,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 4,
-            "skills": [
-              "Pistol Shot",
-              "Duelist's Advance",
-              "Tracking Shot",
-              "Open Vein"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Ancestor's Pistol"
@@ -871,16 +605,9 @@
       },
       {
         "description": "Optimized High-Power Prot & Guard Stalwart",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Defender",
-              "Retribution",
-              "Bolster"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Mirror Shield"
@@ -888,13 +615,6 @@
           },
           {
             "name": "Leper",
-            "position": 2,
-            "skills": [
-              "Chop",
-              "Hew",
-              "Withstand",
-              "Solemnity"
-            ],
             "trinkets": [
               "Berserk Mask",
               "Petrified Amulet"
@@ -902,13 +622,6 @@
           },
           {
             "name": "Vestal",
-            "position": 3,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Heretical Passage"
@@ -916,13 +629,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 4,
-            "skills": [
-              "Pistol Shot",
-              "Duelist's Advance",
-              "Tracking Shot",
-              "Open Vein"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Crystalline Gunpowder"
@@ -935,19 +641,54 @@
   {
     "build_id": 4,
     "build_description": "The 'Frontline Bleed & Stun' team focuses on controlling and dismantling enemy front ranks through continuous bleed damage and powerful stuns. Hellion and Jester are the primary bleeders and stunners, quickly whittling down enemy health. Houndmaster adds further bleeds, stuns, and stress relief, while Vestal ensures the team's survival with reliable healing and additional stuns.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Hellion",
+        "position": 1,
+        "skills": [
+          "Wicked Hack",
+          "If It Bleeds",
+          "Barbaric Yawp",
+          "Bleed Out"
+        ]
+      },
+      {
+        "name": "Jester",
+        "position": 2,
+        "skills": [
+          "Harvest",
+          "Slice Off",
+          "Battle Ballad",
+          "Inspiring Tune"
+        ]
+      },
+      {
+        "name": "Houndmaster",
+        "position": 3,
+        "skills": [
+          "Hound's Harry",
+          "Blackjack",
+          "Cry Havoc",
+          "Lick Wounds"
+        ]
+      },
+      {
+        "name": "Vestal",
+        "position": 4,
+        "skills": [
+          "Judgement",
+          "Divine Grace",
+          "Divine Comfort",
+          "Dazzling Light"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game Frontline Bleed & Stun",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "If It Bleeds",
-              "Barbaric Yawp",
-              "Bleed Out"
-            ],
             "trinkets": [
               "Bleeding Pendant",
               "Stun Stone"
@@ -955,13 +696,6 @@
           },
           {
             "name": "Jester",
-            "position": 2,
-            "skills": [
-              "Harvest",
-              "Slice Off",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Sickening Satchel",
               "Lucky Dice"
@@ -969,13 +703,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 3,
-            "skills": [
-              "Hound's Harry",
-              "Blackjack",
-              "Cry Havoc",
-              "Lick Wounds"
-            ],
             "trinkets": [
               "Bleed Charm",
               "Stun Charm"
@@ -983,13 +710,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Virtuous Chalice",
               "Stun Charm"
@@ -999,16 +719,9 @@
       },
       {
         "description": "Early-mid Frontline Bleed & Stun",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "If It Bleeds",
-              "Barbaric Yawp",
-              "Bleed Out"
-            ],
             "trinkets": [
               "Double-Edged Pendant",
               "Bleed Amulet"
@@ -1016,13 +729,6 @@
           },
           {
             "name": "Jester",
-            "position": 2,
-            "skills": [
-              "Harvest",
-              "Slice Off",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Critical Dice",
               "Bright Tambourine"
@@ -1030,13 +736,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 3,
-            "skills": [
-              "Hound's Harry",
-              "Blackjack",
-              "Cry Havoc",
-              "Lick Wounds"
-            ],
             "trinkets": [
               "Cudgel Weight",
               "Bleed Amulet"
@@ -1044,13 +743,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Haste Chalice",
               "Profane Scroll"
@@ -1060,16 +752,9 @@
       },
       {
         "description": "Mid-game Frontline Bleed & Stun",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "If It Bleeds",
-              "Barbaric Yawp",
-              "Bleed Out"
-            ],
             "trinkets": [
               "Hell's Hairpin",
               "Lioness Warpaint"
@@ -1077,13 +762,6 @@
           },
           {
             "name": "Jester",
-            "position": 2,
-            "skills": [
-              "Harvest",
-              "Slice Off",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Dark Tambourine",
               "Bright Tambourine"
@@ -1091,13 +769,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 3,
-            "skills": [
-              "Hound's Harry",
-              "Blackjack",
-              "Cry Havoc",
-              "Lick Wounds"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Protective Collar"
@@ -1105,13 +776,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Profane Scroll"
@@ -1121,16 +785,9 @@
       },
       {
         "description": "Late-game Frontline Bleed & Stun",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "If It Bleeds",
-              "Barbaric Yawp",
-              "Bleed Out"
-            ],
             "trinkets": [
               "Hell's Hairpin",
               "Ancestor's Pen"
@@ -1138,13 +795,6 @@
           },
           {
             "name": "Jester",
-            "position": 2,
-            "skills": [
-              "Harvest",
-              "Slice Off",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Dark Tambourine",
               "Ancestor's Pen"
@@ -1152,13 +802,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 3,
-            "skills": [
-              "Hound's Harry",
-              "Blackjack",
-              "Cry Havoc",
-              "Lick Wounds"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Ancestor's Musket Ball"
@@ -1166,13 +809,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Ancestor's Scroll"
@@ -1182,16 +818,9 @@
       },
       {
         "description": "Optimized High-Power Frontline Bleed & Stun",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "If It Bleeds",
-              "Barbaric Yawp",
-              "Bleed Out"
-            ],
             "trinkets": [
               "Hell's Hairpin",
               "Thirsting Blade"
@@ -1199,13 +828,6 @@
           },
           {
             "name": "Jester",
-            "position": 2,
-            "skills": [
-              "Harvest",
-              "Slice Off",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Dark Tambourine",
               "Dirge For The Devoured"
@@ -1213,13 +835,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 3,
-            "skills": [
-              "Hound's Harry",
-              "Blackjack",
-              "Cry Havoc",
-              "Lick Wounds"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Huskfang Whistle"
@@ -1227,13 +842,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Judgement",
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Heretical Passage"
@@ -1246,19 +854,54 @@
   {
     "build_id": 5,
     "build_description": "This 'Debuff & Pull Specialist' team excels at disrupting enemy formations and weakening foes. Occultist uses Daemon's Pull to bring backline threats forward and applies potent Weakening Curses. Bounty Hunter capitalizes on these pulled enemies with Come Hither and Finish Him, while Musketeer debuffs enemy accuracy and dodges. Leper anchors the front, dealing heavy damage and further debuffing with Intimidate.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Leper",
+        "position": 1,
+        "skills": [
+          "Chop",
+          "Purge",
+          "Intimidate",
+          "Revenge"
+        ]
+      },
+      {
+        "name": "Bounty Hunter",
+        "position": 2,
+        "skills": [
+          "Collect Bounty",
+          "Finish Him",
+          "Flashbang",
+          "Come Hither"
+        ]
+      },
+      {
+        "name": "Musketeer",
+        "position": 3,
+        "skills": [
+          "Aimed Shot",
+          "Smokescreen",
+          "Skeet Shot",
+          "Call the Shot"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 4,
+        "skills": [
+          "Wyrd Reconstruction",
+          "Weakening Curse",
+          "Abyssal Artillery",
+          "Daemon's Pull"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game Debuff & Pull Specialist",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Leper",
-            "position": 1,
-            "skills": [
-              "Chop",
-              "Purge",
-              "Intimidate",
-              "Revenge"
-            ],
             "trinkets": [
               "Healing Armlet",
               "Redemption Armlet"
@@ -1266,13 +909,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Collect Bounty",
-              "Finish Him",
-              "Flashbang",
-              "Come Hither"
-            ],
             "trinkets": [
               "Unmovable Helmet",
               "Agility Talon"
@@ -1280,13 +916,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 3,
-            "skills": [
-              "Aimed Shot",
-              "Smokescreen",
-              "Skeet Shot",
-              "Call the Shot"
-            ],
             "trinkets": [
               "Sturdy Boots",
               "Archer's Ring"
@@ -1294,13 +923,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Weakening Curse",
-              "Abyssal Artillery",
-              "Daemon's Pull"
-            ],
             "trinkets": [
               "Eldritch Killing Incense",
               "Debuff Charm"
@@ -1310,16 +932,9 @@
       },
       {
         "description": "Early-mid Debuff & Pull Specialist",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Leper",
-            "position": 1,
-            "skills": [
-              "Chop",
-              "Purge",
-              "Intimidate",
-              "Revenge"
-            ],
             "trinkets": [
               "Immunity Mask",
               "Fortunate Armlet"
@@ -1327,13 +942,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Collect Bounty",
-              "Finish Him",
-              "Flashbang",
-              "Come Hither"
-            ],
             "trinkets": [
               "Hunter's Talons",
               "Camper's Helmet"
@@ -1341,13 +949,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 3,
-            "skills": [
-              "Aimed Shot",
-              "Smokescreen",
-              "Skeet Shot",
-              "Call the Shot"
-            ],
             "trinkets": [
               "Medic's Boots",
               "Sniper's Ring"
@@ -1355,13 +956,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Weakening Curse",
-              "Abyssal Artillery",
-              "Daemon's Pull"
-            ],
             "trinkets": [
               "Cursed Incense",
               "Sacrifical Cauldron"
@@ -1371,16 +965,9 @@
       },
       {
         "description": "Mid-game Debuff & Pull Specialist",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Leper",
-            "position": 1,
-            "skills": [
-              "Chop",
-              "Purge",
-              "Intimidate",
-              "Revenge"
-            ],
             "trinkets": [
               "Berserk Mask",
               "Immunity Mask"
@@ -1388,13 +975,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Collect Bounty",
-              "Finish Him",
-              "Flashbang",
-              "Come Hither"
-            ],
             "trinkets": [
               "Wounding Helmet",
               "Hunter's Talons"
@@ -1402,13 +982,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 3,
-            "skills": [
-              "Aimed Shot",
-              "Smokescreen",
-              "Skeet Shot",
-              "Call the Shot"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Sniper's Ring"
@@ -1416,13 +989,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Weakening Curse",
-              "Abyssal Artillery",
-              "Daemon's Pull"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Sacrifical Cauldron"
@@ -1432,16 +998,9 @@
       },
       {
         "description": "Late-game Debuff & Pull Specialist",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Leper",
-            "position": 1,
-            "skills": [
-              "Chop",
-              "Purge",
-              "Intimidate",
-              "Revenge"
-            ],
             "trinkets": [
               "Berserk Mask",
               "Last Will and Testament"
@@ -1449,13 +1008,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Collect Bounty",
-              "Finish Him",
-              "Flashbang",
-              "Come Hither"
-            ],
             "trinkets": [
               "Wounding Helmet",
               "Ancestor's Pen"
@@ -1463,13 +1015,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 3,
-            "skills": [
-              "Aimed Shot",
-              "Smokescreen",
-              "Skeet Shot",
-              "Call the Shot"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Ancestor's Musket Ball"
@@ -1477,13 +1022,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Weakening Curse",
-              "Abyssal Artillery",
-              "Daemon's Pull"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Ancestor's Tentacle Idol"
@@ -1493,16 +1031,9 @@
       },
       {
         "description": "Optimized High-Power Debuff & Pull Specialist",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Leper",
-            "position": 1,
-            "skills": [
-              "Chop",
-              "Purge",
-              "Intimidate",
-              "Revenge"
-            ],
             "trinkets": [
               "Berserk Mask",
               "Petrified Amulet"
@@ -1510,13 +1041,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Collect Bounty",
-              "Finish Him",
-              "Flashbang",
-              "Come Hither"
-            ],
             "trinkets": [
               "Wounding Helmet",
               "Mask Of The Timeless"
@@ -1524,13 +1048,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 3,
-            "skills": [
-              "Aimed Shot",
-              "Smokescreen",
-              "Skeet Shot",
-              "Call the Shot"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Icosahedric Musket Balls"
@@ -1538,13 +1055,6 @@
           },
           {
             "name": "Occultist",
-            "position": 4,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Weakening Curse",
-              "Abyssal Artillery",
-              "Daemon's Pull"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Petrified Skull"

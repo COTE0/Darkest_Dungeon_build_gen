@@ -41,33 +41,30 @@ def merge_team_data(base_data: List[Dict[str, Any]], trinket_data: List[Dict[str
     for build in final_data:
         build_id = build['build_id']
         trinket_build = trinket_map.get(build_id)
-        if trinket_build and 'teams' in trinket_build:
-            base_heroes = build.pop('heroes') 
-            base_heroes_map = {hero['name']: hero for hero in base_heroes}
-            merged_teams = []
+        
+        if trinket_build and 'teams' in trinket_build:       
+            merged_trinket_variations = []
             if 'build_description' not in build:
                  build['build_description'] = ""
             
             for team_variation in trinket_build['teams']:
-                merged_heroes = []
+                new_variation = {
+                    "description": team_variation.get('description', ""),
+                    "hero_trinkets": []
+                }
+                
                 for trinket_hero_info in team_variation.get('heroes', []):
                     hero_name = trinket_hero_info.get('name')
                     if not hero_name: continue
                     
-                    base_hero = base_heroes_map.get(hero_name)
-
-                    if base_hero:
-                        merged_hero = {
-                            "name": hero_name,
-                            "position": base_hero.get('position', 0),
-                            "skills": base_hero.get('skills', []),
-                            "trinkets": trinket_hero_info.get('trinkets', [])
-                        }
-                        merged_heroes.append(merged_hero)
+                    new_variation["hero_trinkets"].append({
+                        "name": hero_name,
+                        "trinkets": trinket_hero_info.get('trinkets', [])
+                    })
                 
-                team_variation['heroes'] = merged_heroes
-                merged_teams.append(team_variation)
+                merged_trinket_variations.append(new_variation)
 
-            build['teams'] = merged_teams
+            build.pop('teams', None) 
+            build['trinket_variations'] = merged_trinket_variations
         
     return final_data

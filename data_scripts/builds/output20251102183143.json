@@ -2,19 +2,54 @@
   {
     "build_id": 1,
     "build_description": "This team focuses on backline lockdown and sustained damage through blights and stuns, while providing robust healing and some front-line clear. The Plague Doctor and Occultist combine to stun and blight priority targets in the back, while the Highwayman and Crusader provide consistent front-line pressure and utility.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Crusader",
+        "position": 1,
+        "skills": [
+          "Smite",
+          "Zealous Accusation",
+          "Stunning Blow",
+          "Battle Heal"
+        ]
+      },
+      {
+        "name": "Highwayman",
+        "position": 2,
+        "skills": [
+          "Duelist's Advance",
+          "Point Blank Shot",
+          "Open Vein",
+          "Pistol Shot"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 3,
+        "skills": [
+          "Wyrd Reconstruction",
+          "Hands from the Abyss",
+          "Abyssal Artillery",
+          "Vulnerability Hex"
+        ]
+      },
+      {
+        "name": "Plague Doctor",
+        "position": 4,
+        "skills": [
+          "Blinding Gas",
+          "Plague Grenade",
+          "Noxious Blast",
+          "Battlefield Medicine"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Zealous Accusation",
-              "Stunning Blow",
-              "Battle Heal"
-            ],
             "trinkets": [
               "Knight's Crest",
               "Damage Stone"
@@ -22,13 +57,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Open Vein",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Flashfire Gunpowder",
               "Drifter's Buckle"
@@ -36,13 +64,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Abyssal Artillery",
-              "Vulnerability Hex"
-            ],
             "trinkets": [
               "Eldritch Killing Incense",
               "Evasion Incense"
@@ -50,13 +71,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 4,
-            "skills": [
-              "Blinding Gas",
-              "Plague Grenade",
-              "Noxious Blast",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Witch's Vial",
               "Rotgut Censer"
@@ -66,16 +80,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Zealous Accusation",
-              "Stunning Blow",
-              "Battle Heal"
-            ],
             "trinkets": [
               "Swordsman's Crest",
               "Book of Rage"
@@ -83,13 +90,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Open Vein",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Sniper's Ring"
@@ -97,13 +97,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Abyssal Artillery",
-              "Vulnerability Hex"
-            ],
             "trinkets": [
               "Cursed Incense",
               "Book of Constitution"
@@ -111,13 +104,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 4,
-            "skills": [
-              "Blinding Gas",
-              "Plague Grenade",
-              "Noxious Blast",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Poisoned Herb",
               "Stun Amulet"
@@ -127,16 +113,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Zealous Accusation",
-              "Stunning Blow",
-              "Battle Heal"
-            ],
             "trinkets": [
               "Hero's Ring",
               "Commander's Orders"
@@ -144,13 +123,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Open Vein",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Sharpening Sheath"
@@ -158,13 +130,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Abyssal Artillery",
-              "Vulnerability Hex"
-            ],
             "trinkets": [
               "Sacrifical Cauldron",
               "Cursed Incense"
@@ -172,13 +137,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 4,
-            "skills": [
-              "Blinding Gas",
-              "Plague Grenade",
-              "Noxious Blast",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Blasphemous Vial",
               "Bloody Herb"
@@ -188,16 +146,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Zealous Accusation",
-              "Stunning Blow",
-              "Battle Heal"
-            ],
             "trinkets": [
               "Legendary Bracer",
               "Holy Orders"
@@ -205,13 +156,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Open Vein",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Ancestor's Pistol"
@@ -219,13 +163,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Abyssal Artillery",
-              "Vulnerability Hex"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Ancestor's Tentacle Idol"
@@ -233,13 +170,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 4,
-            "skills": [
-              "Blinding Gas",
-              "Plague Grenade",
-              "Noxious Blast",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Blasphemous Vial",
               "Ancestor's Scroll"
@@ -249,16 +179,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/crystalline)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Zealous Accusation",
-              "Stunning Blow",
-              "Battle Heal"
-            ],
             "trinkets": [
               "Legendary Bracer",
               "Non-Euclidean Hilt"
@@ -266,13 +189,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Open Vein",
-              "Pistol Shot"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Crystalline Gunpowder"
@@ -280,13 +196,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Abyssal Artillery",
-              "Vulnerability Hex"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Petrified Skull"
@@ -294,13 +203,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 4,
-            "skills": [
-              "Blinding Gas",
-              "Plague Grenade",
-              "Noxious Blast",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Blasphemous Vial",
               "Ashen Distillation"
@@ -313,19 +215,54 @@
   {
     "build_id": 2,
     "build_description": "A focused single-target damage team designed to mark high-priority enemies and burst them down quickly. The Musketeer and Bounty Hunter apply marks and then follow up with devastating damage. The Man-at-Arms buffs the team and protects the Leper, who holds the front line with powerful, if inaccurate, strikes.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Leper",
+        "position": 1,
+        "skills": [
+          "Chop",
+          "Hew",
+          "Revenge",
+          "Solemnity"
+        ]
+      },
+      {
+        "name": "Man-at-Arms",
+        "position": 2,
+        "skills": [
+          "Crush",
+          "Rampart",
+          "Command",
+          "Defender"
+        ]
+      },
+      {
+        "name": "Bounty Hunter",
+        "position": 3,
+        "skills": [
+          "Collect Bounty",
+          "Mark for Death",
+          "Flashbang",
+          "Come Hither"
+        ]
+      },
+      {
+        "name": "Musketeer",
+        "position": 4,
+        "skills": [
+          "Aimed Shot",
+          "Call the Shot",
+          "Smokescreen",
+          "Skeet Shot"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Leper",
-            "position": 1,
-            "skills": [
-              "Chop",
-              "Hew",
-              "Revenge",
-              "Solemnity"
-            ],
             "trinkets": [
               "Healing Armlet",
               "Accuracy Stone"
@@ -333,13 +270,6 @@
           },
           {
             "name": "Man-at-Arms",
-            "position": 2,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Command",
-              "Defender"
-            ],
             "trinkets": [
               "Defender's Seal",
               "Protection Stone"
@@ -347,13 +277,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 3,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Flashbang",
-              "Come Hither"
-            ],
             "trinkets": [
               "Agility Talon",
               "Unmovable Helmet"
@@ -361,13 +284,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Skeet Shot"
-            ],
             "trinkets": [
               "Sturdy Boots",
               "Vengeful Boots"
@@ -377,16 +293,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Leper",
-            "position": 1,
-            "skills": [
-              "Chop",
-              "Hew",
-              "Revenge",
-              "Solemnity"
-            ],
             "trinkets": [
               "Fortunate Armlet",
               "Heavy Boots"
@@ -394,13 +303,6 @@
           },
           {
             "name": "Man-at-Arms",
-            "position": 2,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Command",
-              "Defender"
-            ],
             "trinkets": [
               "Longevity Eyepatch",
               "Steady Bracer"
@@ -408,13 +310,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 3,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Flashbang",
-              "Come Hither"
-            ],
             "trinkets": [
               "Camper's Helmet",
               "Hunter's Talons"
@@ -422,13 +317,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Skeet Shot"
-            ],
             "trinkets": [
               "Medic's Boots",
               "Sniper's Ring"
@@ -438,16 +326,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Leper",
-            "position": 1,
-            "skills": [
-              "Chop",
-              "Hew",
-              "Revenge",
-              "Solemnity"
-            ],
             "trinkets": [
               "Immunity Mask",
               "Berserk Mask"
@@ -455,13 +336,6 @@
           },
           {
             "name": "Man-at-Arms",
-            "position": 2,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Command",
-              "Defender"
-            ],
             "trinkets": [
               "Rampart Shield",
               "Longevity Eyepatch"
@@ -469,13 +343,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 3,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Flashbang",
-              "Come Hither"
-            ],
             "trinkets": [
               "Hunter's Talons",
               "Wounding Helmet"
@@ -483,13 +350,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Skeet Shot"
-            ],
             "trinkets": [
               "Bull's Eye Hat",
               "Sniper's Ring"
@@ -499,16 +359,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Leper",
-            "position": 1,
-            "skills": [
-              "Chop",
-              "Hew",
-              "Revenge",
-              "Solemnity"
-            ],
             "trinkets": [
               "Berserk Mask",
               "Last Will and Testament"
@@ -516,13 +369,6 @@
           },
           {
             "name": "Man-at-Arms",
-            "position": 2,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Command",
-              "Defender"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Old Unit Standard"
@@ -530,13 +376,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 3,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Flashbang",
-              "Come Hither"
-            ],
             "trinkets": [
               "Wounding Helmet",
               "Crime Lords' Molars"
@@ -544,13 +383,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Skeet Shot"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Ancestor's Musket Ball"
@@ -560,16 +392,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/crystalline)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Leper",
-            "position": 1,
-            "skills": [
-              "Chop",
-              "Hew",
-              "Revenge",
-              "Solemnity"
-            ],
             "trinkets": [
               "Berserk Mask",
               "Petrified Amulet"
@@ -577,13 +402,6 @@
           },
           {
             "name": "Man-at-Arms",
-            "position": 2,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Command",
-              "Defender"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Mirror Shield"
@@ -591,13 +409,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 3,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Flashbang",
-              "Come Hither"
-            ],
             "trinkets": [
               "Wounding Helmet",
               "Mask Of The Timeless"
@@ -605,13 +416,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Skeet Shot"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Icosahedric Musket Balls"

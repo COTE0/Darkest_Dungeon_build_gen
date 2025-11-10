@@ -2,19 +2,54 @@
   {
     "build_id": 1,
     "build_description": "This team specializes in controlling the enemy ranks with powerful AoE stuns and sustained blight/bleed damage, primarily targeting the backline. Vestal provides consistent healing and backup stunning.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Hellion",
+        "position": 1,
+        "skills": [
+          "Wicked Hack",
+          "Iron Swan",
+          "If It Bleeds",
+          "Barbaric Yawp"
+        ]
+      },
+      {
+        "name": "Houndmaster",
+        "position": 2,
+        "skills": [
+          "Hound's Rush",
+          "Hound's Harry",
+          "Blackjack",
+          "Cry Havoc"
+        ]
+      },
+      {
+        "name": "Plague Doctor",
+        "position": 3,
+        "skills": [
+          "Blinding Gas",
+          "Noxious Blast",
+          "Plague Grenade",
+          "Battlefield Medicine"
+        ]
+      },
+      {
+        "name": "Vestal",
+        "position": 4,
+        "skills": [
+          "Divine Grace",
+          "Divine Comfort",
+          "Dazzling Light",
+          "Judgement"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon trinkets)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "Iron Swan",
-              "If It Bleeds",
-              "Barbaric Yawp"
-            ],
             "trinkets": [
               "Bleeding Pendant",
               "Damage Stone"
@@ -22,13 +57,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Hound's Harry",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Agility Whistle",
               "Stun Stone"
@@ -36,13 +64,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 3,
-            "skills": [
-              "Blinding Gas",
-              "Noxious Blast",
-              "Plague Grenade",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Rotgut Censer",
               "Blight Stone"
@@ -50,13 +71,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Virtuous Chalice",
               "Youth Chalice"
@@ -66,16 +80,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "Iron Swan",
-              "If It Bleeds",
-              "Barbaric Yawp"
-            ],
             "trinkets": [
               "Double-Edged Pendant",
               "Heaven's Hairpin"
@@ -83,13 +90,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Hound's Harry",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Cudgel Weight",
               "Protective Collar"
@@ -97,13 +97,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 3,
-            "skills": [
-              "Blinding Gas",
-              "Noxious Blast",
-              "Plague Grenade",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Poisoned Herb",
               "Bloody Herb"
@@ -111,13 +104,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Youth Chalice",
               "Profane Scroll"
@@ -127,16 +113,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "Iron Swan",
-              "If It Bleeds",
-              "Barbaric Yawp"
-            ],
             "trinkets": [
               "Heaven's Hairpin",
               "Hell's Hairpin"
@@ -144,13 +123,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Hound's Harry",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Protective Collar"
@@ -158,13 +130,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 3,
-            "skills": [
-              "Blinding Gas",
-              "Noxious Blast",
-              "Plague Grenade",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Blasphemous Vial",
               "Bloody Herb"
@@ -172,13 +137,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Profane Scroll"
@@ -188,16 +146,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "Iron Swan",
-              "If It Bleeds",
-              "Barbaric Yawp"
-            ],
             "trinkets": [
               "Hell's Hairpin",
               "Legendary Bracer"
@@ -205,13 +156,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Hound's Harry",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Ancestor's Signet Ring"
@@ -219,13 +163,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 3,
-            "skills": [
-              "Blinding Gas",
-              "Noxious Blast",
-              "Plague Grenade",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Blasphemous Vial",
               "Ancestor's Pen"
@@ -233,13 +170,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Ancestor's Scroll"
@@ -249,16 +179,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Hellion",
-            "position": 1,
-            "skills": [
-              "Wicked Hack",
-              "Iron Swan",
-              "If It Bleeds",
-              "Barbaric Yawp"
-            ],
             "trinkets": [
               "Thirsting Blade",
               "Hell's Hairpin"
@@ -266,13 +189,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Hound's Harry",
-              "Blackjack",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Huskfang Whistle",
               "Spiked Collar"
@@ -280,13 +196,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 3,
-            "skills": [
-              "Blinding Gas",
-              "Noxious Blast",
-              "Plague Grenade",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Ashen Distillation",
               "Blasphemous Vial"
@@ -294,13 +203,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Grace",
-              "Divine Comfort",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Heretical Passage",
               "Sacred Scroll"
@@ -313,19 +215,54 @@
   {
     "build_id": 2,
     "build_description": "A high single-target damage team that marks priority targets for powerful execute attacks. Man-at-Arms protects the damage dealers, while Occultist provides crucial marks, stuns, and burst healing.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Man-at-Arms",
+        "position": 1,
+        "skills": [
+          "Crush",
+          "Rampart",
+          "Defender",
+          "Command"
+        ]
+      },
+      {
+        "name": "Bounty Hunter",
+        "position": 2,
+        "skills": [
+          "Collect Bounty",
+          "Mark for Death",
+          "Finish Him",
+          "Flashbang"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 3,
+        "skills": [
+          "Sacrificial Stab",
+          "Wyrd Reconstruction",
+          "Hands from the Abyss",
+          "Vulnerability Hex"
+        ]
+      },
+      {
+        "name": "Arbalest",
+        "position": 4,
+        "skills": [
+          "Sniper Shot",
+          "Sniper's Mark",
+          "Suppressing Fire",
+          "Battlefield Bandage"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon trinkets)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Defender",
-              "Command"
-            ],
             "trinkets": [
               "Defender's Seal",
               "Protection Stone"
@@ -333,13 +270,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Finish Him",
-              "Flashbang"
-            ],
             "trinkets": [
               "Agility Talon",
               "Damage Stone"
@@ -347,13 +277,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Sacrificial Stab",
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Vulnerability Hex"
-            ],
             "trinkets": [
               "Evasion Incense",
               "Stun Stone"
@@ -361,13 +284,6 @@
           },
           {
             "name": "Arbalest",
-            "position": 4,
-            "skills": [
-              "Sniper Shot",
-              "Sniper's Mark",
-              "Suppressing Fire",
-              "Battlefield Bandage"
-            ],
             "trinkets": [
               "Sturdy Greaves",
               "Accuracy Stone"
@@ -377,16 +293,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Defender",
-              "Command"
-            ],
             "trinkets": [
               "Longevity Eyepatch",
               "Rampart Shield"
@@ -394,13 +303,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Finish Him",
-              "Flashbang"
-            ],
             "trinkets": [
               "Hunter's Talons",
               "Camper's Helmet"
@@ -408,13 +310,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Sacrificial Stab",
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Vulnerability Hex"
-            ],
             "trinkets": [
               "Cursed Incense",
               "Eldritch Slayer's Ring"
@@ -422,13 +317,6 @@
           },
           {
             "name": "Arbalest",
-            "position": 4,
-            "skills": [
-              "Sniper Shot",
-              "Sniper's Mark",
-              "Suppressing Fire",
-              "Battlefield Bandage"
-            ],
             "trinkets": [
               "Medic's Greaves",
               "Bull's Eye Bandana"
@@ -438,16 +326,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Defender",
-              "Command"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Rampart Shield"
@@ -455,13 +336,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Finish Him",
-              "Flashbang"
-            ],
             "trinkets": [
               "Wounding Helmet",
               "Hunter's Talons"
@@ -469,13 +343,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Sacrificial Stab",
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Vulnerability Hex"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Sacrifical Cauldron"
@@ -483,13 +350,6 @@
           },
           {
             "name": "Arbalest",
-            "position": 4,
-            "skills": [
-              "Sniper Shot",
-              "Sniper's Mark",
-              "Suppressing Fire",
-              "Battlefield Bandage"
-            ],
             "trinkets": [
               "Wrathful Bandana",
               "Bull's Eye Bandana"
@@ -499,16 +359,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Defender",
-              "Command"
-            ],
             "trinkets": [
               "Guardian's Shield",
               "Ancestor's Coat"
@@ -516,13 +369,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Finish Him",
-              "Flashbang"
-            ],
             "trinkets": [
               "Wounding Helmet",
               "Ancestor's Pistol"
@@ -530,13 +376,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Sacrificial Stab",
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Vulnerability Hex"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Ancestor's Tentacle Idol"
@@ -544,13 +383,6 @@
           },
           {
             "name": "Arbalest",
-            "position": 4,
-            "skills": [
-              "Sniper Shot",
-              "Sniper's Mark",
-              "Suppressing Fire",
-              "Battlefield Bandage"
-            ],
             "trinkets": [
               "Wrathful Bandana",
               "Ancestor's Musket Ball"
@@ -560,16 +392,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Man-at-Arms",
-            "position": 1,
-            "skills": [
-              "Crush",
-              "Rampart",
-              "Defender",
-              "Command"
-            ],
             "trinkets": [
               "Mirror Shield",
               "Guardian's Shield"
@@ -577,13 +402,6 @@
           },
           {
             "name": "Bounty Hunter",
-            "position": 2,
-            "skills": [
-              "Collect Bounty",
-              "Mark for Death",
-              "Finish Him",
-              "Flashbang"
-            ],
             "trinkets": [
               "Mask Of The Timeless",
               "Wounding Helmet"
@@ -591,13 +409,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Sacrificial Stab",
-              "Wyrd Reconstruction",
-              "Hands from the Abyss",
-              "Vulnerability Hex"
-            ],
             "trinkets": [
               "Petrified Skull",
               "Demon's Cauldron"
@@ -605,13 +416,6 @@
           },
           {
             "name": "Arbalest",
-            "position": 4,
-            "skills": [
-              "Sniper Shot",
-              "Sniper's Mark",
-              "Suppressing Fire",
-              "Battlefield Bandage"
-            ],
             "trinkets": [
               "Keening Bolts",
               "Wrathful Bandana"
@@ -624,19 +428,54 @@
   {
     "build_id": 3,
     "build_description": "This composition excels at applying heavy bleed damage to all enemy positions while maintaining high mobility and stress control. Grave Robber's Lunge and Jester's movement create a 'dance' for burst damage and tactical repositioning.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Crusader",
+        "position": 1,
+        "skills": [
+          "Smite",
+          "Stunning Blow",
+          "Holy Lance",
+          "Inspiring Cry"
+        ]
+      },
+      {
+        "name": "Flagellant",
+        "position": 2,
+        "skills": [
+          "Punish",
+          "Exsanguinate",
+          "Rain of Sorrows",
+          "Redeem"
+        ]
+      },
+      {
+        "name": "Jester",
+        "position": 3,
+        "skills": [
+          "Harvest",
+          "Slice Off",
+          "Battle Ballad",
+          "Inspiring Tune"
+        ]
+      },
+      {
+        "name": "Grave Robber",
+        "position": 4,
+        "skills": [
+          "Lunge",
+          "Shadow Fade",
+          "Pick to the Face",
+          "Thrown Dagger"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon trinkets)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Stunning Blow",
-              "Holy Lance",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Knight's Crest",
               "Damage Stone"
@@ -644,13 +483,6 @@
           },
           {
             "name": "Flagellant",
-            "position": 2,
-            "skills": [
-              "Punish",
-              "Exsanguinate",
-              "Rain of Sorrows",
-              "Redeem"
-            ],
             "trinkets": [
               "Heartburst Hood",
               "Bleed Stone"
@@ -658,13 +490,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Harvest",
-              "Slice Off",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Lucky Dice",
               "Speed Stone"
@@ -672,13 +497,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 4,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Pick to the Face",
-              "Thrown Dagger"
-            ],
             "trinkets": [
               "Quickening Satchel",
               "Dodge Stone"
@@ -688,16 +506,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Stunning Blow",
-              "Holy Lance",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Paralyzer's Crest",
               "Knight's Crest"
@@ -705,13 +516,6 @@
           },
           {
             "name": "Flagellant",
-            "position": 2,
-            "skills": [
-              "Punish",
-              "Exsanguinate",
-              "Rain of Sorrows",
-              "Redeem"
-            ],
             "trinkets": [
               "Punishment's Hood",
               "Suffering's Collar"
@@ -719,13 +523,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Harvest",
-              "Slice Off",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Critical Dice",
               "Bright Tambourine"
@@ -733,13 +530,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 4,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Pick to the Face",
-              "Thrown Dagger"
-            ],
             "trinkets": [
               "Blighting Satchel",
               "Lucky Talisman"
@@ -749,16 +539,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Stunning Blow",
-              "Holy Lance",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Holy Orders",
               "Commander's Orders"
@@ -766,13 +549,6 @@
           },
           {
             "name": "Flagellant",
-            "position": 2,
-            "skills": [
-              "Punish",
-              "Exsanguinate",
-              "Rain of Sorrows",
-              "Redeem"
-            ],
             "trinkets": [
               "Eternity's Collar",
               "Suffering's Collar"
@@ -780,13 +556,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Harvest",
-              "Slice Off",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Dark Tambourine",
               "Bright Tambourine"
@@ -794,13 +563,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 4,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Pick to the Face",
-              "Thrown Dagger"
-            ],
             "trinkets": [
               "Raider's Talisman",
               "Lucky Talisman"
@@ -810,16 +572,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Stunning Blow",
-              "Holy Lance",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Holy Orders",
               "Ancestor's Pen"
@@ -827,13 +582,6 @@
           },
           {
             "name": "Flagellant",
-            "position": 2,
-            "skills": [
-              "Punish",
-              "Exsanguinate",
-              "Rain of Sorrows",
-              "Redeem"
-            ],
             "trinkets": [
               "Eternity's Collar",
               "Ancestor's Signet Ring"
@@ -841,13 +589,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Harvest",
-              "Slice Off",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Dark Tambourine",
               "Ancestor's Pen"
@@ -855,13 +596,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 4,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Pick to the Face",
-              "Thrown Dagger"
-            ],
             "trinkets": [
               "Raider's Talisman",
               "Ancestor's Pistol"
@@ -871,16 +605,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Stunning Blow",
-              "Holy Lance",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Non-Euclidean Hilt",
               "Holy Orders"
@@ -888,13 +615,6 @@
           },
           {
             "name": "Flagellant",
-            "position": 2,
-            "skills": [
-              "Punish",
-              "Exsanguinate",
-              "Rain of Sorrows",
-              "Redeem"
-            ],
             "trinkets": [
               "Acidic Husk Ichor",
               "Eternity's Collar"
@@ -902,13 +622,6 @@
           },
           {
             "name": "Jester",
-            "position": 3,
-            "skills": [
-              "Harvest",
-              "Slice Off",
-              "Battle Ballad",
-              "Inspiring Tune"
-            ],
             "trinkets": [
               "Dirge For The Devoured",
               "Dark Tambourine"
@@ -916,13 +629,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 4,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Pick to the Face",
-              "Thrown Dagger"
-            ],
             "trinkets": [
               "Topshelf Tonic",
               "Raider's Talisman"
@@ -935,19 +641,54 @@
   {
     "build_id": 4,
     "build_description": "An aggressive team that leverages high dodge, critical hits, and Protection-ignoring damage. Shieldbreaker and Highwayman deliver powerful bursts, supported by Musketeer's buffs and Antiquarian's defensive utility and minor healing.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Shieldbreaker",
+        "position": 1,
+        "skills": [
+          "Pierce",
+          "Puncture",
+          "Impale",
+          "Serpent Sway"
+        ]
+      },
+      {
+        "name": "Highwayman",
+        "position": 2,
+        "skills": [
+          "Point Blank Shot",
+          "Duelist's Advance",
+          "Pistol Shot",
+          "Grapeshot Blast"
+        ]
+      },
+      {
+        "name": "Musketeer",
+        "position": 3,
+        "skills": [
+          "Aimed Shot",
+          "Skeet Shot",
+          "Call the Shot",
+          "Patch Up"
+        ]
+      },
+      {
+        "name": "Antiquarian",
+        "position": 4,
+        "skills": [
+          "Nervous Stab",
+          "Fortifying Vapours",
+          "Invigorating Vapours",
+          "Protect Me!"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game viable (common/uncommon trinkets)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Shieldbreaker",
-            "position": 1,
-            "skills": [
-              "Pierce",
-              "Puncture",
-              "Impale",
-              "Serpent Sway"
-            ],
             "trinkets": [
               "Venomous Vial",
               "Dodge Stone"
@@ -955,13 +696,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Point Blank Shot",
-              "Duelist's Advance",
-              "Pistol Shot",
-              "Grapeshot Blast"
-            ],
             "trinkets": [
               "Flashfire Gunpowder",
               "Damage Stone"
@@ -969,13 +703,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 3,
-            "skills": [
-              "Aimed Shot",
-              "Skeet Shot",
-              "Call the Shot",
-              "Patch Up"
-            ],
             "trinkets": [
               "Sturdy Boots",
               "Accuracy Stone"
@@ -983,13 +710,6 @@
           },
           {
             "name": "Antiquarian",
-            "position": 4,
-            "skills": [
-              "Nervous Stab",
-              "Fortifying Vapours",
-              "Invigorating Vapours",
-              "Protect Me!"
-            ],
             "trinkets": [
               "Bag of Marbles",
               "Slippery Boots"
@@ -999,16 +719,9 @@
       },
       {
         "description": "Early-mid transition (uncommon/rare)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Shieldbreaker",
-            "position": 1,
-            "skills": [
-              "Pierce",
-              "Puncture",
-              "Impale",
-              "Serpent Sway"
-            ],
             "trinkets": [
               "Shimmering Scale",
               "Fanged Spear Tip"
@@ -1016,13 +729,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Point Blank Shot",
-              "Duelist's Advance",
-              "Pistol Shot",
-              "Grapeshot Blast"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Dodgy Sheath"
@@ -1030,13 +736,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 3,
-            "skills": [
-              "Aimed Shot",
-              "Skeet Shot",
-              "Call the Shot",
-              "Patch Up"
-            ],
             "trinkets": [
               "Bull's Eye Hat",
               "Medic's Boots"
@@ -1044,13 +743,6 @@
           },
           {
             "name": "Antiquarian",
-            "position": 4,
-            "skills": [
-              "Nervous Stab",
-              "Fortifying Vapours",
-              "Invigorating Vapours",
-              "Protect Me!"
-            ],
             "trinkets": [
               "Bloodcourse Medallion",
               "Carapace Idol"
@@ -1060,16 +752,9 @@
       },
       {
         "description": "Mid-game (rare/very rare/uncommon)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Shieldbreaker",
-            "position": 1,
-            "skills": [
-              "Pierce",
-              "Puncture",
-              "Impale",
-              "Serpent Sway"
-            ],
             "trinkets": [
               "Cuirboilli",
               "Fanged Spear Tip"
@@ -1077,13 +762,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Point Blank Shot",
-              "Duelist's Advance",
-              "Pistol Shot",
-              "Grapeshot Blast"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Sharpening Sheath"
@@ -1091,13 +769,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 3,
-            "skills": [
-              "Aimed Shot",
-              "Skeet Shot",
-              "Call the Shot",
-              "Patch Up"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Bull's Eye Hat"
@@ -1105,13 +776,6 @@
           },
           {
             "name": "Antiquarian",
-            "position": 4,
-            "skills": [
-              "Nervous Stab",
-              "Fortifying Vapours",
-              "Invigorating Vapours",
-              "Protect Me!"
-            ],
             "trinkets": [
               "Candle of Life",
               "Bloodcourse Medallion"
@@ -1121,16 +785,9 @@
       },
       {
         "description": "Late-game (very rare/ancestral)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Shieldbreaker",
-            "position": 1,
-            "skills": [
-              "Pierce",
-              "Puncture",
-              "Impale",
-              "Serpent Sway"
-            ],
             "trinkets": [
               "Cuirboilli",
               "Ancestor's Pen"
@@ -1138,13 +795,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Point Blank Shot",
-              "Duelist's Advance",
-              "Pistol Shot",
-              "Grapeshot Blast"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Ancestor's Pistol"
@@ -1152,13 +802,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 3,
-            "skills": [
-              "Aimed Shot",
-              "Skeet Shot",
-              "Call the Shot",
-              "Patch Up"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Ancestor's Musket Ball"
@@ -1166,13 +809,6 @@
           },
           {
             "name": "Antiquarian",
-            "position": 4,
-            "skills": [
-              "Nervous Stab",
-              "Fortifying Vapours",
-              "Invigorating Vapours",
-              "Protect Me!"
-            ],
             "trinkets": [
               "Candle of Life",
               "Ancestor's Map"
@@ -1182,16 +818,9 @@
       },
       {
         "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Shieldbreaker",
-            "position": 1,
-            "skills": [
-              "Pierce",
-              "Puncture",
-              "Impale",
-              "Serpent Sway"
-            ],
             "trinkets": [
               "Spectral Speartip",
               "Cuirboilli"
@@ -1199,13 +828,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Point Blank Shot",
-              "Duelist's Advance",
-              "Pistol Shot",
-              "Grapeshot Blast"
-            ],
             "trinkets": [
               "Crystalline Gunpowder",
               "Gunslinger's Buckle"
@@ -1213,13 +835,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 3,
-            "skills": [
-              "Aimed Shot",
-              "Skeet Shot",
-              "Call the Shot",
-              "Patch Up"
-            ],
             "trinkets": [
               "Icosahedric Musket Balls",
               "Wrathful Hat"
@@ -1227,13 +842,6 @@
           },
           {
             "name": "Antiquarian",
-            "position": 4,
-            "skills": [
-              "Nervous Stab",
-              "Fortifying Vapours",
-              "Invigorating Vapours",
-              "Protect Me!"
-            ],
             "trinkets": [
               "Smoking Skull",
               "Candle of Life"

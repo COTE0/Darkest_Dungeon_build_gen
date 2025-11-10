@@ -2,19 +2,54 @@
   {
     "build_id": 1,
     "build_description": "This team focuses on crippling enemy backlines with Blight and Stuns, while the Houndmaster and Highwayman manage the frontline. Plague Doctor and Occultist deliver consistent damage-over-time and control, allowing the team to dismantle dangerous threats from afar.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Highwayman",
+        "position": 1,
+        "skills": [
+          "Point Blank Shot",
+          "Duelist's Advance",
+          "Wicked Slice",
+          "Open Vein"
+        ]
+      },
+      {
+        "name": "Houndmaster",
+        "position": 2,
+        "skills": [
+          "Hound's Rush",
+          "Blackjack",
+          "Target Whistle",
+          "Cry Havoc"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 3,
+        "skills": [
+          "Abyssal Artillery",
+          "Hands from the Abyss",
+          "Wyrd Reconstruction",
+          "Weakening Curse"
+        ]
+      },
+      {
+        "name": "Plague Doctor",
+        "position": 4,
+        "skills": [
+          "Blinding Gas",
+          "Plague Grenade",
+          "Noxious Blast",
+          "Battlefield Medicine"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game focus on damage, speed, and basic control.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Highwayman",
-            "position": 1,
-            "skills": [
-              "Point Blank Shot",
-              "Duelist's Advance",
-              "Wicked Slice",
-              "Open Vein"
-            ],
             "trinkets": [
               "Warrior's Bracer",
               "Reckless Charm"
@@ -22,13 +57,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Blackjack",
-              "Target Whistle",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Stun Stone",
               "Agility Whistle"
@@ -36,13 +64,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Abyssal Artillery",
-              "Hands from the Abyss",
-              "Wyrd Reconstruction",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Eldritch Killing Incense",
               "Accuracy Stone"
@@ -50,13 +71,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 4,
-            "skills": [
-              "Blinding Gas",
-              "Plague Grenade",
-              "Noxious Blast",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Witch's Vial",
               "Stun Stone"
@@ -66,16 +80,9 @@
       },
       {
         "description": "Early-mid transition with improved damage, stun, and blight chances.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Highwayman",
-            "position": 1,
-            "skills": [
-              "Point Blank Shot",
-              "Duelist's Advance",
-              "Wicked Slice",
-              "Open Vein"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Sniper's Ring"
@@ -83,13 +90,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Blackjack",
-              "Target Whistle",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Protective Collar",
               "Cudgel Weight"
@@ -97,13 +97,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Abyssal Artillery",
-              "Hands from the Abyss",
-              "Wyrd Reconstruction",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Cursed Incense",
               "Eldritch Slayer's Ring"
@@ -111,13 +104,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 4,
-            "skills": [
-              "Blinding Gas",
-              "Plague Grenade",
-              "Noxious Blast",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Poisoned Herb",
               "Stun Amulet"
@@ -127,16 +113,9 @@
       },
       {
         "description": "Mid-game setup with very rare offensive trinkets and strong DOT/Stun focus.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Highwayman",
-            "position": 1,
-            "skills": [
-              "Point Blank Shot",
-              "Duelist's Advance",
-              "Wicked Slice",
-              "Open Vein"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Sharpening Sheath"
@@ -144,13 +123,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Blackjack",
-              "Target Whistle",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Protective Collar"
@@ -158,13 +130,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Abyssal Artillery",
-              "Hands from the Abyss",
-              "Wyrd Reconstruction",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Sacrifical Cauldron"
@@ -172,13 +137,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 4,
-            "skills": [
-              "Blinding Gas",
-              "Plague Grenade",
-              "Noxious Blast",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Blasphemous Vial",
               "Bloody Herb"
@@ -188,16 +146,9 @@
       },
       {
         "description": "Late-game with Ancestral items, maximizing damage, stun, and blight effectiveness.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Highwayman",
-            "position": 1,
-            "skills": [
-              "Point Blank Shot",
-              "Duelist's Advance",
-              "Wicked Slice",
-              "Open Vein"
-            ],
             "trinkets": [
               "Dismas' Head",
               "Ancestor's Pistol"
@@ -205,13 +156,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Blackjack",
-              "Target Whistle",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Ancestor's Pen"
@@ -219,13 +163,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Abyssal Artillery",
-              "Hands from the Abyss",
-              "Wyrd Reconstruction",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Ancestor's Tentacle Idol"
@@ -233,13 +170,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 4,
-            "skills": [
-              "Blinding Gas",
-              "Plague Grenade",
-              "Noxious Blast",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Blasphemous Vial",
               "Ancestor's Scroll"
@@ -249,16 +179,9 @@
       },
       {
         "description": "Optimized high-power build leveraging crystalline trinkets for maximum blight, stun, and damage output.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Highwayman",
-            "position": 1,
-            "skills": [
-              "Point Blank Shot",
-              "Duelist's Advance",
-              "Wicked Slice",
-              "Open Vein"
-            ],
             "trinkets": [
               "Dismas' Head",
               "Crystalline Gunpowder"
@@ -266,13 +189,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Blackjack",
-              "Target Whistle",
-              "Cry Havoc"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Ancestor's Pen"
@@ -280,13 +196,6 @@
           },
           {
             "name": "Occultist",
-            "position": 3,
-            "skills": [
-              "Abyssal Artillery",
-              "Hands from the Abyss",
-              "Wyrd Reconstruction",
-              "Weakening Curse"
-            ],
             "trinkets": [
               "Demon's Cauldron",
               "Ancestor's Tentacle Idol"
@@ -294,13 +203,6 @@
           },
           {
             "name": "Plague Doctor",
-            "position": 4,
-            "skills": [
-              "Blinding Gas",
-              "Plague Grenade",
-              "Noxious Blast",
-              "Battlefield Medicine"
-            ],
             "trinkets": [
               "Blasphemous Vial",
               "Ashen Distillation"
@@ -313,19 +215,54 @@
   {
     "build_id": 2,
     "build_description": "A highly mobile composition built around Lunge and Duelist's Advance, allowing heroes to shuffle positions for powerful burst damage. Grave Robber and Highwayman dart in and out, while Shieldbreaker ignores protection and applies blight. Vestal provides essential healing and support.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Shieldbreaker",
+        "position": 1,
+        "skills": [
+          "Pierce",
+          "Puncture",
+          "Serpent Sway",
+          "Adder's Kiss"
+        ]
+      },
+      {
+        "name": "Highwayman",
+        "position": 2,
+        "skills": [
+          "Duelist's Advance",
+          "Point Blank Shot",
+          "Wicked Slice",
+          "Open Vein"
+        ]
+      },
+      {
+        "name": "Grave Robber",
+        "position": 3,
+        "skills": [
+          "Lunge",
+          "Shadow Fade",
+          "Thrown Dagger",
+          "Poison Dart"
+        ]
+      },
+      {
+        "name": "Vestal",
+        "position": 4,
+        "skills": [
+          "Divine Comfort",
+          "Divine Grace",
+          "Dazzling Light",
+          "Judgement"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game focus on basic damage, speed, and healing.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Shieldbreaker",
-            "position": 1,
-            "skills": [
-              "Pierce",
-              "Puncture",
-              "Serpent Sway",
-              "Adder's Kiss"
-            ],
             "trinkets": [
               "Venomous Vial",
               "Damage Stone"
@@ -333,13 +270,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Wicked Slice",
-              "Open Vein"
-            ],
             "trinkets": [
               "Drifter's Buckle",
               "Damage Stone"
@@ -347,13 +277,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 3,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Thrown Dagger",
-              "Poison Dart"
-            ],
             "trinkets": [
               "Quickening Satchel",
               "Critical Stone"
@@ -361,13 +284,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Comfort",
-              "Divine Grace",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Youth Chalice",
               "Virtuous Chalice"
@@ -377,16 +293,9 @@
       },
       {
         "description": "Early-mid transition improving damage, blight, crit, and healing effectiveness.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Shieldbreaker",
-            "position": 1,
-            "skills": [
-              "Pierce",
-              "Puncture",
-              "Serpent Sway",
-              "Adder's Kiss"
-            ],
             "trinkets": [
               "Shimmering Scale",
               "Fanged Spear Tip"
@@ -394,13 +303,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Wicked Slice",
-              "Open Vein"
-            ],
             "trinkets": [
               "Sharpening Sheath",
               "Sniper's Ring"
@@ -408,13 +310,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 3,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Thrown Dagger",
-              "Poison Dart"
-            ],
             "trinkets": [
               "Blighting Satchel",
               "Lucky Talisman"
@@ -422,13 +317,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Comfort",
-              "Divine Grace",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Tome of Holy Healing",
               "Youth Chalice"
@@ -438,16 +326,9 @@
       },
       {
         "description": "Mid-game with very rare offensive trinkets to enhance mobile damage and healing.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Shieldbreaker",
-            "position": 1,
-            "skills": [
-              "Pierce",
-              "Puncture",
-              "Serpent Sway",
-              "Adder's Kiss"
-            ],
             "trinkets": [
               "Cuirboilli",
               "Fanged Spear Tip"
@@ -455,13 +336,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Wicked Slice",
-              "Open Vein"
-            ],
             "trinkets": [
               "Gunslinger's Buckle",
               "Sharpening Sheath"
@@ -469,13 +343,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 3,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Thrown Dagger",
-              "Poison Dart"
-            ],
             "trinkets": [
               "Raider's Talisman",
               "Blighting Satchel"
@@ -483,13 +350,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Comfort",
-              "Divine Grace",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Tome of Holy Healing"
@@ -499,16 +359,9 @@
       },
       {
         "description": "Late-game leveraging Ancestral items for peak damage, crit, and healing.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Shieldbreaker",
-            "position": 1,
-            "skills": [
-              "Pierce",
-              "Puncture",
-              "Serpent Sway",
-              "Adder's Kiss"
-            ],
             "trinkets": [
               "Cuirboilli",
               "Obsidian Dagger"
@@ -516,13 +369,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Wicked Slice",
-              "Open Vein"
-            ],
             "trinkets": [
               "Dismas' Head",
               "Gunslinger's Buckle"
@@ -530,13 +376,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 3,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Thrown Dagger",
-              "Poison Dart"
-            ],
             "trinkets": [
               "Raider's Talisman",
               "Absinthe"
@@ -544,13 +383,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Comfort",
-              "Divine Grace",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Junia's Head"
@@ -560,16 +392,9 @@
       },
       {
         "description": "Optimized high-power build with synergistic crystalline trinkets for burst damage and enhanced mobility.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Shieldbreaker",
-            "position": 1,
-            "skills": [
-              "Pierce",
-              "Puncture",
-              "Serpent Sway",
-              "Adder's Kiss"
-            ],
             "trinkets": [
               "Cuirboilli",
               "Spectral Speartip"
@@ -577,13 +402,6 @@
           },
           {
             "name": "Highwayman",
-            "position": 2,
-            "skills": [
-              "Duelist's Advance",
-              "Point Blank Shot",
-              "Wicked Slice",
-              "Open Vein"
-            ],
             "trinkets": [
               "Dismas' Head",
               "Crystalline Gunpowder"
@@ -591,13 +409,6 @@
           },
           {
             "name": "Grave Robber",
-            "position": 3,
-            "skills": [
-              "Lunge",
-              "Shadow Fade",
-              "Thrown Dagger",
-              "Poison Dart"
-            ],
             "trinkets": [
               "Raider's Talisman",
               "Topshelf Tonic"
@@ -605,13 +416,6 @@
           },
           {
             "name": "Vestal",
-            "position": 4,
-            "skills": [
-              "Divine Comfort",
-              "Divine Grace",
-              "Dazzling Light",
-              "Judgement"
-            ],
             "trinkets": [
               "Sacred Scroll",
               "Junia's Head"
@@ -624,19 +428,54 @@
   {
     "build_id": 3,
     "build_description": "This team leverages marking for focused damage, protective abilities, and counter-attacks with Riposte. The Musketeer and Houndmaster mark targets, allowing the entire team to concentrate fire. Shieldbreaker's Serpent Sway and Houndmaster's Guard Dog provide excellent defensive utility and Riposte opportunities.",
-    "teams": [
+    "heroes": [
+      {
+        "name": "Crusader",
+        "position": 1,
+        "skills": [
+          "Smite",
+          "Stunning Blow",
+          "Bulwark of Faith",
+          "Inspiring Cry"
+        ]
+      },
+      {
+        "name": "Houndmaster",
+        "position": 2,
+        "skills": [
+          "Hound's Rush",
+          "Target Whistle",
+          "Guard Dog",
+          "Lick Wounds"
+        ]
+      },
+      {
+        "name": "Shieldbreaker",
+        "position": 3,
+        "skills": [
+          "Pierce",
+          "Serpent Sway",
+          "Puncture",
+          "Expose"
+        ]
+      },
+      {
+        "name": "Musketeer",
+        "position": 4,
+        "skills": [
+          "Aimed Shot",
+          "Call the Shot",
+          "Smokescreen",
+          "Patch Up"
+        ]
+      }
+    ],
+    "trinket_variations": [
       {
         "description": "Early-game foundation for marking, stun, and basic damage.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Stunning Blow",
-              "Bulwark of Faith",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Knight's Crest",
               "Stun Stone"
@@ -644,13 +483,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Target Whistle",
-              "Guard Dog",
-              "Lick Wounds"
-            ],
             "trinkets": [
               "Stun Stone",
               "Agility Whistle"
@@ -658,13 +490,6 @@
           },
           {
             "name": "Shieldbreaker",
-            "position": 3,
-            "skills": [
-              "Pierce",
-              "Serpent Sway",
-              "Puncture",
-              "Expose"
-            ],
             "trinkets": [
               "Venomous Vial",
               "Damage Stone"
@@ -672,13 +497,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Patch Up"
-            ],
             "trinkets": [
               "Vengeful Boots",
               "Accuracy Stone"
@@ -688,16 +506,9 @@
       },
       {
         "description": "Early-mid transition with enhanced mark setup, stun chance, and ranged damage.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Stunning Blow",
-              "Bulwark of Faith",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Paralyzer's Crest",
               "Defender's Seal"
@@ -705,13 +516,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Target Whistle",
-              "Guard Dog",
-              "Lick Wounds"
-            ],
             "trinkets": [
               "Cudgel Weight",
               "Protective Collar"
@@ -719,13 +523,6 @@
           },
           {
             "name": "Shieldbreaker",
-            "position": 3,
-            "skills": [
-              "Pierce",
-              "Serpent Sway",
-              "Puncture",
-              "Expose"
-            ],
             "trinkets": [
               "Fanged Spear Tip",
               "Shimmering Scale"
@@ -733,13 +530,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Patch Up"
-            ],
             "trinkets": [
               "Bull's Eye Hat",
               "Medic's Boots"
@@ -749,16 +539,9 @@
       },
       {
         "description": "Mid-game focusing on marking synergy, protection, and piercing damage.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Stunning Blow",
-              "Bulwark of Faith",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Holy Orders",
               "Commander's Orders"
@@ -766,13 +549,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Target Whistle",
-              "Guard Dog",
-              "Lick Wounds"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Protective Collar"
@@ -780,13 +556,6 @@
           },
           {
             "name": "Shieldbreaker",
-            "position": 3,
-            "skills": [
-              "Pierce",
-              "Serpent Sway",
-              "Puncture",
-              "Expose"
-            ],
             "trinkets": [
               "Cuirboilli",
               "Fanged Spear Tip"
@@ -794,13 +563,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Patch Up"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Bull's Eye Hat"
@@ -810,16 +572,9 @@
       },
       {
         "description": "Late-game with Ancestral items, maximizing mark damage, guard utility, and overall survivability.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Stunning Blow",
-              "Bulwark of Faith",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Holy Orders",
               "Glittering Spaulders"
@@ -827,13 +582,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Target Whistle",
-              "Guard Dog",
-              "Lick Wounds"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Ancestor's Pen"
@@ -841,13 +589,6 @@
           },
           {
             "name": "Shieldbreaker",
-            "position": 3,
-            "skills": [
-              "Pierce",
-              "Serpent Sway",
-              "Puncture",
-              "Expose"
-            ],
             "trinkets": [
               "Cuirboilli",
               "Obsidian Dagger"
@@ -855,13 +596,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Patch Up"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Silver Musket Ball"
@@ -871,16 +605,9 @@
       },
       {
         "description": "Optimized high-power build using crystalline trinkets to amplify mark damage and piercing capabilities.",
-        "heroes": [
+        "hero_trinkets": [
           {
             "name": "Crusader",
-            "position": 1,
-            "skills": [
-              "Smite",
-              "Stunning Blow",
-              "Bulwark of Faith",
-              "Inspiring Cry"
-            ],
             "trinkets": [
               "Holy Orders",
               "Glittering Spaulders"
@@ -888,13 +615,6 @@
           },
           {
             "name": "Houndmaster",
-            "position": 2,
-            "skills": [
-              "Hound's Rush",
-              "Target Whistle",
-              "Guard Dog",
-              "Lick Wounds"
-            ],
             "trinkets": [
               "Spiked Collar",
               "Ancestor's Pen"
@@ -902,13 +622,6 @@
           },
           {
             "name": "Shieldbreaker",
-            "position": 3,
-            "skills": [
-              "Pierce",
-              "Serpent Sway",
-              "Puncture",
-              "Expose"
-            ],
             "trinkets": [
               "Cuirboilli",
               "Spectral Speartip"
@@ -916,13 +629,6 @@
           },
           {
             "name": "Musketeer",
-            "position": 4,
-            "skills": [
-              "Aimed Shot",
-              "Call the Shot",
-              "Smokescreen",
-              "Patch Up"
-            ],
             "trinkets": [
               "Wrathful Hat",
               "Icosahedric Musket Balls"
