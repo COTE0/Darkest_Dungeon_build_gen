@@ -25,4 +25,4 @@ def add_grammar_tokens(sequence: str) -> str:
         new_parts.append(formatted)
         position += 1
 
-    return "|".join(new_parts) + TOKEN_SPECIALS['END']
+    return "|".join(new_parts)

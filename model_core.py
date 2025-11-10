@@ -1,4 +1,4 @@
-from typing import List, Dict, Optional, Set
+from typing import List, Dict, Optional
 import re
 import yaml
 import csv
@@ -6,8 +6,6 @@ from collections import Counter
 import torch
 from torch import nn
 from torch.utils.data import Dataset
-from functools import partial
-
 
 MODEL_CONFIG = {
     'EMB_SIZE': 128,
@@ -28,11 +26,10 @@ TOKEN_SPECIALS = {
     'POS': '<pos>',
     'SKILL': '<skill>',
     'TRINKET': '<trinket>',
-    'EMPTY_TRINKET': '<empty_trinket>',
-    'END': '<end>'
+    'EMPTY_TRINKET': '<empty_trinket>'
 }
 
-TOKEN_PATTERN = re.compile(r"<hero>|<pos>|<skill>|<trinket>|<end>|<sos>|<eos>|<pad>|<unk>|[A-Za-z0-9_À-ÖØ-öø-ÿ' ]+|[:\+\|]")
+TOKEN_PATTERN = re.compile(r"<hero>|<pos>|<skill>|<trinket>|<sos>|<eos>|<pad>|<unk>|[A-Za-z0-9_À-ÖØ-öø-ÿ' ]+|[:\+\|]")
 def tokenize_sequence(seq: str) -> List[str]:
     seq = seq.strip()
     return TOKEN_PATTERN.findall(seq) if seq else []
@@ -173,7 +170,7 @@ def create_decoding_mask(prev_tokens: List[str], vocab: Vocab, device: torch.dev
 
     if last_token in [TOKEN_SPECIALS["SOS"], "|"]:
         if len(used_heroes) >= 4:
-            allowed_tokens = [TOKEN_SPECIALS["END"], TOKEN_SPECIALS["EOS"]]
+            allowed_tokens = [TOKEN_SPECIALS["EOS"]]
         else:
             allowed_tokens = [TOKEN_SPECIALS["HERO"]]
 
@@ -217,7 +214,7 @@ def create_decoding_mask(prev_tokens: List[str], vocab: Vocab, device: torch.dev
         if len(used_heroes) < 3:
             allowed_tokens = ["|"]
         else:
-            allowed_tokens = [TOKEN_SPECIALS["END"], TOKEN_SPECIALS["EOS"]]
+            allowed_tokens = [TOKEN_SPECIALS["EOS"]]
 
     elif last_token in all_trinkets or last_token in hero_data.get("trinkets", []):
         if trinket_count == 1:
@@ -226,7 +223,7 @@ def create_decoding_mask(prev_tokens: List[str], vocab: Vocab, device: torch.dev
             if len(used_heroes) < 3:
                 allowed_tokens = ["|"]
             else:
-                allowed_tokens = [TOKEN_SPECIALS["END"], TOKEN_SPECIALS["EOS"]]
+                allowed_tokens = [TOKEN_SPECIALS["EOS"]]
 
     for token in allowed_tokens:
         if token in vocab.token2idx:

@@ -3,7 +3,6 @@ import os
 import random
 import numpy as np
 import torch
-from torch import nn
 from torch.nn.utils import clip_grad_norm_
 from torch.utils.data import DataLoader
 from tqdm.auto import tqdm
@@ -57,7 +56,7 @@ def precompute_masks_for_batch(tgt, src, vocab, device):
         TOKEN_SPECIALS['SOS'], TOKEN_SPECIALS['EOS'],
         TOKEN_SPECIALS['HERO'], TOKEN_SPECIALS['POS'],
         TOKEN_SPECIALS['SKILL'], TOKEN_SPECIALS['TRINKET'],
-        TOKEN_SPECIALS['END'], ':', '+', '|'
+        ':', '+', '|'
     ]
     for tkn in special_tokens_allowed:
         if tkn in vocab.token2idx:
@@ -131,14 +130,12 @@ def generate_one_sampled_build(encoder, decoder, input_str, vocab, device):
     pad_idx = vocab.token_to_idx(TOKEN_SPECIALS['PAD'])
     unk_idx = vocab.token_to_idx(TOKEN_SPECIALS['UNK'])
     
-    K_DEFAULT = K
     TEMP_DEFAULT = TEMP
-    
-    K_FIRST_HERO = len(vocab.hero_names)
-    TEMP_FIRST_HERO = 1.5
+    TEMP_FIRST_HERO = 2.5
+    TOP_P_VALUE = 0.8
     
     log_buffer = "--- DZIENNIK GENEROWANIA PRÓBKOWANEGO ---\n"
-    log_buffer += f"Ustawienia domyślne: T={TEMP_DEFAULT}, K={K_DEFAULT}\n"
+    log_buffer += f"Ustawienia domyślne: T={TEMP_DEFAULT}, Top-P={TOP_P_VALUE}\n"
 
     for t in range(MAX_LEN):
         log_buffer += f"\n--- KROK {t+1} | OSTATNI TOKEN: '{generated_tokens[-1]}' ---\n"
@@ -153,13 +150,11 @@ def generate_one_sampled_build(encoder, decoder, input_str, vocab, device):
         allowed_mask[:, pad_idx] = False
         allowed_mask[:, unk_idx] = False
 
-        current_k = K_DEFAULT
         current_temp = TEMP_DEFAULT
         
         if len(generated_tokens) == 2 and generated_tokens[1] == TOKEN_SPECIALS['HERO']:
-            current_k = K_FIRST_HERO
             current_temp = TEMP_FIRST_HERO
-            log_buffer += f"ZASADA: WYBÓR PIERWSZEGO BOHATERA. UŻYTE: T={current_temp}, K={current_k}\n"
+            log_buffer += f"ZASADA: WYBÓR PIERWSZEGO BOHATERA. UŻYTE: T={current_temp} (Top-P={TOP_P_VALUE})\n"
 
         masked_logits = logits.masked_fill(~allowed_mask, -float('inf'))
         masked_logits[:, pad_idx] = -float('inf')
@@ -167,53 +162,61 @@ def generate_one_sampled_build(encoder, decoder, input_str, vocab, device):
 
         logits_temp = masked_logits / current_temp
         
-        k_val = min(current_k, logits_temp.size(-1)) 
-        v, _ = torch.topk(logits_temp, k_val)
-        logits_temp[logits_temp < v[:, [-1]]] = -float('inf')
-
         probs = F.softmax(logits_temp, dim=-1)
         
-        max_log_k = 10 
-        log_k = min(max_log_k, k_val)
-
-        top_indices_tensor, top_probs_tensor = torch.topk(probs, log_k)
-
-        top_indices = top_indices_tensor.squeeze(0).cpu().numpy()
-        top_probs = top_probs_tensor.squeeze(0).cpu().numpy()
+        sorted_probs, sorted_indices = torch.sort(probs, dim=-1, descending=True)
+        cumulative_probs = torch.cumsum(sorted_probs, dim=-1)
         
-        log_buffer += "TOKENY DO WYBORU (Top {} po Softmax):\n".format(len(top_indices))
-        for idx, prob in zip(top_indices, top_probs):
-            log_buffer += f"  - {vocab.idx_to_token(int(idx)):<20} P={prob:.4f}\n"
+        sorted_indices_to_remove = cumulative_probs > TOP_P_VALUE
+        
+        sorted_indices_to_remove[..., 1:] = sorted_indices_to_remove[..., :-1].clone()
+        sorted_indices_to_remove[..., 0] = 0
+
+        indices_to_remove = sorted_indices_to_remove.scatter(1, sorted_indices, sorted_indices_to_remove)
+        
+        probs[indices_to_remove] = 0.0
+
+        valid_indices = (probs > 0).nonzero(as_tuple=True)
+        
+        if len(valid_indices[0]) > 0:
+            valid_tokens = [vocab.idx_to_token(idx.item()) for idx in valid_indices[1]]
+            valid_probs = probs[valid_indices].cpu().numpy()
+            
+            sorted_pairs = sorted(zip(valid_tokens, valid_probs), key=lambda x: x[1], reverse=True)
+            
+            log_buffer += f"TOKENY DO WYBORU (Dozwolone & w Top-P={TOP_P_VALUE} - Prawdopodobieństwa po Softmax):\n"
+            for tok, prob in sorted_pairs:
+                log_buffer += f"  - {tok:<20} P={prob:.4f}\n"
+        else:
+            log_buffer += "TOKENY DO WYBORU (Top-P wycięło wszystkie opcje, fallback na Top-1)\n"
+            top_prob, top_idx = torch.max(F.softmax(logits_temp, dim=-1), dim=-1)
+            log_buffer += f"  - {vocab.idx_to_token(top_idx.item()):<20} P={top_prob.item():.4f}\n"
+
 
         if torch.isnan(probs).any() or probs.sum().item() == 0:
-            next_token_idx = masked_logits.argmax(dim=-1)
-            log_buffer += "⚠️ Uwaga: Błąd w prawdopodobieństwach, wybrano Greedy.\n"
+            next_token_idx = masked_logits.argmax(dim=-1) 
+            log_buffer += "Błąd w prawdopodobieństwach po Top-P, wybrano Greedy (Fallback).\n"
         else:
+            probs = probs / torch.sum(probs, dim=-1, keepdim=True)
             next_token_idx = torch.multinomial(probs, num_samples=1).squeeze(1)
 
         cand = next_token_idx.item()
-        if cand == pad_idx or cand == unk_idx:
+        if masked_logits[:, cand].item() == -float('inf'):
             next_token_idx = masked_logits.argmax(dim=-1)
             cand = next_token_idx.item()
 
         next_token = vocab.idx_to_token(cand)
-        log_buffer += f"✅ WYBRANY TOKEN: '{next_token}'\n"
+        log_buffer += f"WYBRANY TOKEN: '{next_token}'\n"
 
-        if next_token in [TOKEN_SPECIALS['EOS'], TOKEN_SPECIALS['END']]:
+        if next_token in [TOKEN_SPECIALS['EOS']]:
             break
 
         if next_token in vocab.dd_data.get('trinkets_all', []):
             used_global[next_token] = used_global.get(next_token, 0) + 1
         
-        if "<trinket>" in generated_tokens or any(t in vocab.dd_data.get('trinkets_all', []) for t in generated_tokens):
-            if not hasattr(generate_one_sampled_build, "_local_trinkets"):
-                generate_one_sampled_build._local_trinkets = set()
-            if next_token in vocab.dd_data.get('trinkets_all', []):
-                generate_one_sampled_build._local_trinkets.add(next_token)
         if next_token == "|":
             if hasattr(generate_one_sampled_build, "_local_trinkets"):
-                del generate_one_sampled_build._local_trinkets
-
+                del generate_one_sampled_build._local_trinkets # Resetuj przy przejściu do kolejnego bohatera
 
         generated_tokens.append(next_token)
         inp_tok = next_token_idx
@@ -315,7 +318,7 @@ def main():
     N = len(dataset)
     indices = list(range(N))
     random.shuffle(indices)
-    split = int(N * 0.9)
+    split = int(N * 0.94)
     train_ds = torch.utils.data.Subset(dataset, indices[:split])
     test_ds = torch.utils.data.Subset(dataset, indices[split:])
 
@@ -355,7 +358,6 @@ def main():
         
         sampled_build, log_buffer = generate_one_sampled_build(encoder, decoder, random_input, dataset.vocab, DEVICE)
         
-        # Zapis logu do pliku
         log_file_path = f"generation_log_epoch_{epoch:02d}.txt"
         with open(log_file_path, 'w', encoding='utf-8') as f:
             f.write(log_buffer)
@@ -377,7 +379,7 @@ def main():
                 "vocab": dataset.vocab.__dict__,
                 "optimizer": optimizer.state_dict(),
             }, out_path)
-            print(f"✅ Saved checkpoint → {out_path}")
+            print(f"Saved checkpoint → {out_path}")
         else:
             no_improve += 1
             if no_improve > patience:
