@@ -15,7 +15,7 @@
       },
       {
         "name": "Jester",
-        "position": 2,
+        "position": 4,
         "skills": [
           "Harvest",
           "Slice Off",
@@ -35,7 +35,7 @@
       },
       {
         "name": "Occultist",
-        "position": 4,
+        "position": 2,
         "skills": [
           "Wyrd Reconstruction",
           "Abyssal Artillery",

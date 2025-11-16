@@ -455,7 +455,7 @@
         "skills": [
           "Lunge",
           "Shadow Fade",
-          "Pick to the Face",
+          "Poison Dart",
           "Toxin Trickery"
         ]
       },
@@ -463,9 +463,9 @@
         "name": "Occultist",
         "position": 4,
         "skills": [
-          "Sacrificial Stab",
+          "Weakening Curse",
           "Wyrd Reconstruction",
-          "Hands from the Abyss",
+          "Daemon's Pull",
           "Abyssal Artillery"
         ]
       }

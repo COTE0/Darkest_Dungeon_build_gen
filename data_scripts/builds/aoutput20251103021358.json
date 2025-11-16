@@ -29,7 +29,7 @@
         "skills": [
           "Wyrd Reconstruction",
           "Vulnerability Hex",
-          "Hands from the Abyss",
+          "Weakening Curse",
           "Abyssal Artillery"
         ]
       },
@@ -213,219 +213,6 @@
     ]
   },
   {
-    "build_id": 2,
-    "build_description": "A potent Bleed and Crit-focused team with strong stress healing. The Jester buffs the party's crit and speed while managing stress. The Hellion and Highwayman apply heavy Bleed effects and high damage, while the Vestal provides reliable healing and stun support.",
-    "heroes": [
-      {
-        "name": "Hellion",
-        "position": 1,
-        "skills": [
-          "Wicked Hack",
-          "If It Bleeds",
-          "Adrenaline Rush",
-          "Iron Swan"
-        ]
-      },
-      {
-        "name": "Highwayman",
-        "position": 2,
-        "skills": [
-          "Point Blank Shot",
-          "Open Vein",
-          "Duelist's Advance",
-          "Pistol Shot"
-        ]
-      },
-      {
-        "name": "Jester",
-        "position": 3,
-        "skills": [
-          "Harvest",
-          "Slice Off",
-          "Battle Ballad",
-          "Inspiring Tune"
-        ]
-      },
-      {
-        "name": "Vestal",
-        "position": 4,
-        "skills": [
-          "Divine Grace",
-          "Divine Comfort",
-          "Dazzling Light",
-          "Judgement"
-        ]
-      }
-    ],
-    "trinket_variations": [
-      {
-        "description": "Early-game focus on basic Bleed chance, Accuracy, and Crit for damage. Vestal gets healing and stun support.",
-        "hero_trinkets": [
-          {
-            "name": "Hellion",
-            "trinkets": [
-              "Bleeding Pendant",
-              "Damage Stone"
-            ]
-          },
-          {
-            "name": "Highwayman",
-            "trinkets": [
-              "Flashfire Gunpowder",
-              "Critical Stone"
-            ]
-          },
-          {
-            "name": "Jester",
-            "trinkets": [
-              "Lucky Dice",
-              "Speed Stone"
-            ]
-          },
-          {
-            "name": "Vestal",
-            "trinkets": [
-              "Virtuous Chalice",
-              "Stun Stone"
-            ]
-          }
-        ]
-      },
-      {
-        "description": "Early-mid transition with better Bleed chance, Crit, and Speed. Jester helps manage stress and buffs.",
-        "hero_trinkets": [
-          {
-            "name": "Hellion",
-            "trinkets": [
-              "Double-Edged Pendant",
-              "Bleeding Pendant"
-            ]
-          },
-          {
-            "name": "Highwayman",
-            "trinkets": [
-              "Sharpening Sheath",
-              "Flashfire Gunpowder"
-            ]
-          },
-          {
-            "name": "Jester",
-            "trinkets": [
-              "Critical Dice",
-              "Lucky Dice"
-            ]
-          },
-          {
-            "name": "Vestal",
-            "trinkets": [
-              "Haste Chalice",
-              "Virtuous Chalice"
-            ]
-          }
-        ]
-      },
-      {
-        "description": "Mid-game with rare and very rare trinkets. Stronger Bleed effects, more crit, and improved speed/stress management.",
-        "hero_trinkets": [
-          {
-            "name": "Hellion",
-            "trinkets": [
-              "Heaven's Hairpin",
-              "Double-Edged Pendant"
-            ]
-          },
-          {
-            "name": "Highwayman",
-            "trinkets": [
-              "Sharpening Sheath",
-              "Gunslinger's Buckle"
-            ]
-          },
-          {
-            "name": "Jester",
-            "trinkets": [
-              "Bright Tambourine",
-              "Critical Dice"
-            ]
-          },
-          {
-            "name": "Vestal",
-            "trinkets": [
-              "Tome of Holy Healing",
-              "Haste Chalice"
-            ]
-          }
-        ]
-      },
-      {
-        "description": "Late-game with very rare and ancestral trinkets. Maximized Bleed, Crit, Speed, and powerful stress healing/combat buffs.",
-        "hero_trinkets": [
-          {
-            "name": "Hellion",
-            "trinkets": [
-              "Hell's Hairpin",
-              "Ancestor's Pen"
-            ]
-          },
-          {
-            "name": "Highwayman",
-            "trinkets": [
-              "Gunslinger's Buckle",
-              "Ancestor's Pistol"
-            ]
-          },
-          {
-            "name": "Jester",
-            "trinkets": [
-              "Dark Tambourine",
-              "Ancestor's Scroll"
-            ]
-          },
-          {
-            "name": "Vestal",
-            "trinkets": [
-              "Sacred Scroll",
-              "Ancestor's Bottle"
-            ]
-          }
-        ]
-      },
-      {
-        "description": "Optimized high-power build. Crystalline trinkets for Hellion's Bleed and HWM's damage. Jester gets his signature trinket.",
-        "hero_trinkets": [
-          {
-            "name": "Hellion",
-            "trinkets": [
-              "Thirsting Blade",
-              "Hell's Hairpin"
-            ]
-          },
-          {
-            "name": "Highwayman",
-            "trinkets": [
-              "Crystalline Gunpowder",
-              "Gunslinger's Buckle"
-            ]
-          },
-          {
-            "name": "Jester",
-            "trinkets": [
-              "Dirge For The Devoured",
-              "Dark Tambourine"
-            ]
-          },
-          {
-            "name": "Vestal",
-            "trinkets": [
-              "Heretical Passage",
-              "Sacred Scroll"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "build_id": 4,
     "build_description": "A dynamic team focused on movement, Riposte mechanics, and AoE damage. The Jester and Highwayman actively shuffle positions, setting up devastating Finale and Point Blank Shot attacks, while triggering Riposte. The Man-at-Arms provides frontline stability, more Riposte, and debuffs, complemented by the Musketeer's backline AoE and debuffs.",
     "heroes": [
@@ -445,7 +232,7 @@
         "skills": [
           "Duelist's Advance",
           "Point Blank Shot",
-          "Grapeshot Blast",
+          "Pistol Shot",
           "Open Vein"
         ]
       },
@@ -463,7 +250,7 @@
         "name": "Musketeer",
         "position": 4,
         "skills": [
-          "Buckshot",
+          "Patch Up",
           "Smokescreen",
           "Aimed Shot",
           "Skeet Shot"

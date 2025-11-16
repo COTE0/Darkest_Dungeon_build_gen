@@ -7,7 +7,7 @@
         "name": "Hellion",
         "position": 1,
         "skills": [
-          "Wicked Hack",
+          "Bleed Out",
           "If It Bleeds",
           "Barbaric Yawp",
           "Adrenaline Rush"
@@ -240,7 +240,7 @@
         "name": "Jester",
         "position": 3,
         "skills": [
-          "Solo",
+          "Dirk Stab",
           "Finale",
           "Battle Ballad",
           "Inspiring Tune"
@@ -253,7 +253,7 @@
           "Wyrd Reconstruction",
           "Abyssal Artillery",
           "Vulnerability Hex",
-          "Daemon's Pull"
+          "Weakening Curse"
         ]
       }
     ],
@@ -443,9 +443,9 @@
         "name": "Man-at-Arms",
         "position": 2,
         "skills": [
-          "Crush",
+          "Rampart",
           "Defender",
-          "Bolster",
+          "Retribution",
           "Command"
         ]
       },
@@ -648,8 +648,8 @@
         "skills": [
           "Collect Bounty",
           "Finish Him",
-          "Mark for Death",
-          "Flashbang"
+          "Come Hither",
+          "Uppercut"
         ]
       },
       {
@@ -658,17 +658,17 @@
         "skills": [
           "Wicked Slice",
           "Pistol Shot",
-          "Open Vein",
-          "Tracking Shot"
+          "Point Blank Shot",
+          "Duelist's Advance"
         ]
       },
       {
         "name": "Jester",
         "position": 3,
         "skills": [
-          "Harvest",
-          "Slice Off",
           "Battle Ballad",
+          "Finale",
+          "Solo",
           "Inspiring Tune"
         ]
       },
@@ -845,219 +845,6 @@
             "trinkets": [
               "Petrified Skull",
               "Demon's Cauldron"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "build_id": 5,
-    "build_description": "A resilient but somewhat chaotic team designed for extended fights, focusing on raw frontline damage and bleeds, supported by ranged damage, utility, and minor healing/stress relief from the back.",
-    "heroes": [
-      {
-        "name": "Leper",
-        "position": 1,
-        "skills": [
-          "Chop",
-          "Hew",
-          "Withstand",
-          "Intimidate"
-        ]
-      },
-      {
-        "name": "Hellion",
-        "position": 2,
-        "skills": [
-          "Wicked Hack",
-          "If It Bleeds",
-          "Barbaric Yawp",
-          "Iron Swan"
-        ]
-      },
-      {
-        "name": "Houndmaster",
-        "position": 3,
-        "skills": [
-          "Hound's Rush",
-          "Hound's Harry",
-          "Cry Havoc",
-          "Target Whistle"
-        ]
-      },
-      {
-        "name": "Musketeer",
-        "position": 4,
-        "skills": [
-          "Aimed Shot",
-          "Call the Shot",
-          "Patch Up",
-          "Skeet Shot"
-        ]
-      }
-    ],
-    "trinket_variations": [
-      {
-        "description": "Early-game viable (common/uncommon trinkets)",
-        "hero_trinkets": [
-          {
-            "name": "Leper",
-            "trinkets": [
-              "Accuracy Stone",
-              "Damage Stone"
-            ]
-          },
-          {
-            "name": "Hellion",
-            "trinkets": [
-              "Bleeding Pendant",
-              "Selfish Pendant"
-            ]
-          },
-          {
-            "name": "Houndmaster",
-            "trinkets": [
-              "Agility Whistle",
-              "Bleed Stone"
-            ]
-          },
-          {
-            "name": "Musketeer",
-            "trinkets": [
-              "Archer's Ring",
-              "Damage Stone"
-            ]
-          }
-        ]
-      },
-      {
-        "description": "Early-mid transition (uncommon/rare)",
-        "hero_trinkets": [
-          {
-            "name": "Leper",
-            "trinkets": [
-              "Fortunate Armlet",
-              "Immunity Mask"
-            ]
-          },
-          {
-            "name": "Hellion",
-            "trinkets": [
-              "Double-Edged Pendant",
-              "Heaven's Hairpin"
-            ]
-          },
-          {
-            "name": "Houndmaster",
-            "trinkets": [
-              "Cudgel Weight",
-              "Protective Collar"
-            ]
-          },
-          {
-            "name": "Musketeer",
-            "trinkets": [
-              "Medic's Boots",
-              "Bull's Eye Hat"
-            ]
-          }
-        ]
-      },
-      {
-        "description": "Mid-game (rare/very rare/uncommon)",
-        "hero_trinkets": [
-          {
-            "name": "Leper",
-            "trinkets": [
-              "Immunity Mask",
-              "Berserk Mask"
-            ]
-          },
-          {
-            "name": "Hellion",
-            "trinkets": [
-              "Heaven's Hairpin",
-              "Hell's Hairpin"
-            ]
-          },
-          {
-            "name": "Houndmaster",
-            "trinkets": [
-              "Protective Collar",
-              "Spiked Collar"
-            ]
-          },
-          {
-            "name": "Musketeer",
-            "trinkets": [
-              "Bull's Eye Hat",
-              "Wrathful Hat"
-            ]
-          }
-        ]
-      },
-      {
-        "description": "Late-game (very rare/ancestral)",
-        "hero_trinkets": [
-          {
-            "name": "Leper",
-            "trinkets": [
-              "Berserk Mask",
-              "Last Will and Testament"
-            ]
-          },
-          {
-            "name": "Hellion",
-            "trinkets": [
-              "Hell's Hairpin",
-              "Ancestor's Pen"
-            ]
-          },
-          {
-            "name": "Houndmaster",
-            "trinkets": [
-              "Spiked Collar",
-              "Ancestor's Pistol"
-            ]
-          },
-          {
-            "name": "Musketeer",
-            "trinkets": [
-              "Wrathful Hat",
-              "Ancestor's Musket Ball"
-            ]
-          }
-        ]
-      },
-      {
-        "description": "Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline if synergistic)",
-        "hero_trinkets": [
-          {
-            "name": "Leper",
-            "trinkets": [
-              "Petrified Amulet",
-              "Last Will and Testament"
-            ]
-          },
-          {
-            "name": "Hellion",
-            "trinkets": [
-              "Thirsting Blade",
-              "Hell's Hairpin"
-            ]
-          },
-          {
-            "name": "Houndmaster",
-            "trinkets": [
-              "Huskfang Whistle",
-              "Spiked Collar"
-            ]
-          },
-          {
-            "name": "Musketeer",
-            "trinkets": [
-              "Icosahedric Musket Balls",
-              "Wrathful Hat"
             ]
           }
         ]

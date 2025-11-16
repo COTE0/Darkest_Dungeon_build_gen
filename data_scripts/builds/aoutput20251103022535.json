@@ -28,8 +28,8 @@
         "position": 3,
         "skills": [
           "Aimed Shot",
-          "Call the Shot",
-          "Skeet Shot",
+          "Sidearm",
+          "Smokescreen",
           "Patch Up"
         ]
       },
@@ -40,7 +40,7 @@
           "Abyssal Artillery",
           "Vulnerability Hex",
           "Wyrd Reconstruction",
-          "Hands from the Abyss"
+          "Weakening Curse"
         ]
       }
     ],
@@ -221,14 +221,14 @@
         "position": 1,
         "skills": [
           "Wicked Hack",
-          "If It Bleeds",
+          "Adrenaline Rush",
           "Iron Swan",
           "Barbaric Yawp"
         ]
       },
       {
         "name": "Jester",
-        "position": 2,
+        "position": 3,
         "skills": [
           "Harvest",
           "Slice Off",
@@ -238,7 +238,7 @@
       },
       {
         "name": "Highwayman",
-        "position": 3,
+        "position": 2,
         "skills": [
           "Duelist's Advance",
           "Point Blank Shot",
@@ -646,9 +646,9 @@
         "name": "Hellion",
         "position": 1,
         "skills": [
-          "Wicked Hack",
+          "Bleed Out",
           "Iron Swan",
-          "Barbaric Yawp",
+          "If It Bleeds",
           "Adrenaline Rush"
         ]
       },
@@ -659,14 +659,14 @@
           "Collect Bounty",
           "Flashbang",
           "Come Hither",
-          "Uppercut"
+          "Flashbang"
         ]
       },
       {
         "name": "Occultist",
         "position": 3,
         "skills": [
-          "Hands from the Abyss",
+          "Vulnerability Hex",
           "Abyssal Artillery",
           "Weakening Curse",
           "Wyrd Reconstruction"
@@ -677,7 +677,7 @@
         "position": 4,
         "skills": [
           "Hound's Rush",
-          "Blackjack",
+          "Hound's Harry",
           "Cry Havoc",
           "Target Whistle"
         ]
@@ -862,7 +862,7 @@
           "Chop",
           "Hew",
           "Revenge",
-          "Intimidate"
+          "Solemnity"
         ]
       },
       {
@@ -872,7 +872,7 @@
           "Duelist's Advance",
           "Point Blank Shot",
           "Pistol Shot",
-          "Grapeshot Blast"
+          "Wicked Slice"
         ]
       },
       {
@@ -882,7 +882,7 @@
           "Battle Ballad",
           "Inspiring Tune",
           "Harvest",
-          "Dirk Stab"
+          "Slice Off"
         ]
       },
       {
@@ -890,7 +890,7 @@
         "position": 4,
         "skills": [
           "Aimed Shot",
-          "Skeet Shot",
+          "Patch Up",
           "Smokescreen",
           "Call the Shot"
         ]

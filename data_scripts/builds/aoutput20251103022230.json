@@ -7,25 +7,25 @@
         "name": "Hellion",
         "position": 1,
         "skills": [
-          "Wicked Hack",
+          "Bleed Out",
+          "If It Bleeds",
           "Iron Swan",
-          "Barbaric Yawp",
           "Adrenaline Rush"
         ]
       },
       {
         "name": "Houndmaster",
-        "position": 2,
+        "position": 4,
         "skills": [
           "Hound's Rush",
-          "Blackjack",
-          "Cry Havoc",
+          "Target Whistle",
+          "Hound's Harry",
           "Lick Wounds"
         ]
       },
       {
         "name": "Highwayman",
-        "position": 3,
+        "position": 2,
         "skills": [
           "Pistol Shot",
           "Duelist's Advance",
@@ -35,12 +35,12 @@
       },
       {
         "name": "Jester",
-        "position": 4,
+        "position": 3,
         "skills": [
           "Harvest",
           "Battle Ballad",
           "Inspiring Tune",
-          "Solo"
+          "Slice Off"
         ]
       }
     ],
@@ -218,9 +218,9 @@
     "heroes": [
       {
         "name": "Man-at-Arms",
-        "position": 1,
+        "position": 3,
         "skills": [
-          "Crush",
+          "Bellow",
           "Rampart",
           "Defender",
           "Command"
@@ -232,17 +232,17 @@
         "skills": [
           "Sacrificial Stab",
           "Wyrd Reconstruction",
-          "Abyssal Artillery",
+          "Hands from the Abyss",
           "Vulnerability Hex"
         ]
       },
       {
         "name": "Bounty Hunter",
-        "position": 3,
+        "position": 1,
         "skills": [
           "Collect Bounty",
           "Mark for Death",
-          "Flashbang",
+          "Uppercut",
           "Come Hither"
         ]
       },
@@ -426,219 +426,6 @@
     ]
   },
   {
-    "build_id": 3,
-    "build_description": "This 'Prot & Guard Stalwart' composition emphasizes resilience and sustained combat. Man-at-Arms guards vulnerable allies and uses Riposte to punish attackers, while Leper absorbs damage and delivers massive blows. Vestal provides robust healing and frontline stuns. Highwayman offers consistent ranged damage or can use Duelist's Advance for a backline riposte.",
-    "heroes": [
-      {
-        "name": "Man-at-Arms",
-        "position": 1,
-        "skills": [
-          "Crush",
-          "Defender",
-          "Retribution",
-          "Bolster"
-        ]
-      },
-      {
-        "name": "Leper",
-        "position": 2,
-        "skills": [
-          "Chop",
-          "Hew",
-          "Withstand",
-          "Solemnity"
-        ]
-      },
-      {
-        "name": "Vestal",
-        "position": 3,
-        "skills": [
-          "Judgement",
-          "Divine Grace",
-          "Divine Comfort",
-          "Dazzling Light"
-        ]
-      },
-      {
-        "name": "Highwayman",
-        "position": 4,
-        "skills": [
-          "Pistol Shot",
-          "Duelist's Advance",
-          "Tracking Shot",
-          "Open Vein"
-        ]
-      }
-    ],
-    "trinket_variations": [
-      {
-        "description": "Early-game Prot & Guard Stalwart",
-        "hero_trinkets": [
-          {
-            "name": "Man-at-Arms",
-            "trinkets": [
-              "Warrior's Bracer",
-              "Cleansing Eyepatch"
-            ]
-          },
-          {
-            "name": "Leper",
-            "trinkets": [
-              "Healing Armlet",
-              "Redemption Armlet"
-            ]
-          },
-          {
-            "name": "Vestal",
-            "trinkets": [
-              "Virtuous Chalice",
-              "Stun Charm"
-            ]
-          },
-          {
-            "name": "Highwayman",
-            "trinkets": [
-              "Drifter's Buckle",
-              "Accuracy Stone"
-            ]
-          }
-        ]
-      },
-      {
-        "description": "Early-mid Prot & Guard Stalwart",
-        "hero_trinkets": [
-          {
-            "name": "Man-at-Arms",
-            "trinkets": [
-              "Longevity Eyepatch",
-              "Rampart Shield"
-            ]
-          },
-          {
-            "name": "Leper",
-            "trinkets": [
-              "Immunity Mask",
-              "Fortunate Armlet"
-            ]
-          },
-          {
-            "name": "Vestal",
-            "trinkets": [
-              "Haste Chalice",
-              "Profane Scroll"
-            ]
-          },
-          {
-            "name": "Highwayman",
-            "trinkets": [
-              "Sharpening Sheath",
-              "Sniper's Ring"
-            ]
-          }
-        ]
-      },
-      {
-        "description": "Mid-game Prot & Guard Stalwart",
-        "hero_trinkets": [
-          {
-            "name": "Man-at-Arms",
-            "trinkets": [
-              "Guardian's Shield",
-              "Rampart Shield"
-            ]
-          },
-          {
-            "name": "Leper",
-            "trinkets": [
-              "Berserk Mask",
-              "Immunity Mask"
-            ]
-          },
-          {
-            "name": "Vestal",
-            "trinkets": [
-              "Sacred Scroll",
-              "Profane Scroll"
-            ]
-          },
-          {
-            "name": "Highwayman",
-            "trinkets": [
-              "Gunslinger's Buckle",
-              "Sharpening Sheath"
-            ]
-          }
-        ]
-      },
-      {
-        "description": "Late-game Prot & Guard Stalwart",
-        "hero_trinkets": [
-          {
-            "name": "Man-at-Arms",
-            "trinkets": [
-              "Guardian's Shield",
-              "Ancestor's Coat"
-            ]
-          },
-          {
-            "name": "Leper",
-            "trinkets": [
-              "Berserk Mask",
-              "Last Will and Testament"
-            ]
-          },
-          {
-            "name": "Vestal",
-            "trinkets": [
-              "Sacred Scroll",
-              "Ancestor's Scroll"
-            ]
-          },
-          {
-            "name": "Highwayman",
-            "trinkets": [
-              "Gunslinger's Buckle",
-              "Ancestor's Pistol"
-            ]
-          }
-        ]
-      },
-      {
-        "description": "Optimized High-Power Prot & Guard Stalwart",
-        "hero_trinkets": [
-          {
-            "name": "Man-at-Arms",
-            "trinkets": [
-              "Guardian's Shield",
-              "Mirror Shield"
-            ]
-          },
-          {
-            "name": "Leper",
-            "trinkets": [
-              "Berserk Mask",
-              "Petrified Amulet"
-            ]
-          },
-          {
-            "name": "Vestal",
-            "trinkets": [
-              "Sacred Scroll",
-              "Heretical Passage"
-            ]
-          },
-          {
-            "name": "Highwayman",
-            "trinkets": [
-              "Gunslinger's Buckle",
-              "Crystalline Gunpowder"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "build_id": 4,
     "build_description": "The 'Frontline Bleed & Stun' team focuses on controlling and dismantling enemy front ranks through continuous bleed damage and powerful stuns. Hellion and Jester are the primary bleeders and stunners, quickly whittling down enemy health. Houndmaster adds further bleeds, stuns, and stress relief, while Vestal ensures the team's survival with reliable healing and additional stuns.",
     "heroes": [
@@ -646,7 +433,7 @@
         "name": "Hellion",
         "position": 1,
         "skills": [
-          "Wicked Hack",
+          "Adrenaline Rush",
           "If It Bleeds",
           "Barbaric Yawp",
           "Bleed Out"
@@ -654,7 +441,7 @@
       },
       {
         "name": "Jester",
-        "position": 2,
+        "position": 4,
         "skills": [
           "Harvest",
           "Slice Off",
@@ -664,17 +451,17 @@
       },
       {
         "name": "Houndmaster",
-        "position": 3,
+        "position": 2,
         "skills": [
           "Hound's Harry",
           "Blackjack",
-          "Cry Havoc",
+          "Hound's Rush",
           "Lick Wounds"
         ]
       },
       {
         "name": "Vestal",
-        "position": 4,
+        "position": 3,
         "skills": [
           "Judgement",
           "Divine Grace",
@@ -881,8 +668,8 @@
         "skills": [
           "Aimed Shot",
           "Smokescreen",
-          "Skeet Shot",
-          "Call the Shot"
+          "Sidearm",
+          "Patch Up"
         ]
       },
       {

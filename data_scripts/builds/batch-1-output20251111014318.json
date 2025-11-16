@@ -1,0 +1,1067 @@
+[
+  {
+    "build_id": 1,
+    "build_description": "A high-mobility team focused on Riposte uptime, backline harassment, and burst damage. Shieldbreaker and Highwayman constantly shift positions to apply pressure, while Plague Doctor provides crucial stuns and blights. Jester supports with buffs and can initiate a dramatic Solo/Finale sequence if positions allow.",
+    "heroes": [
+      {
+        "name": "Shieldbreaker",
+        "position": 1,
+        "skills": [
+          "Pierce",
+          "Impale",
+          "Serpent Sway",
+          "Captivate"
+        ]
+      },
+      {
+        "name": "Highwayman",
+        "position": 2,
+        "skills": [
+          "Duelist's Advance",
+          "Point Blank Shot",
+          "Wicked Slice",
+          "Pistol Shot"
+        ]
+      },
+      {
+        "name": "Plague Doctor",
+        "position": 3,
+        "skills": [
+          "Blinding Gas",
+          "Noxious Blast",
+          "Battlefield Medicine",
+          "Plague Grenade"
+        ]
+      },
+      {
+        "name": "Jester",
+        "position": 4,
+        "skills": [
+          "Slice Off",
+          "Battle Ballad",
+          "Harvest",
+          "Inspiring Tune"
+        ]
+      }
+    ],
+    "trinket_variations": [
+      {
+        "description": "Early-game viable (common/uncommon)",
+        "hero_trinkets": [
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Venomous Vial",
+              "Dancer's Footwraps"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "trinkets": [
+              "Drifter's Buckle",
+              "Accuracy Stone"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Witch's Vial",
+              "Poisoned Herb"
+            ]
+          },
+          {
+            "name": "Jester",
+            "trinkets": [
+              "Lucky Dice",
+              "Critical Stone"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare)",
+        "hero_trinkets": [
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Shimmering Scale",
+              "Fanged Spear Tip"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "trinkets": [
+              "Dodgy Sheath",
+              "Sharpening Sheath"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Poisoned Herb",
+              "Bloody Herb"
+            ]
+          },
+          {
+            "name": "Jester",
+            "trinkets": [
+              "Critical Dice",
+              "Bright Tambourine"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon)",
+        "hero_trinkets": [
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Fanged Spear Tip",
+              "Cuirboilli"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "trinkets": [
+              "Sharpening Sheath",
+              "Gunslinger's Buckle"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Bloody Herb",
+              "Blasphemous Vial"
+            ]
+          },
+          {
+            "name": "Jester",
+            "trinkets": [
+              "Bright Tambourine",
+              "Dark Tambourine"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral)",
+        "hero_trinkets": [
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Cuirboilli",
+              "Ancestor's Pistol"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "trinkets": [
+              "Gunslinger's Buckle",
+              "Dismas' Head"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Jester",
+            "trinkets": [
+              "Dark Tambourine",
+              "Ancestor's Signet Ring"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy/crystalline)",
+        "hero_trinkets": [
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Spectral Speartip",
+              "Obsidian Dagger"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "trinkets": [
+              "Crystalline Gunpowder",
+              "Gunslinger's Buckle"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Ashen Distillation",
+              "Blasphemous Vial"
+            ]
+          },
+          {
+            "name": "Jester",
+            "trinkets": [
+              "Dirge For The Devoured",
+              "Dark Tambourine"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 2,
+    "build_description": "This team revolves around marking targets and delivering devastating finisher blows. Houndmaster and Occultist mark enemies, while Bounty Hunter and Highwayman use their movement skills and powerful attacks to capitalize on these marks. Highwayman provides consistent positional play with Duelist's Advance and Point Blank Shot.",
+    "heroes": [
+      {
+        "name": "Bounty Hunter",
+        "position": 1,
+        "skills": [
+          "Collect Bounty",
+          "Mark for Death",
+          "Flashbang",
+          "Come Hither"
+        ]
+      },
+      {
+        "name": "Highwayman",
+        "position": 2,
+        "skills": [
+          "Duelist's Advance",
+          "Point Blank Shot",
+          "Wicked Slice",
+          "Pistol Shot"
+        ]
+      },
+      {
+        "name": "Houndmaster",
+        "position": 3,
+        "skills": [
+          "Hound's Rush",
+          "Target Whistle",
+          "Cry Havoc",
+          "Lick Wounds"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 4,
+        "skills": [
+          "Wyrd Reconstruction",
+          "Abyssal Artillery",
+          "Vulnerability Hex",
+          "Weakening Curse"
+        ]
+      }
+    ],
+    "trinket_variations": [
+      {
+        "description": "Early-game viable (common/uncommon)",
+        "hero_trinkets": [
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Agility Talon",
+              "Accuracy Stone"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "trinkets": [
+              "Drifter's Buckle",
+              "Damage Stone"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Agility Whistle",
+              "Bleed Stone"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Eldritch Killing Incense",
+              "Accuracy Stone"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare)",
+        "hero_trinkets": [
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Camper's Helmet",
+              "Hunter's Talons"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "trinkets": [
+              "Dodgy Sheath",
+              "Sharpening Sheath"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Cudgel Weight",
+              "Protective Collar"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Cursed Incense",
+              "Sacrifical Cauldron"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon)",
+        "hero_trinkets": [
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Hunter's Talons",
+              "Wounding Helmet"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "trinkets": [
+              "Sharpening Sheath",
+              "Gunslinger's Buckle"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Protective Collar",
+              "Spiked Collar"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Sacrifical Cauldron",
+              "Demon's Cauldron"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral)",
+        "hero_trinkets": [
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Wounding Helmet",
+              "Crime Lords' Molars"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "trinkets": [
+              "Gunslinger's Buckle",
+              "Dismas' Head"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Spiked Collar",
+              "Ancestor's Signet Ring"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Demon's Cauldron",
+              "Ancestor's Tentacle Idol"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy/crystalline)",
+        "hero_trinkets": [
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Mask Of The Timeless",
+              "Wounding Helmet"
+            ]
+          },
+          {
+            "name": "Highwayman",
+            "trinkets": [
+              "Crystalline Gunpowder",
+              "Gunslinger's Buckle"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Huskfang Whistle",
+              "Spiked Collar"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Petrified Skull",
+              "Demon's Cauldron"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 3,
+    "build_description": "A control-oriented team focused on applying Blight, stunning enemies, and maintaining flexible frontline damage. Grave Robber and Shieldbreaker provide dynamic front-line movement, constantly repositioning to dodge or strike, while Plague Doctor and Occultist deliver area-of-effect blight, stuns, and vital healing/debuffs from the back.",
+    "heroes": [
+      {
+        "name": "Shieldbreaker",
+        "position": 1,
+        "skills": [
+          "Pierce",
+          "Puncture",
+          "Serpent Sway",
+          "Impale"
+        ]
+      },
+      {
+        "name": "Grave Robber",
+        "position": 2,
+        "skills": [
+          "Lunge",
+          "Shadow Fade",
+          "Poison Dart",
+          "Pick to the Face"
+        ]
+      },
+      {
+        "name": "Plague Doctor",
+        "position": 4,
+        "skills": [
+          "Blinding Gas",
+          "Plague Grenade",
+          "Noxious Blast",
+          "Battlefield Medicine"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 3,
+        "skills": [
+          "Wyrd Reconstruction",
+          "Abyssal Artillery",
+          "Weakening Curse",
+          "Hands from the Abyss"
+        ]
+      }
+    ],
+    "trinket_variations": [
+      {
+        "description": "Early-game viable (common/uncommon)",
+        "hero_trinkets": [
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Venomous Vial",
+              "Dancer's Footwraps"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Quickening Satchel",
+              "Blight Stone"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Witch's Vial",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Eldritch Killing Incense",
+              "Evasion Incense"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare)",
+        "hero_trinkets": [
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Shimmering Scale",
+              "Fanged Spear Tip"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Blighting Satchel",
+              "Lucky Talisman"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Poisoned Herb",
+              "Bloody Herb"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Cursed Incense",
+              "Sacrifical Cauldron"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon)",
+        "hero_trinkets": [
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Fanged Spear Tip",
+              "Cuirboilli"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Lucky Talisman",
+              "Raider's Talisman"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Bloody Herb",
+              "Blasphemous Vial"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Sacrifical Cauldron",
+              "Demon's Cauldron"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral)",
+        "hero_trinkets": [
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Cuirboilli",
+              "Ancestor's Pistol"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Raider's Talisman",
+              "Absinthe"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Demon's Cauldron",
+              "Ancestor's Tentacle Idol"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy/crystalline)",
+        "hero_trinkets": [
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Spectral Speartip",
+              "Obsidian Dagger"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Topshelf Tonic",
+              "Raider's Talisman"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Ashen Distillation",
+              "Blasphemous Vial"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Petrified Skull",
+              "Demon's Cauldron"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 4,
+    "build_description": "A frantic bleed and stress-focused team designed around Jester's Solo/Finale dance and Grave Robber's Lunge. Flagellant and Houndmaster apply heavy bleeds and stress relief, while Grave Robber can Lunge forward, then Shadow Fade back, creating openings for Jester's dramatic movements and powerful Finale burst.",
+    "heroes": [
+      {
+        "name": "Flagellant",
+        "position": 1,
+        "skills": [
+          "Punish",
+          "Exsanguinate",
+          "Rain of Sorrows",
+          "Suffer"
+        ]
+      },
+      {
+        "name": "Houndmaster",
+        "position": 2,
+        "skills": [
+          "Hound's Rush",
+          "Hound's Harry",
+          "Blackjack",
+          "Guard Dog"
+        ]
+      },
+      {
+        "name": "Grave Robber",
+        "position": 3,
+        "skills": [
+          "Lunge",
+          "Shadow Fade",
+          "Thrown Dagger",
+          "Poison Dart"
+        ]
+      },
+      {
+        "name": "Jester",
+        "position": 4,
+        "skills": [
+          "Solo",
+          "Finale",
+          "Battle Ballad",
+          "Slice Off"
+        ]
+      }
+    ],
+    "trinket_variations": [
+      {
+        "description": "Early-game viable (common/uncommon)",
+        "hero_trinkets": [
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Heartburst Hood",
+              "Bleed Stone"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Agility Whistle",
+              "Bleed Charm"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Quickening Satchel",
+              "Critical Stone"
+            ]
+          },
+          {
+            "name": "Jester",
+            "trinkets": [
+              "Lucky Dice",
+              "Bleed Stone"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare)",
+        "hero_trinkets": [
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Punishment's Hood",
+              "Suffering's Collar"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Cudgel Weight",
+              "Protective Collar"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Lucky Talisman",
+              "Blighting Satchel"
+            ]
+          },
+          {
+            "name": "Jester",
+            "trinkets": [
+              "Critical Dice",
+              "Bright Tambourine"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon)",
+        "hero_trinkets": [
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Suffering's Collar",
+              "Eternity's Collar"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Protective Collar",
+              "Spiked Collar"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Raider's Talisman",
+              "Lucky Talisman"
+            ]
+          },
+          {
+            "name": "Jester",
+            "trinkets": [
+              "Bright Tambourine",
+              "Dark Tambourine"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral)",
+        "hero_trinkets": [
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Eternity's Collar",
+              "Chipped Tooth"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Spiked Collar",
+              "Battered Lawman's Badge"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Raider's Talisman",
+              "Absinthe"
+            ]
+          },
+          {
+            "name": "Jester",
+            "trinkets": [
+              "Dark Tambourine",
+              "Tyrant's Fingerbone"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy/crystalline)",
+        "hero_trinkets": [
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Acidic Husk Ichor",
+              "Eternity's Collar"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Huskfang Whistle",
+              "Spiked Collar"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Topshelf Tonic",
+              "Raider's Talisman"
+            ]
+          },
+          {
+            "name": "Jester",
+            "trinkets": [
+              "Dirge For The Devoured",
+              "Dark Tambourine"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 5,
+    "build_description": "A chaotic ranged DPS team featuring dual Musketeers for backline suppression and marking, supported by a sturdy Flagellant and a versatile Bounty Hunter. The team employs subtle positional shifts: Bounty Hunter can use Uppercut to move back, while Musketeers can adjust slightly with Sidearm or Buckshot, making it a dance through tactical repositioning rather than aggressive lunges.",
+    "heroes": [
+      {
+        "name": "Flagellant",
+        "position": 1,
+        "skills": [
+          "Punish",
+          "Exsanguinate",
+          "Redeem",
+          "Suffer"
+        ]
+      },
+      {
+        "name": "Bounty Hunter",
+        "position": 2,
+        "skills": [
+          "Collect Bounty",
+          "Mark for Death",
+          "Flashbang",
+          "Uppercut"
+        ]
+      },
+      {
+        "name": "Musketeer",
+        "position": 3,
+        "skills": [
+          "Aimed Shot",
+          "Call the Shot",
+          "Skeet Shot",
+          "Sidearm"
+        ]
+      },
+      {
+        "name": "Musketeer",
+        "position": 4,
+        "skills": [
+          "Aimed Shot",
+          "Smokescreen",
+          "Buckshot",
+          "Patch Up"
+        ]
+      }
+    ],
+    "trinket_variations": [
+      {
+        "description": "Early-game viable (common/uncommon)",
+        "hero_trinkets": [
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Heartburst Hood",
+              "Bleed Stone"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Agility Talon",
+              "Accuracy Stone"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Vengeful Boots",
+              "Archer's Ring"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Sturdy Boots",
+              "Damage Stone"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition (uncommon/rare)",
+        "hero_trinkets": [
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Punishment's Hood",
+              "Suffering's Collar"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Camper's Helmet",
+              "Hunter's Talons"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Medic's Boots",
+              "Bull's Eye Hat"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Sniper's Ring",
+              "Vengeful Boots"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game (rare/very rare/uncommon)",
+        "hero_trinkets": [
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Suffering's Collar",
+              "Eternity's Collar"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Hunter's Talons",
+              "Wounding Helmet"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Bull's Eye Hat",
+              "Wrathful Hat"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Sniper's Ring",
+              "Bull's Eye Hat"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game (very rare/ancestral)",
+        "hero_trinkets": [
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Eternity's Collar",
+              "Chipped Tooth"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Wounding Helmet",
+              "Crime Lords' Molars"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Wrathful Hat",
+              "Ancestor's Musket Ball"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Wrathful Hat",
+              "Ancestor's Pistol"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power build (very rare/ancestral/trophy/crystalline)",
+        "hero_trinkets": [
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Acidic Husk Ichor",
+              "Eternity's Collar"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Mask Of The Timeless",
+              "Wounding Helmet"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Icosahedric Musket Balls",
+              "Wrathful Hat"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Icosahedric Musket Balls",
+              "Ancestor's Musket Ball"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

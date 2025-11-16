@@ -216,7 +216,7 @@ def generate_one_sampled_build(encoder, decoder, input_str, vocab, device):
         
         if next_token == "|":
             if hasattr(generate_one_sampled_build, "_local_trinkets"):
-                del generate_one_sampled_build._local_trinkets # Resetuj przy przejściu do kolejnego bohatera
+                del generate_one_sampled_build._local_trinkets
 
         generated_tokens.append(next_token)
         inp_tok = next_token_idx
@@ -233,7 +233,7 @@ def train_epoch(encoder, decoder, dataloader, optimizer, vocab, device, scaler, 
     total_loss = 0.0
     loop = tqdm(dataloader, desc="Training", leave=False)
     
-    tf_decay_rate = (CURRENT_EPOCH - 1) / 12 if CURRENT_EPOCH <= 12 else 1.0
+    tf_decay_rate = (CURRENT_EPOCH - 1) / 30 if CURRENT_EPOCH <= 30 else 1.0
     current_tf = max(0.0, teacher_forcing - tf_decay_rate)
 
     for batch in loop:
@@ -329,7 +329,7 @@ def main():
     encoder = Encoder(len(dataset.vocab), EMB_SIZE, HID_SIZE, DROPOUT).to(DEVICE)
     decoder = Decoder(len(dataset.vocab), EMB_SIZE, HID_SIZE, DROPOUT).to(DEVICE)
     optimizer = torch.optim.AdamW(list(encoder.parameters()) + list(decoder.parameters()), lr=LR, weight_decay=1e-6)
-    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode="min", factor=0.3, patience=1)
+    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode="min", factor=0.5, patience=2)
     scaler = torch.cuda.amp.GradScaler(enabled=(DEVICE.type == "cuda"))
 
     start_epoch = 1
@@ -388,5 +388,5 @@ def main():
 
     print(f"Training finished. Best val loss: {best_val:.4f}")
 
-if __name__ == "__main__":
+if __name__ == "__main__":  
     main()

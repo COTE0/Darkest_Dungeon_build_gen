@@ -9,7 +9,7 @@
         "skills": [
           "Collect Bounty",
           "Finish Him",
-          "Flashbang",
+          "Uppercut",
           "Come Hither"
         ]
       },
@@ -30,7 +30,7 @@
           "Aimed Shot",
           "Call the Shot",
           "Smokescreen",
-          "Buckshot"
+          "Patch Up"
         ]
       },
       {
@@ -221,7 +221,7 @@
         "position": 1,
         "skills": [
           "Crush",
-          "Retribution",
+          "Bellow",
           "Defender",
           "Bolster"
         ]
@@ -230,9 +230,9 @@
         "name": "Hellion",
         "position": 2,
         "skills": [
-          "Wicked Hack",
+          "Breakthrough",
           "If It Bleeds",
-          "Barbaric Yawp",
+          "Wicked Hack",
           "Adrenaline Rush"
         ]
       },
@@ -241,8 +241,8 @@
         "position": 3,
         "skills": [
           "Duelist's Advance",
-          "Point Blank Shot",
-          "Wicked Slice",
+          "Grapeshot Blast",
+          "Open Vein",  
           "Pistol Shot"
         ]
       },
@@ -444,7 +444,7 @@
         "position": 2,
         "skills": [
           "If It Bleeds",
-          "Bleed Out",
+          "Wicked Hack",
           "Barbaric Yawp",
           "Adrenaline Rush"
         ]
@@ -644,7 +644,7 @@
     "heroes": [
       {
         "name": "Leper",
-        "position": 1,
+        "position": 2,
         "skills": [
           "Chop",
           "Hew",
@@ -654,12 +654,12 @@
       },
       {
         "name": "Man-at-Arms",
-        "position": 2,
+        "position": 1,
         "skills": [
           "Rampart",
           "Defender",
-          "Command",
-          "Bolster"
+          "Retribution",
+          "Bellow"
         ]
       },
       {
@@ -677,7 +677,7 @@
         "position": 4,
         "skills": [
           "Aimed Shot",
-          "Call the Shot",
+          "Patch Up",
           "Smokescreen",
           "Sidearm"
         ]

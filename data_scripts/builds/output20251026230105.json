@@ -15,7 +15,7 @@
       },
       {
         "name": "Bounty Hunter",
-        "position": 2,
+        "position": 3,
         "skills": [
           "Collect Bounty",
           "Mark for Death",
@@ -25,12 +25,12 @@
       },
       {
         "name": "Occultist",
-        "position": 3,
+        "position": 2,
         "skills": [
           "Wyrd Reconstruction",
           "Hands from the Abyss",
           "Vulnerability Hex",
-          "Abyssal Artillery"
+          "Sacrificial Stab"
         ]
       },
       {

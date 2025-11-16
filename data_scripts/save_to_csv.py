@@ -61,7 +61,7 @@ def generate_variant(team: Dict[str, Any], variation_index: int, all_heroes: Lis
     
     core_heroes = [h['name'] for h in team['heroes']]
     
-    roster_size = random.randint(16, 28)
+    roster_size = random.randint(8, 28) #generalizing for smaller pool if user does not wish to include certain characters(eg. when 1 has over 100 stress)
         
     heroes_needed = max(0, roster_size - len(core_heroes))
     other_heroes = random.choices(all_heroes, k=heroes_needed)
