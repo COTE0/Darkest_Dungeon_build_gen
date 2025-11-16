@@ -120,8 +120,8 @@ def generate_one_sampled_build(encoder, decoder, input_str, vocab, device):
     src = torch.tensor([inp_idx], dtype=torch.long, device=device)
     src_lens = torch.tensor([len(inp_idx)], dtype=torch.long, device=device)
     input_context = [vocab.idx_to_token(i) for i in src[0].tolist()]
-
-    _, enc_hidden = encoder(src, src_lens)
+    enc_out, enc_hidden = encoder(src, src_lens)
+    
     dec_hidden = enc_hidden
     generated_tokens = [TOKEN_SPECIALS['SOS']]
     inp_tok = torch.tensor([vocab.token_to_idx(TOKEN_SPECIALS['SOS'])], dtype=torch.long, device=device)
@@ -134,13 +134,13 @@ def generate_one_sampled_build(encoder, decoder, input_str, vocab, device):
     TEMP_FIRST_HERO = 2.5
     TOP_P_VALUE = 0.8
     
-    log_buffer = "--- DZIENNIK GENEROWANIA PRÓBKOWANEGO ---\n"
-    log_buffer += f"Ustawienia domyślne: T={TEMP_DEFAULT}, Top-P={TOP_P_VALUE}\n"
+    log_buffer = "--- SAMPLED GENERATION LOG ---\n"
+    log_buffer += f"Default settings: T={TEMP_DEFAULT}, Top-P={TOP_P_VALUE}\n"
 
     for t in range(MAX_LEN):
-        log_buffer += f"\n--- KROK {t+1} | OSTATNI TOKEN: '{generated_tokens[-1]}' ---\n"
+        log_buffer += f"\n--- STEP {t+1} | LAST TOKEN: '{generated_tokens[-1]}' ---\n"
         
-        logits, dec_hidden = decoder.forward_step(inp_tok, dec_hidden, t)
+        logits, dec_hidden = decoder.forward_step(inp_tok, dec_hidden, t, enc_out)
 
         allowed_mask = create_decoding_mask(
             generated_tokens[1:], vocab, device,
@@ -154,7 +154,7 @@ def generate_one_sampled_build(encoder, decoder, input_str, vocab, device):
         
         if len(generated_tokens) == 2 and generated_tokens[1] == TOKEN_SPECIALS['HERO']:
             current_temp = TEMP_FIRST_HERO
-            log_buffer += f"ZASADA: WYBÓR PIERWSZEGO BOHATERA. UŻYTE: T={current_temp} (Top-P={TOP_P_VALUE})\n"
+            log_buffer += f"RULE: FIRST HERO SELECTION. USING: T={current_temp} (Top-P={TOP_P_VALUE})\n"
 
         masked_logits = logits.masked_fill(~allowed_mask, -float('inf'))
         masked_logits[:, pad_idx] = -float('inf')
@@ -184,18 +184,18 @@ def generate_one_sampled_build(encoder, decoder, input_str, vocab, device):
             
             sorted_pairs = sorted(zip(valid_tokens, valid_probs), key=lambda x: x[1], reverse=True)
             
-            log_buffer += f"TOKENY DO WYBORU (Dozwolone & w Top-P={TOP_P_VALUE} - Prawdopodobieństwa po Softmax):\n"
+            log_buffer += f"TOKENS TO CHOOSE FROM (Allowed & in Top-P={TOP_P_VALUE} - Post-Softmax Probabilities):\n"
             for tok, prob in sorted_pairs:
                 log_buffer += f"  - {tok:<20} P={prob:.4f}\n"
         else:
-            log_buffer += "TOKENY DO WYBORU (Top-P wycięło wszystkie opcje, fallback na Top-1)\n"
+            log_buffer += f"TOKENS TO CHOOSE FROM (Top-P removed all options, falling back to Top-1)\n"
             top_prob, top_idx = torch.max(F.softmax(logits_temp, dim=-1), dim=-1)
             log_buffer += f"  - {vocab.idx_to_token(top_idx.item()):<20} P={top_prob.item():.4f}\n"
 
 
         if torch.isnan(probs).any() or probs.sum().item() == 0:
             next_token_idx = masked_logits.argmax(dim=-1) 
-            log_buffer += "Błąd w prawdopodobieństwach po Top-P, wybrano Greedy (Fallback).\n"
+            log_buffer += "Error in probabilities after Top-P, selected Greedy (Fallback).\n"
         else:
             probs = probs / torch.sum(probs, dim=-1, keepdim=True)
             next_token_idx = torch.multinomial(probs, num_samples=1).squeeze(1)
@@ -206,7 +206,7 @@ def generate_one_sampled_build(encoder, decoder, input_str, vocab, device):
             cand = next_token_idx.item()
 
         next_token = vocab.idx_to_token(cand)
-        log_buffer += f"WYBRANY TOKEN: '{next_token}'\n"
+        log_buffer += f"SELECTED TOKEN: '{next_token}'\n"
 
         if next_token in [TOKEN_SPECIALS['EOS']]:
             break
@@ -227,14 +227,14 @@ def generate_one_sampled_build(encoder, decoder, input_str, vocab, device):
     return final_seq, log_buffer
 
 
-def train_epoch(encoder, decoder, dataloader, optimizer, vocab, device, scaler, teacher_forcing=1):
+def train_epoch(encoder, decoder, dataloader, optimizer, vocab, device, scaler):
     encoder.train(); decoder.train()
     pad_idx = vocab.token_to_idx(TOKEN_SPECIALS['PAD'])
     total_loss = 0.0
     loop = tqdm(dataloader, desc="Training", leave=False)
     
-    tf_decay_rate = (CURRENT_EPOCH - 1) / 30 if CURRENT_EPOCH <= 30 else 1.0
-    current_tf = max(0.0, teacher_forcing - tf_decay_rate)
+    tf_decay_rate = (CURRENT_EPOCH - 1) / 20 if CURRENT_EPOCH <= 20 else 1.0
+    current_tf = max(0.0, 1 - tf_decay_rate)
 
     for batch in loop:
         src = batch['input'].to(device, non_blocking=True)
@@ -247,13 +247,13 @@ def train_epoch(encoder, decoder, dataloader, optimizer, vocab, device, scaler, 
         masks_stacked = precompute_masks_for_batch(tgt, src, vocab, device)
 
         with torch.cuda.amp.autocast(enabled=(device.type == 'cuda')):
-            _, enc_hidden = encoder(src, src_lens)
+            enc_out, enc_hidden = encoder(src, src_lens)
             dec_hidden = enc_hidden
             inp_tok = tgt[:, 0]
             loss_sum = 0.0
 
             for t in range(1, tgt.size(1)):
-                logits, dec_hidden = decoder.forward_step(inp_tok, dec_hidden, t)
+                logits, dec_hidden = decoder.forward_step(inp_tok, dec_hidden, t, enc_out)
                 if t - 1 >= masks_stacked.size(0):
                     break
                 allowed_mask = masks_stacked[t - 1]
@@ -290,13 +290,13 @@ def evaluate(encoder, decoder, dataloader, vocab, device):
             continue
 
         masks_stacked = precompute_masks_for_batch(tgt, src, vocab, device)
-        _, enc_hidden = encoder(src, src_lens)
+        enc_out, enc_hidden = encoder(src, src_lens)
         dec_hidden = enc_hidden
         inp_tok = tgt[:, 0]
         loss_sum = 0.0
 
         for t in range(1, tgt.size(1)):
-            logits, dec_hidden = decoder.forward_step(inp_tok, dec_hidden, t)
+            logits, dec_hidden = decoder.forward_step(inp_tok, dec_hidden, t, enc_out)            
             if t - 1 >= masks_stacked.size(0):
                 break
             allowed_mask = masks_stacked[t - 1]
@@ -363,8 +363,8 @@ def main():
             f.write(log_buffer)
 
         print(f"\nEpoch {epoch:02d} | Train: {train_loss:.4f} | Val: {val_loss:.4f} | LR: {optimizer.param_groups[0]['lr']:.6g}")
-        print(f"--- LOSOWY WYLOSOWANY BUILD (Top-k={K}, T={TEMP}) ---")
-        print(f"Szczegółowy log generacji zapisano do: {log_file_path}")
+        print(f"--- RANDOM SAMPLED BUILD (Top-k={K}, T={TEMP}) ---")
+        print(f"Detailed generation log saved to: {log_file_path}")
         print(f"INPUT: {random_input}")
         print(f"TARGET: {random_target}")
         print(f"FINAL OUTPUT: {sampled_build}")

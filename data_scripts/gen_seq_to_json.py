@@ -6,9 +6,6 @@ from utils import PATHS
 import os 
 
 def parse_sequence_to_heroes(sequence: str) -> List[Dict[str, Any]]:
-    """
-    Parsuje sekwencję tekstową na listę słowników bohaterów, wyodrębniając umiejętności i bibeloty.
-    """
     teams_data: List[Dict[str, Any]] = []
     hero_strings = sequence.split('|')
     position = 1 
@@ -65,13 +62,12 @@ def load_from_csv_generated(csv_file_path: str) -> List[Dict[str, Any]]:
     current_build_id = 1 
     processed_sequences = set() 
     
-    print("Walidacja będzie przeprowadzana W KONTEKŚCIE tokenów dostępnych tylko w DANYM WIERZSU 'input_sequence'.")
+    print("Validation will be performed IN THE CONTEXT of tokens available only in THIS ROW'S 'input_sequence'.")
 
     try:
         with open(csv_file_path, "r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
 
-            # Iteracja po wierszach
             for row_num, row in enumerate(reader, 1):
                 generated_sequence = row.get("generated_sequence")
                 input_sequence = row.get("input_sequence")
@@ -85,7 +81,7 @@ def load_from_csv_generated(csv_file_path: str) -> List[Dict[str, Any]]:
                     valid_tokens.update({t.strip() for t in tokens if t.strip()})
                 
                 if not valid_tokens:
-                    print(f"Ostrzeżenie (Wiersz {row_num}): Puste 'input_sequence'. Pomijam walidację.")
+                    print(f"Warning (Row {row_num}): Empty 'input_sequence'. Skipping validation.")
                     continue
                 
                 heroes_data = parse_sequence_to_heroes(generated_sequence)
@@ -107,13 +103,13 @@ def load_from_csv_generated(csv_file_path: str) -> List[Dict[str, Any]]:
 
 
                     if missing_trinkets:
-                        print(f"ANOMALIA (Wiersz {row_num})!")
+                        print(f"ANOMALY (Row {row_num})!")
                         print(f" Input (Roster + Trinkets): {input_sequence[:100]}...")
                         print(f" Generated: {generated_sequence}")
-                        print(f" BŁĄD TRINKETÓW: Brakujące w 'input' (NIEDOZWOLONE): {', '.join(missing_trinkets)}\n")
+                        print(f" TRINKET ERROR: Missing from 'input' (NOT ALLOWED): {', '.join(missing_trinkets)}\n")
 
                 if generated_sequence.count(':') < 4 or generated_sequence.count('+') < 20:
-                    print(f"Wiersz {row_num}: podejrzanie mało separatorów ':' lub '+' (może brakować skilli/trinketów).")
+                    print(f"Row {row_num}: suspiciously few ':' or '+' separators (might be missing skills/trinkets).")
 
 
                 heroes_data_sorted = sorted(heroes_data, key=lambda h: h['position'])
@@ -131,10 +127,10 @@ def load_from_csv_generated(csv_file_path: str) -> List[Dict[str, Any]]:
 
 
     except FileNotFoundError:
-        print(f"Błąd: Plik CSV nie znaleziony pod ścieżką: {csv_file_path}")
+        print(f"Error: CSV file not found at path: {csv_file_path}")
         return []
     except Exception as e:
-        print(f"Wystąpił nieoczekiwany błąd podczas wczytywania CSV: {e}")
+        print(f"An unexpected error occurred while loading CSV: {e}")
         return []
 
     return final_builds
@@ -142,27 +138,26 @@ def load_from_csv_generated(csv_file_path: str) -> List[Dict[str, Any]]:
 
 def save_to_json(data: List[Dict[str, Any]], output_file_path: str):
     """
-    Zapisuje dane do pliku JSON.
+    Saves data to a JSON file.
     """
     try:
         os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
         with open(output_file_path, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
-        print(f"\n✅ Pomyślnie zapisano {len(data)} unikalnych buildów do {output_file_path}")
+        print(f"\n✅ Successfully saved {len(data)} unique builds to {output_file_path}")
     except Exception as e:
-        print(f"Błąd podczas zapisywania pliku JSON: {e}")
+        print(f"Error while saving JSON file: {e}")
 
 
 if __name__ == "__main__":
     csv_file = "data_scripts/generated_output.csv" 
     json_output_file = PATHS.folder + "test_builds/restored_teams_generated_fixed.json" 
     
-    print(f"Rozpoczynanie konwersji z {csv_file} na JSON, używając 'generated_sequence' i heurystyki...")
+    print(f"Starting conversion from {csv_file} to JSON, using 'generated_sequence' and heuristics...")
     
     restored_builds = load_from_csv_generated(csv_file)
 
     if restored_builds:
         save_to_json(restored_builds, json_output_file)
     else:
-        print("Nie wygenerowano żadnych buildów do zapisania.")
-
+        print("No builds were generated to save.")

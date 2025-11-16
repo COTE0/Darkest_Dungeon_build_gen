@@ -6,6 +6,7 @@ from collections import Counter
 import torch
 from torch import nn
 from torch.utils.data import Dataset
+import torch.nn.functional as F
 
 MODEL_CONFIG = {
     'EMB_SIZE': 128,
@@ -310,31 +311,91 @@ class Encoder(nn.Module):
         emb = self.dropout(self.embedding(src))
         packed = nn.utils.rnn.pack_padded_sequence(emb, src_lens.cpu(), batch_first=True, enforce_sorted=False)
         packed_out, (h, c) = self.lstm(packed)
+        #(B, T, H*2)
         out, _ = nn.utils.rnn.pad_packed_sequence(packed_out, batch_first=True)
+        
+        #h, c  (L*2, B, H)
+        #(L*2, B, H) -> (L, 2, B, H)
         h = h.view(self.lstm.num_layers, 2, h.size(1), h.size(2))
         c = c.view(self.lstm.num_layers, 2, c.size(1), c.size(2))
+        
+        #last forward + last backward
         last_h = torch.cat([h[-1, 0], h[-1, 1]], dim=-1)
         last_c = torch.cat([c[-1, 0], c[-1, 1]], dim=-1)
+        
         projected_h = torch.tanh(self.hid_proj(last_h))
         projected_c = torch.tanh(self.hid_proj(last_c))
+        
+        #(B, H) -> (1, B, H) -> (L, B, H)
         dec_h = projected_h.unsqueeze(0).repeat(self.lstm.num_layers, 1, 1)
         dec_c = projected_c.unsqueeze(0).repeat(self.lstm.num_layers, 1, 1)
+
         return out, (dec_h, dec_c)
+
+class Attention(nn.Module):
+    def __init__(self, enc_hid_dim, dec_hid_dim):
+        super().__init__()
+        self.attn_W1 = nn.Linear(enc_hid_dim, dec_hid_dim)
+        self.attn_W2 = nn.Linear(dec_hid_dim, dec_hid_dim)
+        self.attn_V = nn.Linear(dec_hid_dim, 1, bias=False)
+
+    def forward(self, decoder_hidden, encoder_outputs):
+        src_len = encoder_outputs.size(1)
+        #(B, dec_hid_dim) -> (B, 1, dec_hid_dim) -> (B, T_src, dec_hid_dim)
+        decoder_hidden_expanded = decoder_hidden.unsqueeze(1).repeat(1, src_len, 1)
+        
+        enc_proj = self.attn_W1(encoder_outputs)
+        dec_proj = self.attn_W2(decoder_hidden_expanded)
+        
+        #norm: (B, T_src, dec_hid_dim)
+        norm = torch.tanh(enc_proj + dec_proj)
+        #(B, T_src, dec_hid_dim) -> (B, T_src, 1) -> (B, T_src)
+        attention_scores_raw = self.attn_V(norm).squeeze(2)
+        attention_weights = F.softmax(attention_scores_raw, dim=1)
+        context_vector = torch.bmm(attention_weights.unsqueeze(1), encoder_outputs).squeeze(1)
+        return context_vector, attention_weights
 
 class Decoder(nn.Module):
     def __init__(self, vocab_size, emb_size, hid_size, dropout, n_layers = MODEL_CONFIG.get('N_LAYERS'), max_len=MODEL_CONFIG['MAX_LEN']):
         super().__init__()
+        
         self.embedding = nn.Embedding(vocab_size, emb_size, padding_idx=0)
         self.pos_embedding = nn.Embedding(max_len, emb_size)
-        self.lstm = nn.LSTM(emb_size, hid_size, num_layers=n_layers,
-                            batch_first=True, dropout=dropout if n_layers > 1 else 0)
-        self.out = nn.Linear(hid_size, vocab_size)
+        
+        self.enc_hid_dim = hid_size * 2
+        self.dec_hid_dim = hid_size
+        self.emb_dim = emb_size
+        
+        self.attention = Attention(self.enc_hid_dim, self.dec_hid_dim)
+        
+        self.lstm = nn.LSTM(self.emb_dim + self.enc_hid_dim, self.dec_hid_dim, 
+                            num_layers=n_layers,
+                            batch_first=True, 
+                            dropout=dropout)
+        
+        self.out = nn.Linear(self.dec_hid_dim + self.enc_hid_dim + self.emb_dim, vocab_size)        
         self.dropout = nn.Dropout(dropout)
 
-    def forward_step(self, input_tok, hidden, step_idx):
-        tok_emb = self.embedding(input_tok.unsqueeze(1))
+    def forward_step(self, input_tok, hidden, step_idx, encoder_outputs):
+        tok_emb = self.embedding(input_tok.unsqueeze(1)) #(B, 1, E)
         pos_emb = self.pos_embedding(torch.tensor([step_idx], device=tok_emb.device)).unsqueeze(0)
-        emb = self.dropout(tok_emb + pos_emb)
-        out, hidden = self.lstm(emb, hidden)
-        logits = self.out(out.squeeze(1))
+        emb = self.dropout(tok_emb + pos_emb) #(B, 1, E)
+        #hidden[0]: (L, B, H) -> hidden[0][-1]: (B, H)
+        decoder_prev_hidden = hidden[0][-1]
+
+        context_vector, _ = self.attention(decoder_prev_hidden, encoder_outputs)
+        
+        #(B, H*2) -> (B, 1, H*2)
+        context_vector = context_vector.unsqueeze(1)
+        
+        #(B, 1, E) + (B, 1, H*2) -> (B, 1, E + H*2)
+        lstm_input = torch.cat((emb, context_vector), dim=2)
+        out, hidden = self.lstm(lstm_input, hidden)
+        emb_squeezed = emb.squeeze(1) #(B, E)
+        context_squeezed = context_vector.squeeze(1) # (B, H*2)
+        out_squeezed = out.squeeze(1) #(B, H)
+        #(B, H + H*2 + E)
+        output_concat = torch.cat((out_squeezed, context_squeezed, emb_squeezed), dim=1)
+        #(B, Vocab)
+        logits = self.out(output_concat)        
         return logits, hidden
