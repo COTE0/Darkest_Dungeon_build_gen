@@ -1,0 +1,641 @@
+[
+  {
+    "build_id": 1,
+    "build_description": "Acrobatic Assassins: This team focuses on high mobility and single-target burst damage, utilizing Grave Robber and Shieldbreaker's movement skills to control the battlefield and deliver precise strikes. Bounty Hunter adds marking and finishing power, while Occultist provides crucial healing, debuffs, and flexible front-line damage if shuffled forward.",
+    "heroes": [
+      {
+        "name": "Grave Robber",
+        "position": 4,
+        "skills": [
+          "Lunge",
+          "Shadow Fade",
+          "Thrown Dagger",
+          "Pick to the Face"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 3,
+        "skills": [
+          "Wyrd Reconstruction",
+          "Abyssal Artillery",
+          "Vulnerability Hex",
+          "Sacrificial Stab"
+        ]
+      },
+      {
+        "name": "Bounty Hunter",
+        "position": 2,
+        "skills": [
+          "Collect Bounty",
+          "Mark for Death",
+          "Finish Him",
+          "Uppercut"
+        ]
+      },
+      {
+        "name": "Shieldbreaker",
+        "position": 1,
+        "skills": [
+          "Pierce",
+          "Puncture",
+          "Impale",
+          "Adder's Kiss"
+        ]
+      }
+    ],
+    "trinket_variations": [
+      {
+        "description": "1. Early-game viable (common/uncommon trinkets)",
+        "hero_trinkets": [
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Quickening Satchel",
+              "Accuracy Stone"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Evasion Incense",
+              "Eldritch Killing Incense"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Agility Talon",
+              "Warrior's Bracer"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Venomous Vial",
+              "Dancer's Footwraps"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "2. Early-mid transition (uncommon/rare trinkets)",
+        "hero_trinkets": [
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Blighting Satchel",
+              "Lucky Talisman"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Cursed Incense",
+              "Sacrifical Cauldron"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Hunter's Talons",
+              "Camper's Helmet"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Fanged Spear Tip",
+              "Shimmering Scale"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "3. Mid-game (rare/very rare/uncommon trinkets)",
+        "hero_trinkets": [
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Raider's Talisman",
+              "Blighting Satchel"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Demon's Cauldron",
+              "Sacrifical Cauldron"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Wounding Helmet",
+              "Hunter's Talons"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Fanged Spear Tip",
+              "Cuirboilli"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "4. Late-game (very rare/ancestral trinkets)",
+        "hero_trinkets": [
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Raider's Talisman",
+              "Absinthe"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Demon's Cauldron",
+              "Ancestor's Tentacle Idol"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Wounding Helmet",
+              "Ancestor's Pistol"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Cuirboilli",
+              "Obsidian Dagger"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "5. Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline)",
+        "hero_trinkets": [
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Topshelf Tonic",
+              "Raider's Talisman"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Petrified Skull",
+              "Demon's Cauldron"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Mask Of The Timeless",
+              "Wounding Helmet"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Spectral Speartip",
+              "Cuirboilli"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 3,
+    "build_description": "Marked for Death: This team excels at marking targets and unleashing devastating single-target burst damage. Houndmaster and Musketeer apply marks and provide backline damage/support, while Bounty Hunter capitalizes on marked foes with finishers and Shieldbreaker uses her dance abilities to engage and disengage, protecting herself with riposte.",
+    "heroes": [
+      {
+        "name": "Houndmaster",
+        "position": 4,
+        "skills": [
+          "Hound's Rush",
+          "Target Whistle",
+          "Guard Dog",
+          "Lick Wounds"
+        ]
+      },
+      {
+        "name": "Musketeer",
+        "position": 3,
+        "skills": [
+          "Aimed Shot",
+          "Call the Shot",
+          "Smokescreen",
+          "Patch Up"
+        ]
+      },
+      {
+        "name": "Bounty Hunter",
+        "position": 2,
+        "skills": [
+          "Collect Bounty",
+          "Mark for Death",
+          "Finish Him",
+          "Uppercut"
+        ]
+      },
+      {
+        "name": "Shieldbreaker",
+        "position": 1,
+        "skills": [
+          "Pierce",
+          "Serpent Sway",
+          "Adder's Kiss",
+          "Impale"
+        ]
+      }
+    ],
+    "trinket_variations": [
+      {
+        "description": "1. Early-game viable (common/uncommon trinkets)",
+        "hero_trinkets": [
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Agility Whistle",
+              "Scouting Whistle"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Vengeful Boots",
+              "Accuracy Stone"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Agility Talon",
+              "Warrior's Bracer"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Venomous Vial",
+              "Slippery Boots"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "2. Early-mid transition (uncommon/rare trinkets)",
+        "hero_trinkets": [
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Cudgel Weight",
+              "Protective Collar"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Sniper's Ring",
+              "Medic's Boots"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Hunter's Talons",
+              "Camper's Helmet"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Fanged Spear Tip",
+              "Shimmering Scale"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "3. Mid-game (rare/very rare/uncommon trinkets)",
+        "hero_trinkets": [
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Spiked Collar",
+              "Protective Collar"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Bull's Eye Hat",
+              "Sniper's Ring"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Wounding Helmet",
+              "Hunter's Talons"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Fanged Spear Tip",
+              "Cuirboilli"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "4. Late-game (very rare/ancestral trinkets)",
+        "hero_trinkets": [
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Spiked Collar",
+              "Ancestor's Map"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Wrathful Hat",
+              "Ancestor's Musket Ball"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Wounding Helmet",
+              "Ancestor's Pistol"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Cuirboilli",
+              "Obsidian Dagger"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "5. Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline)",
+        "hero_trinkets": [
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Huskfang Whistle",
+              "Spiked Collar"
+            ]
+          },
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Icosahedric Musket Balls",
+              "Wrathful Hat"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Mask Of The Timeless",
+              "Wounding Helmet"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Spectral Speartip",
+              "Cuirboilli"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 4,
+    "build_description": "Blight Brigade: This team specializes in controlling enemy backlines with area-of-effect blight and powerful stuns. Plague Doctor and Occultist are the primary blight/stunners, supported by Grave Robber's aggressive Lunge attacks and Crusader's Holy Lance, ensuring the front lines are managed while the back is decimated.",
+    "heroes": [
+      {
+        "name": "Plague Doctor",
+        "position": 3,
+        "skills": [
+          "Plague Grenade",
+          "Blinding Gas",
+          "Battlefield Medicine",
+          "Noxious Blast"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 1,
+        "skills": [
+          "Hands from the Abyss",
+          "Vulnerability Hex",
+          "Wyrd Reconstruction",
+          "Sacrificial Stab"
+        ]
+      },
+      {
+        "name": "Grave Robber",
+        "position": 4,
+        "skills": [
+          "Lunge",
+          "Shadow Fade",
+          "Thrown Dagger",
+          "Poison Dart"
+        ]
+      },
+      {
+        "name": "Crusader",
+        "position": 2,
+        "skills": [
+          "Holy Lance",
+          "Smite",
+          "Stunning Blow",
+          "Battle Heal"
+        ]
+      }
+    ],
+    "trinket_variations": [
+      {
+        "description": "1. Early-game viable (common/uncommon trinkets)",
+        "hero_trinkets": [
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Witch's Vial",
+              "Speed Stone"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Evasion Incense",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Quickening Satchel",
+              "Damage Stone"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "trinkets": [
+              "Knight's Crest",
+              "Accuracy Stone"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "2. Early-mid transition (uncommon/rare trinkets)",
+        "hero_trinkets": [
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Poisoned Herb",
+              "Swift Cloak"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Cursed Incense",
+              "Seer Stone"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Blighting Satchel",
+              "Lucky Talisman"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "trinkets": [
+              "Commander's Orders",
+              "Paralyzer's Crest"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "3. Mid-game (rare/very rare/uncommon trinkets)",
+        "hero_trinkets": [
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Blasphemous Vial",
+              "Poisoned Herb"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Demon's Cauldron",
+              "Sacrifical Cauldron"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Raider's Talisman",
+              "Blighting Satchel"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "trinkets": [
+              "Holy Orders",
+              "Commander's Orders"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "4. Late-game (very rare/ancestral trinkets)",
+        "hero_trinkets": [
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ancestor's Lantern"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Demon's Cauldron",
+              "Ancestor's Tentacle Idol"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Raider's Talisman",
+              "Absinthe"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "trinkets": [
+              "Holy Orders",
+              "Ancestor's Pen"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "5. Optimized high-power build (very rare/ancestral/trophy or exceptional crystalline)",
+        "hero_trinkets": [
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Ashen Distillation",
+              "Blasphemous Vial"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Petrified Skull",
+              "Demon's Cauldron"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Topshelf Tonic",
+              "Raider's Talisman"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "trinkets": [
+              "Non-Euclidean Hilt",
+              "Holy Orders"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

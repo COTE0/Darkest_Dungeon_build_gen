@@ -7,10 +7,10 @@
         "name": "Hellion",
         "position": 1,
         "skills": [
-          "Wicked Hack",
+          "Iron Swan",
           "If It Bleeds",
           "Bleed Out",
-          "Barbaric Yawp"
+          "Adrenaline Rush"
         ]
       },
       {
@@ -40,7 +40,7 @@
           "Inspiring Tune",
           "Battle Ballad",
           "Harvest",
-          "Solo"
+          "Slice Off"
         ]
       }
     ],
@@ -232,7 +232,7 @@
         "skills": [
           "Smite",
           "Stunning Blow",
-          "Holy Lance",
+          "Inspiring Cry",
           "Battle Heal"
         ]
       },
@@ -466,7 +466,7 @@
           "Wyrd Reconstruction",
           "Vulnerability Hex",
           "Abyssal Artillery",
-          "Hands from the Abyss"
+          "Daemon's Pull"
         ]
       }
     ],

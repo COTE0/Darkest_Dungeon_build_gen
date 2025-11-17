@@ -1,0 +1,1067 @@
+[
+  {
+    "build_id": 1,
+    "build_description": "This team leverages rapid movement and blight damage to disrupt and eliminate enemy backlines. Grave Robber and Shieldbreaker constantly reposition to maximize damage, while the Plague Doctor ensures consistent blight application and crucial stuns. Occultist provides healing and utility, with potential for forward movement.",
+    "heroes": [
+      {
+        "name": "Grave Robber",
+        "position": 4,
+        "skills": [
+          "Lunge",
+          "Shadow Fade",
+          "Thrown Dagger",
+          "Poison Dart"
+        ]
+      },
+      {
+        "name": "Plague Doctor",
+        "position": 3,
+        "skills": [
+          "Blinding Gas",
+          "Plague Grenade",
+          "Battlefield Medicine",
+          "Noxious Blast"
+        ]
+      },
+      {
+        "name": "Occultist",
+        "position": 2,
+        "skills": [
+          "Wyrd Reconstruction",
+          "Abyssal Artillery",
+          "Weakening Curse",
+          "Sacrificial Stab"
+        ]
+      },
+      {
+        "name": "Shieldbreaker",
+        "position": 1,
+        "skills": [
+          "Pierce",
+          "Serpent Sway",
+          "Impale",
+          "Adder's Kiss"
+        ]
+      }
+    ],
+    "trinket_variations": [
+      {
+        "description": "Early-game blight/movement: Basic stat boosts for reliable blight, damage, and speed.",
+        "hero_trinkets": [
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Quickening Satchel",
+              "Accuracy Stone"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Witch's Vial",
+              "Stun Charm"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Evasion Incense",
+              "Eldritch Killing Incense"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Venomous Vial",
+              "Deteriorating Bracer"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition blight/movement: Improved blight application and damage, with some defensive stats.",
+        "hero_trinkets": [
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Blighting Satchel",
+              "Lucky Talisman"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Poisoned Herb",
+              "Blight Amulet"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Cursed Incense",
+              "Bleed Amulet"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Shimmering Scale",
+              "Dancer's Footwraps"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game blight/movement: Focus on high blight chance, strong damage, and improved healing.",
+        "hero_trinkets": [
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Raider's Talisman",
+              "Lucky Talisman"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Bloody Herb",
+              "Blasphemous Vial"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Sacrifical Cauldron",
+              "Moon Cloak"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Fanged Spear Tip",
+              "Cuirboilli"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game blight/movement: Maximize blight, damage, and healing efficiency with ancestral power.",
+        "hero_trinkets": [
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Raider's Talisman",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ancestor's Lantern"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Demon's Cauldron",
+              "Ancestor's Tentacle Idol"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Fanged Spear Tip",
+              "Cuirboilli"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power blight/movement: Crystalline synergy for specialized blight, pierce, and healing.",
+        "hero_trinkets": [
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Raider's Talisman",
+              "Topshelf Tonic"
+            ]
+          },
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ashen Distillation"
+            ]
+          },
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Demon's Cauldron",
+              "Petrified Skull"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Fanged Spear Tip",
+              "Spectral Speartip"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 2,
+    "build_description": "This team focuses on marking targets for high burst damage, strong stuns to control the battlefield, and positional adjustments to maximize mark finishers. The Crusader's Holy Lance initiates movement, while Houndmaster and Bounty Hunter provide crucial stuns and mark synergy.",
+    "heroes": [
+      {
+        "name": "Musketeer",
+        "position": 4,
+        "skills": [
+          "Aimed Shot",
+          "Call the Shot",
+          "Smokescreen",
+          "Sidearm"
+        ]
+      },
+      {
+        "name": "Houndmaster",
+        "position": 3,
+        "skills": [
+          "Hound's Rush",
+          "Target Whistle",
+          "Blackjack",
+          "Cry Havoc"
+        ]
+      },
+      {
+        "name": "Bounty Hunter",
+        "position": 2,
+        "skills": [
+          "Collect Bounty",
+          "Mark for Death",
+          "Flashbang",
+          "Uppercut"
+        ]
+      },
+      {
+        "name": "Crusader",
+        "position": 1,
+        "skills": [
+          "Holy Lance",
+          "Stunning Blow",
+          "Smite",
+          "Inspiring Cry"
+        ]
+      }
+    ],
+    "trinket_variations": [
+      {
+        "description": "Early-game mark/stun/movement: Focus on basic accuracy, damage, and stun chance.",
+        "hero_trinkets": [
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Sturdy Boots",
+              "Archer's Ring"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Agility Whistle",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Agility Talon",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "trinkets": [
+              "Knight's Crest",
+              "Defender's Seal"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition mark/stun/movement: Improved mark damage, stun power, and some survivability.",
+        "hero_trinkets": [
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Medic's Boots",
+              "Sniper's Ring"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Cudgel Weight",
+              "Protective Collar"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Hunter's Talons",
+              "Camper's Helmet"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "trinkets": [
+              "Paralyzer's Crest",
+              "Swordsman's Crest"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game mark/stun/movement: Strong mark finishers, reliable stuns, and balanced offense/defense.",
+        "hero_trinkets": [
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Bull's Eye Hat",
+              "Sniper's Ring"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Spiked Collar",
+              "Sniper's Ring"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Wounding Helmet",
+              "Hunter's Talons"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "trinkets": [
+              "Holy Orders",
+              "Commander's Orders"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game mark/stun/movement: Maximized mark damage, stun chance, and overall combat effectiveness with ancestral trinkets.",
+        "hero_trinkets": [
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Wrathful Hat",
+              "Ancestor's Pistol"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Spiked Collar",
+              "Ancestor's Signet Ring"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Wounding Helmet",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "trinkets": [
+              "Holy Orders",
+              "Legendary Bracer"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power mark/stun/movement: Crystalline synergy for ultimate mark damage and stun lock.",
+        "hero_trinkets": [
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Wrathful Hat",
+              "Icosahedric Musket Balls"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Spiked Collar",
+              "Huskfang Whistle"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Wounding Helmet",
+              "Mask Of The Timeless"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "trinkets": [
+              "Holy Orders",
+              "Non-Euclidean Hilt"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 3,
+    "build_description": "A relentless bleed-focused team designed for aggressive forward movement and high self-sustain. Flagellant and Shieldbreaker constantly push forward or retreat as needed, supported by Occultist's healing and Grave Robber's flexible damage and movement.",
+    "heroes": [
+      {
+        "name": "Occultist",
+        "position": 4,
+        "skills": [
+          "Wyrd Reconstruction",
+          "Abyssal Artillery",
+          "Weakening Curse",
+          "Vulnerability Hex"
+        ]
+      },
+      {
+        "name": "Grave Robber",
+        "position": 3,
+        "skills": [
+          "Poison Dart",
+          "Thrown Dagger",
+          "Lunge",
+          "Shadow Fade"
+        ]
+      },
+      {
+        "name": "Flagellant",
+        "position": 2,
+        "skills": [
+          "Punish",
+          "Exsanguinate",
+          "Rain of Sorrows",
+          "Reclaim"
+        ]
+      },
+      {
+        "name": "Shieldbreaker",
+        "position": 1,
+        "skills": [
+          "Pierce",
+          "Puncture",
+          "Impale",
+          "Serpent Sway"
+        ]
+      }
+    ],
+    "trinket_variations": [
+      {
+        "description": "Early-game bleed/movement/sustain: Basic bleed chance, speed, and some healing/survivability.",
+        "hero_trinkets": [
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Evasion Incense",
+              "Eldritch Killing Incense"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Quickening Satchel",
+              "Accuracy Stone"
+            ]
+          },
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Heartburst Hood",
+              "Bleed Charm"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Venomous Vial",
+              "Deteriorating Bracer"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition bleed/movement/sustain: Improved bleed damage, criticals, and healing reliability.",
+        "hero_trinkets": [
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Cursed Incense",
+              "Bleed Amulet"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Blighting Satchel",
+              "Lucky Talisman"
+            ]
+          },
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Punishment's Hood",
+              "Suffering's Collar"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Shimmering Scale",
+              "Dancer's Footwraps"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game bleed/movement/sustain: Strong bleed application, burst damage, and consistent healing.",
+        "hero_trinkets": [
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Sacrifical Cauldron",
+              "Moon Cloak"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Raider's Talisman",
+              "Lucky Talisman"
+            ]
+          },
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Eternity's Collar",
+              "Suffering's Collar"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Fanged Spear Tip",
+              "Cuirboilli"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game bleed/movement/sustain: Maximized bleed, movement damage, and powerful self-sustain.",
+        "hero_trinkets": [
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Demon's Cauldron",
+              "Ancestor's Tentacle Idol"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Raider's Talisman",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Eternity's Collar",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Cuirboilli",
+              "Ancestor's Pen"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power bleed/movement/sustain: Crystalline synergy for bleed, damage, and improved healing.",
+        "hero_trinkets": [
+          {
+            "name": "Occultist",
+            "trinkets": [
+              "Demon's Cauldron",
+              "Petrified Skull"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Raider's Talisman",
+              "Absinthe"
+            ]
+          },
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Eternity's Collar",
+              "Acidic Husk Ichor"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Fanged Spear Tip",
+              "Spectral Speartip"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 4,
+    "build_description": "This team specializes in maximizing enemy disruption through a barrage of stuns and shuffles, while maintaining team cohesion with buffs and debuffs. Heroes constantly adjust positions to deliver powerful stuns and maintain control over enemy ranks.",
+    "heroes": [
+      {
+        "name": "Plague Doctor",
+        "position": 4,
+        "skills": [
+          "Blinding Gas",
+          "Plague Grenade",
+          "Battlefield Medicine",
+          "Noxious Blast"
+        ]
+      },
+      {
+        "name": "Houndmaster",
+        "position": 2,
+        "skills": [
+          "Hound's Rush",
+          "Target Whistle",
+          "Blackjack",
+          "Lick Wounds"
+        ]
+      },
+      {
+        "name": "Bounty Hunter",
+        "position": 3,
+        "skills": [
+          "Collect Bounty",
+          "Flashbang",
+          "Finish Him",
+          "Mark for Death"
+        ]
+      },
+      {
+        "name": "Crusader",
+        "position": 1,
+        "skills": [
+          "Stunning Blow",
+          "Smite",
+          "Zealous Accusation",
+          "Inspiring Cry"
+        ]
+      }
+    ],
+    "trinket_variations": [
+      {
+        "description": "Early-game stun/shuffle/control: Core stun chance and basic damage/accuracy for control.",
+        "hero_trinkets": [
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Witch's Vial",
+              "Stun Charm"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Agility Whistle",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Agility Talon",
+              "Stun Stone"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "trinkets": [
+              "Knight's Crest",
+              "Stun Stone"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition stun/shuffle/control: Improved stun chance and duration, with some offensive boosts.",
+        "hero_trinkets": [
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Poisoned Herb",
+              "Stun Amulet"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Cudgel Weight",
+              "Stun Amulet"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Hunter's Talons",
+              "Camper's Helmet"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "trinkets": [
+              "Paralyzer's Crest",
+              "Swordsman's Crest"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game stun/shuffle/control: High stun chance, strong backline disruption, and solid damage.",
+        "hero_trinkets": [
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Bloody Herb",
+              "Blasphemous Vial"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Spiked Collar",
+              "Protective Collar"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Wounding Helmet",
+              "Hunter's Talons"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "trinkets": [
+              "Holy Orders",
+              "Paralyzer's Crest"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game stun/shuffle/control: Maximum stun chance, speed, and damage for total battlefield control.",
+        "hero_trinkets": [
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ancestor's Lantern"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Spiked Collar",
+              "Ancestor's Signet Ring"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Wounding Helmet",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "trinkets": [
+              "Holy Orders",
+              "Legendary Bracer"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power stun/shuffle/control: Crystalline synergy for unparalleled stun and damage.",
+        "hero_trinkets": [
+          {
+            "name": "Plague Doctor",
+            "trinkets": [
+              "Blasphemous Vial",
+              "Ashen Distillation"
+            ]
+          },
+          {
+            "name": "Houndmaster",
+            "trinkets": [
+              "Spiked Collar",
+              "Huskfang Whistle"
+            ]
+          },
+          {
+            "name": "Bounty Hunter",
+            "trinkets": [
+              "Wounding Helmet",
+              "Mask Of The Timeless"
+            ]
+          },
+          {
+            "name": "Crusader",
+            "trinkets": [
+              "Holy Orders",
+              "Non-Euclidean Hilt"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "build_id": 5,
+    "build_description": "An aggressive team focused on rapidly breaching enemy backlines through continuous forward movement and high damage. Shieldbreaker and Flagellant push the front, supported by Grave Robber's Lunge and Musketeer's ranged damage and positional adjustments.",
+    "heroes": [
+      {
+        "name": "Musketeer",
+        "position": 4,
+        "skills": [
+          "Aimed Shot",
+          "Sidearm",
+          "Call the Shot",
+          "Patch Up"
+        ]
+      },
+      {
+        "name": "Grave Robber",
+        "position": 3,
+        "skills": [
+          "Lunge",
+          "Shadow Fade",
+          "Thrown Dagger",
+          "Pick to the Face"
+        ]
+      },
+      {
+        "name": "Flagellant",
+        "position": 2,
+        "skills": [
+          "Exsanguinate",
+          "Punish",
+          "Rain of Sorrows",
+          "Reclaim"
+        ]
+      },
+      {
+        "name": "Shieldbreaker",
+        "position": 1,
+        "skills": [
+          "Pierce",
+          "Puncture",
+          "Impale",
+          "Serpent Sway"
+        ]
+      }
+    ],
+    "trinket_variations": [
+      {
+        "description": "Early-game frontline breach/movement: Core damage and speed, with some survivability.",
+        "hero_trinkets": [
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Sturdy Boots",
+              "Accuracy Stone"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Quickening Satchel",
+              "Accuracy Stone"
+            ]
+          },
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Heartburst Hood",
+              "Bleed Charm"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Venomous Vial",
+              "Deteriorating Bracer"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Early-mid transition frontline breach/movement: Improved damage output and critical chance for aggressive pushes.",
+        "hero_trinkets": [
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Medic's Boots",
+              "Sniper's Ring"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Blighting Satchel",
+              "Lucky Talisman"
+            ]
+          },
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Punishment's Hood",
+              "Suffering's Collar"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Shimmering Scale",
+              "Dancer's Footwraps"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Mid-game frontline breach/movement: Strong damage, bleed, and pierce for rapid enemy elimination.",
+        "hero_trinkets": [
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Bull's Eye Hat",
+              "Sniper's Ring"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Raider's Talisman",
+              "Lucky Talisman"
+            ]
+          },
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Eternity's Collar",
+              "Suffering's Collar"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Fanged Spear Tip",
+              "Cuirboilli"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Late-game frontline breach/movement: Maximized damage, bleed, and mobility with ancestral trinkets.",
+        "hero_trinkets": [
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Wrathful Hat",
+              "Ancestor's Pistol"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Raider's Talisman",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Eternity's Collar",
+              "Ancestor's Pen"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Cuirboilli",
+              "Ancestor's Pen"
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Optimized high-power frontline breach/movement: Crystalline synergy for aggressive damage and bleed.",
+        "hero_trinkets": [
+          {
+            "name": "Musketeer",
+            "trinkets": [
+              "Wrathful Hat",
+              "Icosahedric Musket Balls"
+            ]
+          },
+          {
+            "name": "Grave Robber",
+            "trinkets": [
+              "Raider's Talisman",
+              "Absinthe"
+            ]
+          },
+          {
+            "name": "Flagellant",
+            "trinkets": [
+              "Eternity's Collar",
+              "Acidic Husk Ichor"
+            ]
+          },
+          {
+            "name": "Shieldbreaker",
+            "trinkets": [
+              "Fanged Spear Tip",
+              "Spectral Speartip"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

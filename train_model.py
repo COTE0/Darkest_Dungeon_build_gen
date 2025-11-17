@@ -30,7 +30,6 @@ DROPOUT = MODEL_CONFIG['DROPOUT']
 
 LR = 3e-4
 MAX_EPOCHS = 30
-K = MODEL_CONFIG['K_TOP']
 TEMP = MODEL_CONFIG['TEMPERATURE']
 MAX_LEN = MODEL_CONFIG['MAX_LEN']
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -363,7 +362,7 @@ def main():
             f.write(log_buffer)
 
         print(f"\nEpoch {epoch:02d} | Train: {train_loss:.4f} | Val: {val_loss:.4f} | LR: {optimizer.param_groups[0]['lr']:.6g}")
-        print(f"--- RANDOM SAMPLED BUILD (Top-k={K}, T={TEMP}) ---")
+        print(f"--- RANDOM SAMPLED BUILD (Top-p=0.8, T={TEMP}) ---")
         print(f"Detailed generation log saved to: {log_file_path}")
         print(f"INPUT: {random_input}")
         print(f"TARGET: {random_target}")

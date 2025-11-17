@@ -29,8 +29,8 @@
         "skills": [
           "Pistol Shot",
           "Wicked Slice",
-          "Open Vein",
-          "Tracking Shot"
+          "Duelist's Advance",
+          "Point Blank Shot"
         ]
       },
       {
@@ -456,7 +456,7 @@
           "Duelist's Advance",
           "Point Blank Shot",
           "Open Vein",
-          "Wicked Slice"
+          "Pistol Shot"
         ]
       },
       {
@@ -464,7 +464,7 @@
         "position": 4,
         "skills": [
           "Flashbang",
-          "Uppercut",
+          "Finish Him",
           "Collect Bounty",
           "Come Hither"
         ]

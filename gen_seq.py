@@ -1,5 +1,4 @@
 import torch
-import torch.nn as nn
 import csv
 import os
 from typing import Dict

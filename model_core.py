@@ -13,7 +13,6 @@ MODEL_CONFIG = {
     'HID_SIZE': 768,
     'N_LAYERS': 2,
     'DROPOUT': 0.25,
-    'K_TOP': 4,
     'TEMPERATURE': 1.1,
     'MAX_LEN': 90,
 }
